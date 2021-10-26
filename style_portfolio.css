@@ -78,6 +78,8 @@ header i {
 #bloc {
     background: linear-gradient(to left, #25CCF7, #1B9CFC);
     background-color: #1B9CFC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 1000px;
