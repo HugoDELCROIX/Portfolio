@@ -23,6 +23,7 @@ textarea {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 input:focus, textarea:focus{
