@@ -66,6 +66,15 @@ header i {
     color: #0f78d4;
 }
 
+#deco_insta {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_insta:hover {
+    color: #c62e9c;
+}
+
 #langue_top, #langue_bot {
     color: #fff;
     transition: 1s color ease-out;
@@ -109,3 +118,22 @@ header i {
     margin-bottom: 0;
 }
 
+input[type='text']{
+    width: 900px;
+    height: 300px;
+}
+
+.msg_mail{
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    width: 100%;
+    margin-bottom: 50px auto;
+
+}
+
+.msg_mail label{
+    display: block;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 10px;
+}
