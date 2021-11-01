@@ -1,67 +1,43 @@
-/*CSS pour les formulaires*/
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
-input[type="number"],
-input[type="password"],
-select {
+input[type=text]
+{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 4px;
     box-sizing: border-box;
-    border-radius: 8px;
+    resize: vertical;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
 }
 
-input:focus {
-    border: 3px solid #3498db;
+input:focus, textarea:focus{
+    border: 3px solid tomato;
 }
 
 input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: aliceblue;
-    padding: 14px 20px;
-    margin: 8px 0;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: medium;
-    transition: 200ms transform ease-out;
 }
 
 input[type=submit]:hover {
     background-color: #45a049;
-    transform: scale(1.02);
 }
-
-.formulaire {
-    border-radius: 5px;
-    width: 100%;
-    margin: 0px auto;
-
-}
-
-h1 {
-    text-align: center;
-    color: aliceblue;
-}
-
-label {
-    color: aliceblue;
-    font-style: oblique;
-    font-weight: bold;
-}
-
-
-.formulaire a {
-    text-decoration: underline;
-    color: aliceblue;
-    display: block;
-    text-align: center;
-}
-

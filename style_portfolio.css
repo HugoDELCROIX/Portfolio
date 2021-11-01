@@ -118,22 +118,32 @@ header i {
     margin-bottom: 0;
 }
 
-input[type='text']{
-    width: 900px;
-    height: 300px;
+#bloc_mail {
+    background: linear-gradient(to left, #25CCF7, #1B9CFC);
+    background-color: #1B9CFC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    padding: 10px;
 }
 
-.msg_mail{
-    border-radius: 5px;
-    padding: 0px 20px 20px 20px;
+#bloc_mail h1 {
+    margin: 20px;
+}
+
+#name_mail{
+    display: flex;
+}
+
+#fname{
     width: 100%;
-    margin-bottom: 50px auto;
-
+    margin-right: 3px;
 }
 
-.msg_mail label{
-    display: block;
-    font-style: oblique;
-    font-weight: bold;
-    margin: 10px;
+#lname{
+    width: 100%;
 }

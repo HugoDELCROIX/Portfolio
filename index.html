@@ -48,18 +48,30 @@
         </div>
     </div>
 
-    <div id="bloc">
-        <h1>Email me </h1>
-        <div class="formulaire">
-            <form action="">
-                <label for="mail">Your Email address :</label>
-                <input type="email" id="mail" name="mail">
-                <label for="contenu_mail">Write here...</label>
-                <input type="text" id="contenu_mail" name="contenu_mail">
-                <input type="submit" value="Send">
-            </form>
-        </div>
+    <div id="bloc_mail">
+        <h1>Contact me </h1>
+        <form action="/action_page.php">
+
+            <div id="name_mail">
+                <div id="fname">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div id="lname">
+                    <label for="lname"></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <label for="mail_add"></label>
+            <input type="email" id="mail_add" name="mail_add" placeholder="Your mail adress..">
+
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
     </div>
+
     <header>
         <div id="langue">
             <a href="index_en.html"> English</a>
