@@ -92,9 +92,12 @@ header i {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     width: 1000px;
-    height: 500px;
+    height: auto;
     margin: 100px auto;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #bloc h1 {
@@ -116,6 +119,21 @@ header i {
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#contenu_formation{
+    display: flex;
+    padding: 20px;
+}
+
+#contenu_formation img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contenu_formation p{
+    padding-left: 30px;
 }
 
 #bloc_mail {
