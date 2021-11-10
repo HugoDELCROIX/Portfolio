@@ -147,3 +147,7 @@ header i {
 #lname{
     width: 100%;
 }
+
+form{
+    margin: 20px;
+}
