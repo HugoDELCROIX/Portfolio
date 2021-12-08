@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style_portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="formulaire_mail.css">
+    <link rel="icon" href="images/logo/pc_logo.ico">
     <title>Hugo Delcroix</title>
 </head>
 
@@ -30,10 +31,6 @@
             <a id="deco_mail" href="#bloc_mail"> <i class="bi bi-envelope-fill"> </i></a>
         </div>
     </header>
-
-<?php 
-echo "texte et <strong>'texte en gras'</strong>"; 
-?>
 
     <div id="bloc">
         <h1>About me</h1>

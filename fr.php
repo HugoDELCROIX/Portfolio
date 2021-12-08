@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="style_portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="formulaire_mail.css">
+    <link rel="icon" href="images/logo/pc_logo.ico">
     <title>Hugo Delcroix</title>
 </head>
 
 <body>
     <header>
         <div id="langue">
-            <a href="index.html"> English</a>
+            <a href="index.php"> English</a>
             <a id='langue_top' href="#langue_bot"><i class="bi bi-translate"></i></a>
-            <a href="fr.html"> French</a>
+            <a href="fr.php"> French</a>
         </div>
 
         <h1>Hugo Delcroix</h1>
@@ -90,9 +91,9 @@
     </div>
     <header>
         <div id="langue">
-            <a href="index.html"> English</a>
+            <a href="index.php"> English</a>
             <a id='langue_bot' href="#top"><i class="bi bi-translate"></i></a>
-            <a href="fr.html"> French</a>
+            <a href="fr.php"> French</a>
         </div>
     </header>
 
