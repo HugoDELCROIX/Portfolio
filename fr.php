@@ -68,7 +68,7 @@
 
     <div id="bloc_mail">
         <h1>Me contacter</h1>
-        <form action="Contact_en.php" method="GET"> 
+        <form action="Contact_fr.php" method="GET"> 
 
             <div id="name_mail">
                 <div id="fname">

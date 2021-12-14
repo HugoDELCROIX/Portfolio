@@ -67,7 +67,7 @@
 
     <div id="bloc_mail">
         <h1>Contact me </h1>
-        <form action="Contact_en.php">
+        <form action="Contact_fr.php">
 
             <div id="name_mail">
                 <div id="fname">

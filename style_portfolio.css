@@ -85,7 +85,7 @@ header i {
 }
 
 #bloc {
-    background: linear-gradient(to left, #25CCF7, #1B9CFC);
+    background: linear-gradient(to left, #6a89cc, #4a69bd);
     background-color: #1B9CFC;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -137,7 +137,7 @@ header i {
 }
 
 #bloc_mail {
-    background: linear-gradient(to left, #25CCF7, #1B9CFC);
+    background: linear-gradient(to left, #6a89cc, #4a69bd);
     background-color: #1B9CFC;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
