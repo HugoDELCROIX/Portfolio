@@ -44,14 +44,13 @@ body {
     text-align: center;
 }
 
-#titre{
-    display: flex;
-}
-
 .message{
     text-align: center;
     overflow: hidden;
-    white-space: normal;
+    white-space: normal
 }
 
-
+.erreur{
+    color: #e74c3c;
+    text-decoration: underline;
+}
