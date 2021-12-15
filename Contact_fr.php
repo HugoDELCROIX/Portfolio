@@ -30,25 +30,25 @@ if (
         if (!isset($_GET['firstname']) || empty($_GET['firstname'])){
             echo("<p><b>Prénom : <span class='erreur' >VIDE <i class='bi bi-exclamation-circle-fill'></i></span></b></p>");
         } else {
-            echo("<p><b>Prénom</b> : " . $_GET['firstname'] . "</p>");
+            echo("<p><b>Prénom</b> : " . $_GET['firstname'] . " <b> <i class='bi bi-check-lg'></i></b></p>");
         }
 
         if (!isset($_GET['lastname']) || empty($_GET['lastname'])){
             echo("<p><b>Nom : <span class='erreur' >VIDE <i class='bi bi-exclamation-circle-fill'></i></span></b></p>");
         } else {
-            echo("<p><b>Nom</b> : " . $_GET['lastname'] . "</p>");
+            echo("<p><b>Nom</b> : " . $_GET['lastname'] . " <b> <i class='bi bi-check-lg'></i></b></p>");
         }
 
         if (!isset($_GET['mail_add']) || !filter_var($_GET['mail_add'], FILTER_VALIDATE_EMAIL)){
             echo("<p><b>E-Mail : <span class='erreur' >L'e-mail entré n'est pas valide <i class='bi bi-exclamation-circle-fill'></i></span></b></p>");
         } else {
-            echo("<p><b>E-Mail</b> : " . $_GET['mail_add'] . "</p>");
+            echo("<p><b>E-Mail</b> : " . $_GET['mail_add'] . " <b> <i class='bi bi-check-lg'></i></b></p>");
         }
 
         if (!isset($_GET['message']) || empty($_GET['message'])){
             echo("<p><b>Message : <span class='erreur'> Aucun message entré <i class='bi bi-exclamation-circle-fill'></i></span></b></p>");
         } else {
-            echo("<p><b>Message</b> : " . $_GET['message'] . "</p>");
+            echo("<p><b>Message</b> : " . $_GET['message'] . " <b> <i class='bi bi-check-lg></i></b></p>");
         }
         return;
     }
