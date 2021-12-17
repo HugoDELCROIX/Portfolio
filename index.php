@@ -14,11 +14,11 @@
 
 <body>
     <header>
-        <div id="langue">
-            <a href="index.php"> English</a>
-            <a id='langue_top' href="#langue_bot"><i class="bi bi-translate"></i></a>
-            <a href="fr.php"> French</a>
-        </div>
+    <div id="langue">
+        <a href="index.php"> English</a>
+        <a id='langue_top' href="#langue_bot"><i class="bi bi-translate"></i></a>
+        <a href="fr.php"> French</a>
+    </div>
 
         <h1>I am Hugo Delcroix</h1>
         <h2>IT Engineer Student</h2>
@@ -64,6 +64,10 @@
         </div>
     </div>
 
+<div id="bloc">
+    <h1>Projects</h1>
+</div>
+
     <div id="bloc_mail">
         <h1>Contact me </h1>
         <form action="contact_en.php" method="GET">
@@ -89,13 +93,13 @@
     </div>
 
     
-    <header>
-        <div id="langue">
-            <a href="index.php"> English</a>
-            <a id='langue_bot' href="#top"><i class="bi bi-translate"></i></a>
-            <a href="fr.php"> French</a>
-        </div>
-    </header>
+    <footer>
+    <div id="langue">
+        <a href="index.php"> English</a>
+        <a id='langue_bot' href="#top"><i class="bi bi-translate"></i></a>
+        <a href="fr.php"> French</a>
+    </div>
+    </footer>
 
 </body>
 

@@ -55,16 +55,75 @@
         <div id="bloc_formation">
             <div id="contenu_formation">
                 <img src="images/logo/logo_ESAIP_INGENIEUR_RVB_2016.png" alt="logo_esaip">
-                <p></p>
+                <div class="liste">
+                    <h4><b>ESAIP, école d'ingénieurs du numérique et de la prévention des risques : </b> <br> </h4>
+                    <p>
+                        <b>2021 - Aujourd'hui :</b> Cycle Ingénieur du numérique : <br>
+                    </p>
+                    <ul>
+                        <li>Analyse mathématiques et Algèbre</li>
+                        <li>Apprentissage de langages informatique</li>
+                    </ul>
+                    <p>
+                        <b>2019 - 2021 :</b> Classe préparatoire :
+                    </p>
+                    <ul>
+                        <li>Analyse mathématiques et Algèbre</li>
+                        <li>Mécanique des mouvements</li>
+                        <li>Apprentissage de l'Anglais</li>
+                        <li>Introduction à la gestion de projets</li>
+                        <li>Science de l'entreprise et éthique professionnelle</li>
+                        <li>Stage en entreprise de 1 mois <a href="#exp_pro"> (En savoir plus)</a></li>
+                    </ul>
+                </div>
+
             </div>
             <div id="contenu_formation">
                 <img src="https://www.education.gouv.fr/sites/default/files/site_logo/2020-07/Logo-MENJ-TRICOLORE.png"
                     alt="logo_gouv">
-                <p></p>
+                <p>
+                    <b> 2019 :</b> Obtention d'un bac scientifique mention Bien au sein du <b>Lycée Lasalle
+                        Saint-Charles</b>. <br>
+                    <b> 2017 & 2018 :</b> Voyage scolaire en Afrique du Sud avec obtention d'une <b>certification de
+                        niveau d'anglais B1 </b>. <br>
+                    <b> 2015 :</b> Voyage scolaire en Australie. <br>
+                </p>
+
             </div>
         </div>
     </div>
-    
+
+    <div id="bloc">
+        <div id="exp_pro">
+            <h1>Expérience professionnelle</h1>
+            <div id="contenu_formation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
+                    <path
+                        d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
+                </svg>
+                <div class="liste">
+                    <h4><b>Stages : </b> <br> </h4>
+                    <p>
+
+                        <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
+                    </p>
+                    <ul>
+                        <li>Vendre et informer le client</li>
+                        <li>Gestion du stock</li>
+                        <li>Arranger et soigner les rayons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bloc">
+        <h1>Mes projets</h1>
+
+    </div>
 
     <div id="bloc_mail">
         <h1>Me contacter</h1>
