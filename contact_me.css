@@ -39,7 +39,11 @@ body {
     color : #e74c3c;
 }
 
-#bloc p {
+#bloc,#bloc_ifnot h5{
+    color: black;
+}
+
+#bloc,#bloc_ifnot p {
     color: #FFF;
     text-align: center;
 }
