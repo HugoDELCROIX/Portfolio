@@ -150,7 +150,7 @@ footer i {
 #contenu_formation img,svg{
     color: #3498db;
     width: 150px;
-    height: 100px;
+    height: 100%;
     border-radius: 10px;
 }
 
