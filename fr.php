@@ -127,7 +127,7 @@
 
     <div id="bloc_mail">
         <h1>Me contacter</h1>
-        <form action="contact_fr.php" method="GET">
+        <form action="contact_fr.php" method="POST">
 
             <div id="name_mail">
                 <div id="fname">

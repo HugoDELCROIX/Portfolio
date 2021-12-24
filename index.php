@@ -70,7 +70,7 @@
 
     <div id="bloc_mail">
         <h1>Contact me </h1>
-        <form action="contact_en.php" method="GET">
+        <form action="contact_en.php" method="POST">
 
             <div id="name_mail">
                 <div id="fname">
