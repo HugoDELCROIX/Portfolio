@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+body {
+    background: linear-gradient(to bottom, transparent, #3B3B98), url('images2/fond.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+header i {
+    padding: 20px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+footer h1 {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+footer i {
+    padding: 20px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#langue{
+    justify-content: center;
+}
+
+#langue a{
+    text-decoration: none underline;
+    color: #fff;
+}
+
+#deco_linkedin {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_linkedin:hover {
+    color: #225883;
+}
+
+#deco_github {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_github:hover {
+    color: #303130;
+}
+
+#deco_mail {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_mail:hover {
+    color: #0f78d4;
+}
+
+#deco_insta {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_insta:hover {
+    color: #c62e9c;
+}
+
+#langue_top, #langue_bot {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#langue_top:hover, #langue_bot:hover {
+    color: tomato;
+}
+
+#bloc {
+    background: linear-gradient(to left, #6a89cc, #4a69bd);
+    background-color: #1B9CFC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#bloc h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+#bloc p{
+    text-align: justify;
+}
+
+#contenu_about_me {
+    margin: 20px;
+    display: flex;
+}
+
+#contenu_about_me img {
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#contenu_about_me p {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contenu_formation{
+    display: flex;
+    padding: 20px;
+}
+
+#contenu_formation img,svg{
+    color: #3498db;
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#contenu_formation p,h4{
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+}
+
+.liste ul{
+    margin-left: 40px;
+}
+
+#bloc_mail {
+    background: linear-gradient(to left, #6a89cc, #4a69bd);
+    background-color: #1B9CFC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+#bloc_mail h1 {
+    margin: 20px;
+}
+
+#name_mail{
+    display: flex;
+}
+
+#fname{
+    width: 100%;
+    margin-right: 3px;
+}
+
+#lname{
+    width: 100%;
+}
+
+form{
+    margin: 20px;
+}
