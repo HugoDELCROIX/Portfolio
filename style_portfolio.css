@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     background: linear-gradient(to bottom, transparent, #3B3B98), url('images/fond.jpeg');
     background-size: cover;
@@ -30,7 +31,7 @@ header i {
     font-size: 30px;
 }
 
-footer{
+footer {
     margin-top: 100px;
     text-align: center;
     color: #fff;
@@ -47,11 +48,11 @@ footer i {
     font-size: 30px;
 }
 
-#langue{
+#langue {
     justify-content: center;
 }
 
-#langue a{
+#langue a {
     text-decoration: none underline;
     color: #fff;
 }
@@ -92,12 +93,14 @@ footer i {
     color: #c62e9c;
 }
 
-#langue_top, #langue_bot {
+#langue_top,
+#langue_bot {
     color: #fff;
     transition: 1s color ease-out;
 }
 
-#langue_top:hover, #langue_bot:hover {
+#langue_top:hover,
+#langue_bot:hover {
     color: tomato;
 }
 
@@ -123,7 +126,7 @@ footer i {
     margin: 20px;
 }
 
-#bloc p{
+#bloc p {
     text-align: justify;
 }
 
@@ -144,30 +147,92 @@ footer i {
     margin-bottom: 0;
 }
 
-#contenu_formation{
+#contenu_formation {
     display: flex;
     padding: 20px;
 }
 
-#contenu_formation img,svg{
+#contenu_formation img,
+svg {
     color: #3498db;
     width: 150px;
     height: 100%;
     border-radius: 10px;
 }
 
-#contenu_formation p,h4{
+#contenu_formation p,
+h4 {
     padding-left: 30px;
     margin-bottom: -10px;
 }
 
-.liste{
+.liste {
     display: flex;
     flex-direction: column;
 }
 
-.liste ul{
+.liste ul {
     margin-left: 40px;
+}
+
+#box_projet {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#liste_projet{
+    display: flex;
+    justify-content: center;
+}
+
+.projet {
+    width: 350px;
+    margin: 20px;
+    padding: 0px;
+    border: solid black 0px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    word-wrap: break-word;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    transition: all 800ms ease-in-out;
+}
+
+#liste_projet a {
+    text-decoration: none;
+}
+
+.title{
+    height: 20px;
+}
+
+.projet:hover {
+    transform: scale(1.05);
+}
+
+.projet-1 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/miniature_pendule.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.projet-2 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.misctext {
+    padding: 10px;
+    padding-bottom: 50px;
+    color: white;
+    margin-bottom: 5%;
 }
 
 #bloc_mail {
@@ -187,19 +252,19 @@ footer i {
     margin: 20px;
 }
 
-#name_mail{
+#name_mail {
     display: flex;
 }
 
-#fname{
+#fname {
     width: 100%;
     margin-right: 3px;
 }
 
-#lname{
+#lname {
     width: 100%;
 }
 
-form{
+form {
     margin: 20px;
 }

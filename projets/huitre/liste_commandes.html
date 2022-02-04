@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_huitre.css">
+  <link rel="stylesheet" href="menu_deroulant_index.css">
+  <link rel="stylesheet" href="liste_commande.css">
+  <title>Commander ?</title>
+</head>
+
+<body>
+  <!--Bandeau décoratif sur toutes les pages-->
+  <header>
+    <h1>Les Huîtres</h1>
+    <h2>Le site n°1 des férues d'huîtres</h2>
+  </header>
+
+  <!--Menu déroulant sur toutes les pages-->
+  <div class="menu_deroul">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="inscription.html">Mon compte</a></li>
+      <li><a href="actu.html">Actualités</a></li>
+      <li class="deroulant">
+        <a href="page_deroul.html" class="deroul_">Informations</a>
+        <div class="contenu_deroulant">
+          <a href="histoire.html">Un peu d'histoire ?</a>
+          <a href="galerie_photo.html">Galerie photos</a>
+        </div>
+      </li>
+      <li><a href="liste_commandes.html">Commander ?</a></li>
+    </ul>
+  </div>
+
+  <!--Conception d'un tableau pour répertorier espéce d'huitre/provenance/prix-->
+  <table>
+    <tr>
+      <th>Éspèce de l'huître</th>
+      <th>Provenance</th>
+      <th>Prix (au kg)</th>
+    </tr>
+    <tr>
+      <td>Crassostrea Gigas</td>
+      <td>Japon</td>
+      <td>95€</td>
+    </tr>
+    <tr>
+      <td>Crassostrea Sikamea</td>
+      <td>Japon</td>
+      <td>97€</td>
+    </tr>
+    <tr>
+      <td>Crassostrea Virginicas</td>
+      <td>Japon</td>
+      <td>92€</td>
+    </tr>
+    <tr>
+      <td>Ostrea Edulis</td>
+      <td>Bretagne</td>
+      <td>80€</td>
+    </tr>
+    <tr>
+      <td>Ostrea Conchapila – Olympia</td>
+      <td>Bretagne</td>
+      <td>85€</td>
+    </tr>
+    <tr>
+      <td>Moulaga irlandaise</td>
+      <td>Irlande</td>
+      <td>150€</td>
+    </tr>
+  </table>
+
+  <div class="nom_rubrique">
+    <h2>Que souhaitez-vous acheter ?</h2>
+  </div>
+
+  <!--checkbox pour choisir ses achats-->
+  <form action="commander.html">
+    <div id="liste_achat">
+      <div class="achat">
+        <img src="images/Crassostrea Gigas.jpeg" alt="Crassostrea Gigas">
+        <div>
+          <input type="checkbox" id="huitre1" value="Crassostrea Gigas">
+          <label for="huitre1"> Crassostrea Gigas </label>
+        </div>
+      </div>
+      <div class="achat">
+        <img src="images/Huîtres Crassostrea Sikamea .jpeg" alt="Crassostrea Sikamea">
+        <div>
+          <input type="checkbox" id="huitre2" value="Crassostrea Sikamea">
+          <label for="huitre2"> Crassostrea Sikamea </label>
+        </div>
+      </div>
+      <div class="achat">
+        <img src="images/Crassostrea Virginicas .jpeg" alt="Crassostrea Virginicas">
+        <div>
+          <input type="checkbox" id="huitre3" value="Crassostrea Virginicas">
+          <label for="huitre3"> Crassostrea Virginicas</label>
+        </div>
+      </div>
+      <div class="achat">
+        <img src="images/Ostrea Edulis.jpeg" alt="Ostrea Edulis">
+        <div>
+          <input type="checkbox" id="huitre4" value="Ostrea Edulis">
+          <label for="huitre4"> Ostrea Edulis </label>
+        </div>
+      </div>
+      <div class="achat">
+        <img src="images/Ostrea Conchapila – Olympia.jpeg" alt="Ostrea Conchapila – Olympia">
+        <div>
+          <input type="checkbox" id="huitre5" value="Ostrea Conchapila – Olympia">
+          <label for="huitre5"> Ostrea Conchapila – Olympia </label>
+        </div>
+      </div>
+      <div class="achat">
+        <img src="images/huitre6.jpeg" alt="Moulaga irlandaise">
+        <div>
+          <input type="checkbox" id="huitre6" value="Moulaga irlandaise">
+          <label for="huitre6"> Moulaga irlandaise </label>
+        </div>
+      </div>
+    </div>
+    <input class="submit" type="submit" value="Valider mes choix !">
+  </form>
+
+</body>
+
+</html>
