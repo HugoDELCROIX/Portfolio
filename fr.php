@@ -124,30 +124,30 @@
         <h1>Mes projets</h1>
         <div class="box_projet">
             <div id="liste_projet">
-                <div class="projet projet-1">
-                    <div class="misc">
-                        <div class="misctext">
-                            <h4 class="title">
-                                Création d'un pendule oscillatoire
-                            </h4>
-
+                <a href="projets/pendule/projet_pendule-fr.php" target="blank">
+                    <div class="projet projet-1">
+                        <div class="misc">
+                            <div class="misctext">
+                                <h4 class="title">
+                                    Création d'un pendule oscillatoire
+                                </h4>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
                 <a href="projets/huitre/index.html" target="blank">
-                <div class="projet projet-2">
-                    <div class="misc">
-                        <div class="misctext">
-                            <h4 class="title">
-                                Création d'un site en utilisant la technologie HTML/CSS
-                            </h4>
+                    <div class="projet projet-2">
+                        <div class="misc">
+                            <div class="misctext">
+                                <h4 class="title">
+                                    Création d'un site en utilisant la technologie HTML/CSS
+                                </h4>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
+                </a>
             </div>
         </div>
-
     </div>
 
     <div id="bloc_mail">
