@@ -105,7 +105,7 @@ footer i {
 }
 
 #bloc {
-    background: linear-gradient(to left, #6a89cc, #4a69bd);
+    background: linear-gradient(to left, #6a89cc, #373e98);
     background-color: #1B9CFC;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -124,6 +124,8 @@ footer i {
 
 #bloc h1 {
     margin: 20px;
+    color: #f7f1e3;
+    text-shadow: 2px 2px 2px #090d0c;
 }
 
 #bloc p {
@@ -184,6 +186,7 @@ h4 {
 #liste_projet{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projet {
@@ -196,11 +199,12 @@ h4 {
 
     word-wrap: break-word;
     display: flex;
-    height: 400px;
+    height: 250px;
     flex-direction: column;
     justify-content: flex-end;
     flex-wrap: wrap;
     transition: all 800ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #liste_projet a {
@@ -227,6 +231,11 @@ h4 {
     background-size: cover;
 }
 
+.projet-3 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/drapeau_danemark.jpeg');
+    background-position: center;
+    background-size: cover;
+}
 
 .misctext {
     padding: 10px;

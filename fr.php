@@ -146,6 +146,17 @@
                         </div>
                     </div>
                 </a>
+                <a href="http://horsensei.online" target="blank">
+                    <div class="projet projet-3">
+                        <div class="misc">
+                            <div class="misctext">
+                                <h4 class="title">
+                                    Blog sur mon séjour d'études au Danemark
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
