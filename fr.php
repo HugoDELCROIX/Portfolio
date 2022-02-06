@@ -51,8 +51,27 @@
     </div>
 
     <div id="bloc">
-        <h1>Education</h1>
+        <h1>Éducation</h1>
         <div id="bloc_formation">
+            <div id="contenu_formation">
+                <img src="images/logo/logo_VIA.png" alt="logo_esaip">
+                <div class="liste">
+                    <h4><b>VIA University College</b> <br> </h4>
+                    <p>
+                        <b>Février à Juin 2022 :</b> Ingénierie Logicielle :<br>
+                    </p>
+                    <ul>
+                        <li>Développement Android</li>
+                        <li>Informatique Décisionnelle</li>
+                        <li>Bases de données non SQL et relationnelles</li>
+                        <li>Conception Web réactive</li>
+                        <li>Processus d'ingénierie Web</li>                        
+                        <li>Management de projets en Ingénierie Informatique</li>
+                        <li>Création d'un blog sur le séjour d'études <a href="#liste_projet"> (En savoir plus)</a></li>
+                    </ul>
+                </div>
+
+            </div>
             <div id="contenu_formation">
                 <img src="images/logo/logo_ESAIP_INGENIEUR_RVB_2016.png" alt="logo_esaip">
                 <div class="liste">
@@ -97,17 +116,10 @@
         <div id="exp_pro">
             <h1>Expérience professionnelle</h1>
             <div id="contenu_formation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                    class="bi bi-briefcase-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
-                    <path
-                        d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
-                </svg>
+                <img src="images/kdr.png" alt="logo_KDR">
                 <div class="liste">
                     <h4><b>Stages : </b> <br> </h4>
                     <p>
-
                         <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
                     </p>
                     <ul>

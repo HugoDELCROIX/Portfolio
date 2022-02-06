@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,16 @@
     <link rel="icon" href="images/logo/pc_logo.ico">
     <title>Création d'un pendule oscillatoire</title>
 </head>
+
 <body>
-    
+    <div id="bloc">
+        <h1>Projet de création d'un pendule oscillatoire simple</h1>
+        <img src="../../images/pendule.png" alt="Schéma du pendule">
+        </iframe>
+    </div>
+    <div id="bloc">
+        <iframe src="/projets/pendule/Projet_Science_3.pdf" width="100%" height="1000px">
+    </div>
 </body>
+
 </html>
