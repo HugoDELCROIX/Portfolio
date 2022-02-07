@@ -29,8 +29,7 @@
             <a target="_blank" id='deco_github' href="https://github.com/HugoDELCROIX"><i class="bi bi-github"></i></a>
             <a target="_blank" id='deco_insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="bi bi-instagram"></i></a>
-            <a id="deco_mail" href="#bloc_mail"> <i class="bi bi-envelope-fill"> </i></a>
-
+            <!-- <a id="deco_mail" href="#bloc_mail"> <i class="bi bi-envelope-fill"> </i></a> -->
         </div>
     </header>
 
