@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="formulaire_mail.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
+    <script src="https://kit.fontawesome.com/720b44c480.js" crossorigin="anonymous"></script>
     <title>Hugo Delcroix</title>
 </head>
 
@@ -34,7 +35,7 @@
     </header>
 
     <div id="bloc">
-        <h1>À propos de moi</h1>
+        <h1><i class="fas fa-user"></i>  À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
@@ -44,45 +45,55 @@
                 $diff = date_diff(date_create($dateNaissance), date_create($aujourdhui));
                 echo $diff->format('%y');
             ?>
-                ans. 
-            Je suis actuellement <b>étudiant en systèmes et réseau à l’Esaip, école
-            d’ingénieur du numérique.</b> 
-            <br>
-            <br>
-            J’ai vécu pendant 18 ans à <b>l’île de la Réunion</b>  où j’ai eu mon bac mention Bien au <b>lycée Lasalle
-            Saint-Charles</b> . Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b> . Il m’est déjà arrivé
-            de rester des journées entières sur mon ordinateur alors que mes amis me proposaient de profiter du soleil
-            sur les plages réunionnaises. J'ai très tôt voulu que mon <b>activité professionnelle</b>  se base sur le <b>numérique</b> 
-            et c’est chose faite aujourd’hui.
-            <br>
-            <br>
-            J’ai choisi de m’installer en <b>Métropole</b>  pour faire mes études supérieures mais aussi <b>me rapprocher de la
-            modernité, de la technologie</b> . J'ai ce <b>souhait</b>  de <b>rester à proximité des milieux qui innovent</b>  et évoluent au
-            sein du numérique.
-            <br>
-            <br>
-            Je compte me spécialiser dans la majeure <b>Cybersécurité</b>  durant mon cycle ingénieur et continuer à apprendre
-            dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
+                ans.
+                Je suis actuellement <b>étudiant en systèmes et réseau à l’Esaip, école
+                    d’ingénieur du numérique.</b>
+                <br>
+                <br>
+                J’ai vécu pendant 18 ans à <b>l’île de la Réunion</b> où j’ai eu mon bac mention Bien au <b>lycée
+                    Lasalle
+                    Saint-Charles</b> . Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b> .
+                Il m’est déjà arrivé
+                de rester des journées entières sur mon ordinateur alors que mes amis me proposaient de profiter du
+                soleil
+                sur les plages réunionnaises. J'ai très tôt voulu que mon <b>activité professionnelle</b> se base sur le
+                <b>numérique</b>
+                et c’est chose faite aujourd’hui.
+                <br>
+                <br>
+                J’ai choisi de m’installer en <b>Métropole</b> pour faire mes études supérieures mais aussi <b>me
+                    rapprocher de la
+                    modernité, de la technologie</b> . J'ai ce <b>souhait</b> de <b>rester à proximité des milieux qui
+                    innovent</b> et évoluent au
+                sein du numérique.
+                <br>
+                <br>
+                Je compte me spécialiser dans la majeure <b>Cybersécurité</b> durant mon cycle ingénieur et continuer à
+                apprendre
+                dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
         </div>
-        <h2>Mes Centres d’intérêt :</h2>
+        <h2><i class="fas fa-globe-europe"></i>  Mes Centres d’intérêt :  </h2>
         <div id="centres_interet">
-        <img src="images/logo/apple.png" alt="logo_apple">
-        <img src="images/logo/tesla.png" alt="logo_tesla">
-        <img src="images/logo/linux.png" alt="logo_linux">
-        <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
-        <img src="images/logo/logo-Meta.png" alt="logo_meta">
-        <img src="images/logo/microsoft.png" alt="logo_micrososft">
+            <img src="images/logo/apple.png" alt="logo_apple">
+            <img src="images/logo/tesla.png" alt="logo_tesla">
+            <img src="images/logo/linux.png" alt="logo_linux">
+            <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
+            <img src="images/logo/logo-Meta.png" alt="logo_meta">
+            <img src="images/logo/microsoft.png" alt="logo_micrososft">
         </div>
     </div>
 
     <div id="bloc">
-        <h1>Mes compétences</h1>
+
+        <h1><i class="fas fa-book"></i>  Mes compétences  </h1>
         <div id="titre_liste">
             <h3>Cette liste est en constante évolution :</h3>
         </div>
         <div id="contenu_competences">
             <div class="liste liste_competences_c1">
-                <h3>Ce que je sais utiliser</h3>
+                <div class="icon_liste">
+                    <h3>Ce que je sais utiliser</h3>
+                </div>
                 <li>Anglais B2 (TOEIC)</li>
                 <li>HTML/CSS</li>
                 <li>JAVA</li>
@@ -100,7 +111,7 @@
     </div>
 
     <div id="bloc">
-        <h1>Éducation</h1>
+        <h1><i class="fas fa-user-graduate"></i>  Éducation</h1>
         <div id="bloc_formation">
             <div id="contenu_formation">
                 <img src="images/logo/logo_VIA.png" alt="logo_esaip">
@@ -165,7 +176,7 @@
 
     <div id="bloc">
         <div id="exp_pro">
-            <h1>Expérience professionnelle</h1>
+            <h1><i class="fas fa-hard-hat"></i>  Expérience professionnelle</h1>
             <div id="contenu_formation">
                 <img src="images/kdr.png" alt="logo_KDR">
                 <div class="liste">
@@ -185,7 +196,7 @@
 
     <div id="bloc">
         <div id="mes_projets"></div>
-        <h1>Mes projets</h1>
+        <h1><i class="fas fa-project-diagram"></i>  Mes projets</h1>
         <div class="box_projet">
             <div id="liste_projet">
                 <a href="projets/pendule/projet_pendule-fr.php" target="blank">
@@ -225,7 +236,7 @@
         </div>
     </div>
 
-    <div id="bloc_mail">
+    <!-- <div id="bloc_mail">
         <h1>Me contacter</h1>
         <form action="contact_fr.php" method="POST">
 
@@ -247,7 +258,7 @@
 
             <input type="submit" value="Envoyer">
         </form>
-    </div>
+    </div> -->
 
     <header>
         <div id="langue">
