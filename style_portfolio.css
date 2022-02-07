@@ -50,6 +50,7 @@ footer i {
 }
 
 #langue {
+    text-shadow: none;
     justify-content: center;
 }
 
@@ -97,6 +98,7 @@ footer i {
 #langue_top,
 #langue_bot {
     color: #fff;
+    text-shadow: none;
     transition: 1s color ease-out;
 }
 
@@ -149,6 +151,40 @@ footer i {
     margin-top: 0;
     margin-bottom: 0;
 
+}
+
+#centres_interet{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#centres_interet img{
+    width: 100px;
+    height: 100%;
+}
+
+
+#contenu_competences{
+    display: flex;
+    justify-content: center;
+}
+
+#contenu_competences h3{
+    text-decoration: underline;
+}
+
+#titre_liste{
+    text-align: center;
+    padding-right: 40px;
+}
+
+.liste_competences_c1{
+    padding-left: 200px;
+}
+
+.liste_competences_c2{
+    padding-right: 200px;
 }
 
 #contenu_formation {
