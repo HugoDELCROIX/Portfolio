@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style_portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="formulaire_mail.css">
+    <link rel="stylesheet" href="style_mediaqueries.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
     <script src="https://kit.fontawesome.com/720b44c480.js" crossorigin="anonymous"></script>
     <title>Hugo Delcroix</title>
