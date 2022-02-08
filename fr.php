@@ -96,6 +96,7 @@
                 <li>Anglais B2 (TOEIC)</li>
                 <li>HTML/CSS</li>
                 <li>JAVA</li>
+                <li>UML</li>
                 <li>LaTex</li>
                 <li>Pack Office</li>
             </div>
