@@ -1,0 +1,43 @@
+@media (max-width: 720px) and (min-width: 376px) {
+    html{
+        margin: 0px;
+    }
+
+    #bloc {
+        width: 300px;
+
+    }
+        
+    #contenu_about_me{
+        font-size: 5px;
+    }
+
+    #contenu_formation{
+        font-size: 5px;
+    }
+
+    #contenu_about_me img{
+        width: 10%;
+    }
+
+
+    #centres_interet {
+        flex-flow: row wrap;
+    }
+
+    #centres_interet img {
+        margin: 20px;
+    }
+
+    .projet{
+        width: 100px;
+    }
+
+    #contenu_formation img,svg{
+        width: 50px;
+    }
+
+    .liste_competences_c2{
+        padding-right: 0;    }
+
+}
