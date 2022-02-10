@@ -201,6 +201,30 @@ h4 {
     margin-bottom: -10px;
 }
 
+#contenu_experience{
+    display: flex;
+    padding: 20px;
+}
+
+#contenu_experience a{
+    text-decoration: underline;
+    color: #f7f1e3;
+}
+
+#contenu_experience img,
+svg {
+    color: #3498db;
+    width: 150px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#contenu_experience p,
+h4 {
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+
 .liste {
     display: flex;
     flex-direction: column;

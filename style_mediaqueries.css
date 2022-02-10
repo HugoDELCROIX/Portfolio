@@ -1,43 +1,100 @@
-@media (max-width: 720px) and (min-width: 376px) {
-    html{
+@media (max-width: 1000px) and (min-width: 376px) {
+    html {
         margin: 0px;
     }
 
     #bloc {
-        width: 300px;
+        width: 85%;
 
     }
-        
-    #contenu_about_me{
-        font-size: 5px;
+
+    #bloc h1 {
+        font-size: 1em;
     }
 
-    #contenu_formation{
-        font-size: 5px;
+    #bloc h2{
+        text-shadow: 2px 2px 2px #090d0c;
+        font-size: 1em;
+    }
+    #centres_interet img{
+        width: 50px;
     }
 
-    #contenu_about_me img{
-        width: 10%;
+    #contenu_about_me {
+        font-size: 0.8em;
+        display: block;
     }
 
+    #contenu_about_me img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding-bottom: 20px;
+    }
 
+    #contenu_about_me p{
+        margin: 0;
+    }
+    
+    
     #centres_interet {
         flex-flow: row wrap;
     }
-
+    
     #centres_interet img {
         margin: 20px;
     }
 
-    .projet{
+    .projet {
         width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    
+    .title {
+        font-size: 10px;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #contenu_formation {
+        font-size: 0.8em;
+        display: block;
     }
 
-    #contenu_formation img,svg{
+    #contenu_formation img,
+    svg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+
+    .liste_competences_c1{
+        padding-left: 20px;
+    }
+
+    .liste_competences_c2 {
+        padding-right: 20px;
+    }
+
+    #contenu_competences{
+        font-size: 0.6em;
+    }
+
+    #titre_liste{
+        text-align: center;
+        padding: 0;
+        font-size: 0.5em;
+    }
+
+    #contenu_experience img{
         width: 50px;
     }
-
-    .liste_competences_c2{
-        padding-right: 0;    }
-
 }

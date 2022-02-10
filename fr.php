@@ -35,7 +35,7 @@
     </header>
 
     <div id="bloc">
-        <h1><i class="fas fa-user"></i>  À propos de moi</h1>
+        <h1><i class="fas fa-user"></i> À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
@@ -72,7 +72,7 @@
                 apprendre
                 dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
         </div>
-        <h2><i class="fas fa-globe-europe"></i>  Mes Centres d’intérêt :  </h2>
+        <h2><i class="fas fa-globe-europe"></i> Mes Centres d’intérêt : </h2>
         <div id="centres_interet">
             <img src="images/logo/apple.png" alt="logo_apple">
             <img src="images/logo/tesla.png" alt="logo_tesla">
@@ -84,8 +84,7 @@
     </div>
 
     <div id="bloc">
-
-        <h1><i class="fas fa-book"></i>  Mes compétences  </h1>
+        <h1><i class="fas fa-book"></i> Mes compétences </h1>
         <div id="titre_liste">
             <h3>Cette liste est en constante évolution :</h3>
         </div>
@@ -112,7 +111,7 @@
     </div>
 
     <div id="bloc">
-        <h1><i class="fas fa-user-graduate"></i>  Éducation</h1>
+        <h1><i class="fas fa-user-graduate"></i> Éducation</h1>
         <div id="bloc_formation">
             <div id="contenu_formation">
                 <img src="images/logo/logo_VIA.png" alt="logo_esaip">
@@ -177,11 +176,11 @@
 
     <div id="bloc">
         <div id="exp_pro">
-            <h1><i class="fas fa-hard-hat"></i>  Expérience professionnelle</h1>
-            <div id="contenu_formation">
+            <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
+            <div id="contenu_experience">
                 <img src="images/kdr.png" alt="logo_KDR">
                 <div class="liste">
-                    <h4><b>Stages : </b> <br> </h4>
+                    <h4><b>Stage : </b> </h4>
                     <p>
                         <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
                     </p>
@@ -197,7 +196,7 @@
 
     <div id="bloc">
         <div id="mes_projets"></div>
-        <h1><i class="fas fa-project-diagram"></i>  Mes projets</h1>
+        <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div class="box_projet">
             <div id="liste_projet">
                 <a href="projets/pendule/projet_pendule-fr.php" target="blank">
@@ -269,7 +268,7 @@
         </div>
     </header>
 
-    <footer>V.1.0.0</footer>
+    <footer>V.2.0.0</footer>
 
 </body>
 
