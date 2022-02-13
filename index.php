@@ -52,7 +52,7 @@
                 <br>
                 J’ai vécu pendant 18 ans à <b>l’île de la Réunion</b> où j’ai eu mon bac mention Bien au <b>lycée
                     Lasalle
-                    Saint-Charles</b> . Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b> .
+                    Saint-Charles</b>. Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b> .
                 Il m’est déjà arrivé
                 de rester des journées entières sur mon ordinateur alors que mes amis me proposaient de profiter du
                 soleil
@@ -236,29 +236,36 @@
         </div>
     </div>
 
-    <!-- <div id="bloc_mail">
+    <div id="bloc">
         <h1>Me contacter</h1>
-        <form action="contact_fr.php" method="POST">
-
-            <div id="name_mail">
-                <div id="fname">
-                    <label for="fname"></label>
-                    <input type="text" id="fname" name="firstname" placeholder="Prénom..">
-                </div>
-                <div id="lname">
-                    <label for="lname"></label>
-                    <input type="text" id="lname" name="lastname" placeholder="Nom..">
-                </div>
-            </div>
-            <label for="mail_add"></label>
-            <input type="email" id="mail_add" name="mail_add" placeholder="Votre adresse mail..">
-
-            <label for="message"></label>
-            <textarea id="message" name="message" placeholder="Votre message.." style="height:200px"></textarea>
-
-            <input type="submit" value="Envoyer">
-        </form>
-    </div> -->
+        <?php
+            if ( isset($_POST['submit']) ) {
+                $data = array(
+            'secret' => "0x1D21f5357Fd0d050370492ac0ECE7DA48B7e1d78",
+            'response' => $_POST['h-captcha-response']
+            );
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, "https://hcaptcha.com/siteverify");
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $response = curl_exec($ch);
+            $responseData = json_decode($response);
+            if($responseData->success) {
+                // proceed the form*
+                echo 'hugo.delcroix@hotmail.com';   
+            } else {
+                echo 'Robot verification failed, please try again.';
+            }
+        }
+        ?>
+        <form method="">
+        <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    </div>
 
     <header>
         <div id="langue">
