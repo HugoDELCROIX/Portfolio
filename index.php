@@ -259,6 +259,7 @@
             }
         }
         ?>
+        
         <form action="bloc" method="POST">
             <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
             <input type="submit" name="submit" value="Submit" />
