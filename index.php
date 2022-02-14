@@ -259,12 +259,11 @@
             }
         }
         ?>
-        <form method="">
-        <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
-        <br />
-        <input type="submit" name="submit" value="Submit" />
-    </form>
-    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+        <form action="bloc" method="POST">
+            <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+        <script src="https://hcaptcha.com/1/api.js" async defer></script>
     </div>
 
     <header>
