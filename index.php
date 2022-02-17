@@ -105,6 +105,7 @@
                 <h3>Ce que j'apprends à utiliser</h3>
                 <li>MySQL</li>
                 <li>PHP</li>
+                <li>Développement Android (XML)</li>
                 <li>HackTheBox</li>
             </div>
         </div>
@@ -275,7 +276,7 @@
         </div>
     </header>
 
-    <footer>V.3.1.0</footer>
+    <footer>V.3.1.1</footer>
 
 </body>
 
