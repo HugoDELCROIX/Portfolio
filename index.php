@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <div id="bloc">
+    <div class="bloc">
         <h1><i class="fas fa-user"></i> À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <div id="bloc">
+    <div class="bloc">
         <h1><i class="fas fa-book"></i> Mes compétences </h1>
         <div id="titre_liste">
             <h3>Cette liste est en constante évolution :</h3>
@@ -111,7 +111,7 @@
         </div>
     </div>
 
-    <div id="bloc">
+    <div class="bloc">
         <h1><i class="fas fa-user-graduate"></i> Éducation</h1>
         <div id="bloc_formation">
             <div id="contenu_formation">
@@ -175,7 +175,7 @@
         </div>
     </div>
 
-    <div id="bloc">
+    <div class="bloc">
         <div id="exp_pro">
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
             <div id="contenu_experience">
@@ -195,7 +195,7 @@
         </div>
     </div>
 
-    <div id="bloc">
+    <div class="bloc">
         <div id="mes_projets"></div>
         <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div class="box_projet">
@@ -237,7 +237,7 @@
         </div>
     </div>
 
-    <div id="bloc">
+    <div class="bloc">
         <h1>Me contacter</h1>
         <?php
             if ( isset($_POST['submit']) ) {
