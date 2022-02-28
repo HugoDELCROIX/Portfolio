@@ -98,7 +98,7 @@ footer {
     color: tomato;
 }
 
-#bloc {
+.bloc {
     background: linear-gradient(to left, #6a89cc, #373e98);
     background-color: #1B9CFC;
     border-top-left-radius: 5px;
@@ -117,12 +117,12 @@ footer {
     color: #f7f1e3;
 }
 
-#bloc h1 {
+.bloc h1 {
     margin: 20px;
     text-shadow: 2px 2px 2px #090d0c;
 }
 
-#bloc p {
+.bloc p {
     text-align: justify;
 }
 
@@ -302,7 +302,7 @@ h4 {
     margin-bottom: 5%;
 }
 
-#bloc_mail {
+/* .bloc_mail {
     background: linear-gradient(to left, #6a89cc, #4a69bd);
     background-color: #1B9CFC;
     border-top-left-radius: 5px;
@@ -315,9 +315,9 @@ h4 {
     padding: 10px;
 }
 
-#bloc_mail h1 {
+.bloc_mail h1 {
     margin: 20px;
-}
+} */
 
 #name_mail {
     display: flex;
