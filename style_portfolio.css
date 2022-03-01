@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom, transparent, #3B3B98), url('images/fond.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
