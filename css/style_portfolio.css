@@ -106,7 +106,8 @@ section p {
 }
 
 #contenu_about_me img {
-    width: 30%;
+    width: 250px;
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -115,7 +116,6 @@ section p {
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 .logo_list{
@@ -126,6 +126,6 @@ section p {
 }
 
 .logo_list img{
-    width: 100px;
+    width: 80px;
     height: 100%;
 }

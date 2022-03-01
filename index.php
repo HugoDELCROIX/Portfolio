@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Hugo DELCROIX">
-    <meta name="description" content="Voici mon portfolio numérisé. Vous y trouverez mes informations, formations, projets et moyens de contact.">
+    <meta name="description"
+        content="Voici mon portfolio numérisé. Vous y trouverez mes informations, formations, projets et moyens de contact.">
     <meta name="keywords" content="Hugo, DELCROIX, portfolio">
     <meta name="copyright" content="Hugo DELCROIX">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style_portfolio.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/mediaq_iphone.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
-    <script src="https://kit.fontawesome.com/720b44c480.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/css/all.min.css">
+
     <title>Hugo Delcroix</title>
 </head>
 
@@ -21,26 +22,24 @@
     <header>
         <div class="langue">
             <a href="en.php"> English</a>
-            <a id='langue_top' href="#langue_bot"><i class="bi bi-translate"></i></a>
-            <a href="index.php"> French</a>
+            <a id='langue_top' href="#langue_bot"><i class="fa-solid fa-language"></i></a>
+            <a href="index.php"> Français</a>
         </div>
 
         <h1>Hugo Delcroix</h1>
         <h2>Étudiant en Informatique et Réseaux</h2>
         <div class="logo">
-            <a target="_blank" id='deco_linkedin' href="https://www.linkedin.com/in/hugo-delcroix/"><i
-                    class="bi bi-linkedin"></i></a>
-            <a target="_blank" id='deco_github' href="https://github.com/HugoDELCROIX"><i class="bi bi-github"></i></a>
-            <a target="_blank" id='deco_insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
-                    class="bi bi-instagram"></i></a>
+            <a target="_blank" id='deco_linkedin' href="https://www.linkedin.com/in/hugo-delcroix/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" id='deco_github' href="https://github.com/HugoDELCROIX"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" id='deco_insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </header>
 
     <section>
-        <h1><i class="fas fa-user"></i> À propos de moi</h1>
+        <h1><i class="fa-solid fa-id-badge"></i> À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
-            <p>Je m’appelle Hugo, j’ai 
+            <p>Je m’appelle Hugo, j’ai
                 <?php
                 $dateNaissance = "01-04-2001";
                 $aujourdhui = date("Y-m-d");
@@ -74,7 +73,7 @@
                 apprendre
                 dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
         </div>
-        <h1><i class="fas fa-globe-europe"></i> Mes Centres d’intérêt : </h1>
+        <h1><i class="fa-solid fa-bookmark"></i> Mes Centres d’intérêt : </h1>
         <div class="logo_list">
             <img src="images/logo/apple.png" alt="logo_apple">
             <img src="images/logo/tesla.png" alt="logo_tesla">
@@ -82,7 +81,7 @@
             <img src="images/logo/microsoft.png" alt="logo_micrososft">
             <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
         </div>
-        <h1><i class="fas fa-globe-europe"></i> Mes Outils : </h1>
+        <h1><i class="fa-solid fa-screwdriver-wrench"></i> Mes Outils : </h1>
         <div class="logo_list">
 
             <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
@@ -270,10 +269,10 @@
             }
         }
         ?>
-        
+
         <form action="bloc" method="POST">
             <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
-            <input type="submit" name="submit" value="Submit"/>
+            <input type="submit" name="submit" value="Submit" />
         </form>
         <script src="https://hcaptcha.com/1/api.js" async defer></script>
     </section>
