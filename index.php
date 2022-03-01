@@ -37,7 +37,7 @@
 
     <section>
         <h1><i class="fa-solid fa-id-badge"></i> À propos de moi</h1>
-        <div id="contenu_about_me">
+        <div id="container_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
                 <?php
@@ -79,42 +79,42 @@
             <img src="images/logo/tesla.png" alt="logo_tesla">
             <img src="images/logo/linux.png" alt="logo_linux">
             <img src="images/logo/microsoft.png" alt="logo_micrososft">
+            <img src="images/logo/HTB.png" alt="logo_HackTheBox" style="border-radius: 10px;">
             <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
+            <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup">
         </div>
         <h1><i class="fa-solid fa-screwdriver-wrench"></i> Mes Outils : </h1>
         <div class="logo_list">
 
             <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
             <img src="images/logo/vscode_logo.png" alt="logo_vscode">
+            <img src="images/logo/office_logo.png" alt="logo_office">
+            <img src="images/logo/brave_logo.png" alt="logo_brave">
             <img src="images/logo/androidstudio_logo.png" alt="logo_androidstudio">
-            <img src="images/logo/excel_logo.png" alt="logo_excel">
 
         </div>
     </section>
 
     <section>
-        <h1><i class="fas fa-book"></i> Mes compétences </h1>
-        <div id="titre_liste">
-            <h3>Cette liste est en constante évolution :</h3>
-        </div>
-        <div id="contenu_competences">
-            <div class="liste liste_competences_c1">
-                <div class="icon_liste">
-                    <h3>Ce que je sais utiliser</h3>
-                </div>
-                <li>Anglais B2 (TOEIC)</li>
+        <h1><i class="fa-solid fa-file-lines"></i> Mes compétences </h1>
+
+        <div id="container_skills">
+            <div id="list_right">
+                <h3>Ce que je sais utiliser</h3>
                 <li>HTML/CSS</li>
                 <li>JAVA</li>
                 <li>UML</li>
+                <li>MySQL</li>
                 <li>LaTex</li>
                 <li>Pack Office</li>
             </div>
             <hr>
-            <div class="liste liste_competences_c2">
+            <div id="list_left">
                 <h3>Ce que j'apprends à utiliser</h3>
-                <li>MySQL</li>
                 <li>PHP</li>
-                <li>Développement Android (XML)</li>
+                <li>MongoDB</li>
+                <li>JavaScript</li>
+                <li>Développement Android (Android Studio)</li>
                 <li>HackTheBox</li>
             </div>
         </div>

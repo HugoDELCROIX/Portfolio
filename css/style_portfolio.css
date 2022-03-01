@@ -79,10 +79,10 @@ section{
     width: 50%;
     height: auto;
     background-color: #1E293B;
-    margin: 100px auto;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -100,19 +100,19 @@ section p {
     text-align: justify;
 }
 
-#contenu_about_me{
+#container_about_me{
     display: flex;
     margin: 20px;
 }
 
-#contenu_about_me img {
+#container_about_me img {
     width: 250px;
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-#contenu_about_me p {
+#container_about_me p {
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
@@ -127,5 +127,24 @@ section p {
 
 .logo_list img{
     width: 80px;
-    height: 100%;
+    height: auto;
+}
+
+#container_skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+#list_right{
+    width: 50%;
+    list-style: none;
+    text-align: right;
+}
+
+#list_left{
+    width: 50%;
+    list-style: none;
+    text-align: left;
 }
