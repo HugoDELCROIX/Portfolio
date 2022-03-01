@@ -1,2 +1,6 @@
 # Portfolio
-Création d'un portfolio qui répertorie mes formations,compétences,moyens de contacts et mes créations.
+Création de mon **Portfolio** qui répertorie mes formations,compétences,moyens de contacts et mes créations.
+
+___
+
+Creation of my own **Portfolio** with repertoried my education, skills, contact means and projects.
