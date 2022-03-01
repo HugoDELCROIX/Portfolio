@@ -1,0 +1,131 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0F172A;
+    font-family: 'Encode Sans',sans-serif ;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+    text-shadow: 4px 4px black;
+    margin-top: 100px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header i {
+    padding: 20px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.langue{
+    text-shadow: none;
+    justify-content: center;
+}
+
+.langue a {
+    text-decoration: none underline;
+    color: #fff;
+}
+
+#langue_top,
+#langue_bot {
+    color: #fff;
+    text-shadow: none;
+    transition: 1s color ease-out;
+}
+
+#langue_top:hover,
+#langue_bot:hover {
+    color: tomato;
+}
+
+#deco_linkedin {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_linkedin:hover {
+    color: #225883;
+}
+
+#deco_github {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_github:hover {
+    color: #303130;
+}
+
+#deco_insta {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco_insta:hover {
+    color: #c62e9c;
+}
+
+section{
+    width: 50%;
+    height: auto;
+    background-color: #1E293B;
+    margin: 100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section h1 {
+    margin: 20px;
+    text-shadow: 2px 2px 2px #090d0c;
+}
+
+section p {
+    text-align: justify;
+}
+
+#contenu_about_me{
+    display: flex;
+    margin: 20px;
+}
+
+#contenu_about_me img {
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#contenu_about_me p {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.logo_list{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_list img{
+    width: 100px;
+    height: 100%;
+}

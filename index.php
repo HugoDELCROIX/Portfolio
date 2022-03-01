@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <div id="langue">
+        <div class="langue">
             <a href="en.php"> English</a>
             <a id='langue_top' href="#langue_bot"><i class="bi bi-translate"></i></a>
             <a href="index.php"> French</a>
@@ -33,11 +33,10 @@
             <a target="_blank" id='deco_github' href="https://github.com/HugoDELCROIX"><i class="bi bi-github"></i></a>
             <a target="_blank" id='deco_insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="bi bi-instagram"></i></a>
-            <!-- <a id="deco_mail" href="#bloc_mail"> <i class="bi bi-envelope-fill"> </i></a> -->
         </div>
     </header>
 
-    <div class="bloc">
+    <section>
         <h1><i class="fas fa-user"></i> À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
@@ -75,18 +74,26 @@
                 apprendre
                 dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
         </div>
-        <h2><i class="fas fa-globe-europe"></i> Mes Centres d’intérêt : </h2>
-        <div id="centres_interet">
+        <h1><i class="fas fa-globe-europe"></i> Mes Centres d’intérêt : </h1>
+        <div class="logo_list">
             <img src="images/logo/apple.png" alt="logo_apple">
             <img src="images/logo/tesla.png" alt="logo_tesla">
             <img src="images/logo/linux.png" alt="logo_linux">
-            <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
-            <img src="images/logo/logo-Meta.png" alt="logo_meta">
             <img src="images/logo/microsoft.png" alt="logo_micrososft">
+            <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
         </div>
-    </div>
+        <h1><i class="fas fa-globe-europe"></i> Mes Outils : </h1>
+        <div class="logo_list">
 
-    <div class="bloc">
+            <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
+            <img src="images/logo/vscode_logo.png" alt="logo_vscode">
+            <img src="images/logo/androidstudio_logo.png" alt="logo_androidstudio">
+            <img src="images/logo/excel_logo.png" alt="logo_excel">
+
+        </div>
+    </section>
+
+    <section>
         <h1><i class="fas fa-book"></i> Mes compétences </h1>
         <div id="titre_liste">
             <h3>Cette liste est en constante évolution :</h3>
@@ -112,9 +119,9 @@
                 <li>HackTheBox</li>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="bloc">
+    <section>
         <h1><i class="fas fa-user-graduate"></i> Éducation</h1>
         <div id="bloc_formation">
             <div id="contenu_formation">
@@ -176,9 +183,9 @@
 
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="bloc">
+    <section>
         <div id="exp_pro">
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
             <div id="contenu_experience">
@@ -196,9 +203,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="bloc">
+    <section>
         <div id="mes_projets"></div>
         <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div class="box_projet">
@@ -238,9 +245,9 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="bloc">
+    <section>
         <h1>Me contacter</h1>
         <?php
             if ( isset($_POST['submit']) ) {
@@ -269,17 +276,17 @@
             <input type="submit" name="submit" value="Submit"/>
         </form>
         <script src="https://hcaptcha.com/1/api.js" async defer></script>
-    </div>
+    </section>
 
     <header>
-        <div id="langue">
+        <div class="langue">
             <a href="en.php"> English</a>
             <a id='langue_bot' href="#top"><i class="bi bi-translate"></i></a>
             <a href="index.php"> French</a>
         </div>
     </header>
 
-    <footer>V.3.1.1</footer>
+    <footer>v1.0.0</footer>
 
 </body>
 
