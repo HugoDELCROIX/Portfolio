@@ -41,7 +41,7 @@
         <h1><i class="fas fa-user"></i> À propos de moi</h1>
         <div id="contenu_about_me">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
-            <p>Je m’appelle Hugo, j’ai
+            <p>Je m’appelle Hugo, j’ai 
                 <?php
                 $dateNaissance = "01-04-2001";
                 $aujourdhui = date("Y-m-d");
