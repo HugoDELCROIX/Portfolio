@@ -170,7 +170,7 @@
 
             </div>
             <div class="container-img-text container-formation">
-                <img src="https://www.education.gouv.fr/sites/default/files/site_logo/2020-07/Logo-MENJ-TRICOLORE.png"
+                <img src="images/logo/gouv_logo.png"
                     alt="logo_gouv">
                 <p>
                     <b> 2019 :</b> Obtention d'un bac scientifique mention Bien au sein du <b>Lycée Lasalle
