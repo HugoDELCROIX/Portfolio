@@ -37,7 +37,7 @@
 
     <section>
         <h1><i class="fa-solid fa-id-badge"></i> À propos de moi</h1>
-        <div id="container_about_me">
+        <div class="container-img-text container-aboutMe">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
                 <?php
@@ -122,10 +122,10 @@
 
     <section>
         <h1><i class="fas fa-user-graduate"></i> Éducation</h1>
-        <div id="bloc_formation">
-            <div id="contenu_formation">
+        <div id="section_formation">
+            <div class="container-img-text container-formation">
                 <img src="images/logo/logo_VIA.png" alt="logo_esaip">
-                <div class="liste">
+                <div class="list_formation">
                     <h4><b>VIA University College</b> <br> </h4>
                     <p>
                         <b>Février à Juin 2022 :</b> Ingénierie Logicielle :<br>
@@ -142,9 +142,9 @@
                 </div>
 
             </div>
-            <div id="contenu_formation">
+            <div class="container-img-text container-formation">
                 <img src="images/logo/logo_ESAIP_INGENIEUR_RVB_2016.png" alt="logo_esaip">
-                <div class="liste">
+                <div class="list_formation">
                     <h4><b>ESAIP, école d'ingénieurs du numérique et de la prévention des risques : </b> <br> </h4>
                     <p>
                         <b>2021 - Aujourd'hui :</b> Cycle Ingénieur du numérique : <br>
@@ -169,7 +169,7 @@
                 </div>
 
             </div>
-            <div id="contenu_formation">
+            <div class="container-img-text container-formation">
                 <img src="https://www.education.gouv.fr/sites/default/files/site_logo/2020-07/Logo-MENJ-TRICOLORE.png"
                     alt="logo_gouv">
                 <p>

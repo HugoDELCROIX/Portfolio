@@ -100,19 +100,19 @@ section p {
     text-align: justify;
 }
 
-#container_about_me{
+.container-img-text{
     display: flex;
     margin: 20px;
 }
 
-#container_about_me img {
+.container-aboutMe img {
     width: 250px;
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-#container_about_me p {
+.container-aboutMe p {
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
@@ -148,3 +148,4 @@ section p {
     list-style: none;
     text-align: left;
 }
+
