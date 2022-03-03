@@ -149,3 +149,23 @@ section p {
     text-align: left;
 }
 
+.container-formation{
+    align-items: stretch;
+    gap: 50px;
+}
+
+.container-formation img{
+    width: 150px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.container-formation a{
+    text-decoration: underline;
+    color: #f7f1e3;
+}
+
+.list_formation{
+    display: flex;
+    flex-direction: column;
+}

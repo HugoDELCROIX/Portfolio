@@ -122,7 +122,7 @@
 
     <section>
         <h1><i class="fas fa-user-graduate"></i> Éducation</h1>
-        <div id="section_formation">
+        
             <div class="container-img-text container-formation">
                 <img src="images/logo/logo_VIA.png" alt="logo_esaip">
                 <div class="list_formation">
@@ -181,7 +181,7 @@
                 </p>
 
             </div>
-        </div>
+        
     </section>
 
     <section>
