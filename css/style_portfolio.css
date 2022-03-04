@@ -176,6 +176,7 @@ section p {
 }
 
 #container-projects a{
+    color: #0F172A;
     text-decoration: none;
 }
 
@@ -186,8 +187,9 @@ section p {
     border: solid #0F172A 7px;
     border-radius: 15px;
     width: wrap;
-    height: 150px;
+    height: 200px;
     gap: 25px;
+    box-shadow: #0F172A 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .container-card img{
@@ -198,9 +200,34 @@ section p {
     border-radius: 7px;
 }
 
-.description{
-    color: #0F172A;
+
+.card-description{
     text-overflow: none;
     white-space: wrap;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header h5{
+    font-style: italic;
+}
+
+.card-header-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer a{
+    text-decoration: none;
 }
 

@@ -1,3 +1,11 @@
+<?php
+$dateNaissance = "01-04-2001";
+$aujourdhui = date("Y-m-d"); 
+$diff = date_diff(date_create($dateNaissance), date_create($aujourdhui)); 
+$perso = "<i class='fa-solid fa-house-laptop'></i><h5>Projet personnel</h5>";
+$school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
+?>
+
 <!DOCTYPE html>
 <html id="top" lang="fr">
 
@@ -43,12 +51,7 @@
         <div class="container-img-text container-aboutMe">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
-                <?php
-                $dateNaissance = "01-04-2001";
-                $aujourdhui = date("Y-m-d");
-                $diff = date_diff(date_create($dateNaissance), date_create($aujourdhui));
-                echo $diff->format('%y');
-            ?>
+                <?=$diff->format('%y');?>
                 ans.
                 Je suis actuellement <b>étudiant en systèmes et réseau à l’Esaip, école
                     d’ingénieur du numérique.</b>
@@ -186,6 +189,7 @@
 
     </section>
 
+
     <section>
         <div id="exp_pro">
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
@@ -209,13 +213,16 @@
     <section>
         <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div id="container-projects">
-            <a href="projets/pendule/projet_pendule-fr.php" target="blank">
+            <a href="projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/miniature_pendule.png" alt="">
-                    <div class="description">
-                        <h4>
-                            Création d'un pendule oscillatoire
-                        </h4>
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Le Pendule Oscillatoire
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
                             dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
@@ -227,30 +234,41 @@
             <a href="projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/huitre1.jpg" alt="">
-                    <div class="description">
-                    <h4>
-                        Création d'un site en utilisant la technologie HTML/CSS
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
-                        dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
-                        consequuntur earum illo commodi repellendus?
-                    </p>
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Les Huîtres
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
+                            dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
+                            consequuntur earum illo commodi repellendus?
+                        </p>
+                        <div class="card-footer">
+                            <i class="fa-brands fa-github"></i><a href="https://github.com/HugoDELCROIX/SiteHuitres">
+                                <h6>Lien vers le dépot Github</h6>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </a>
-            <a href="http://horsensei.online" target="blank">
+            <a href="projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/drapeau_danemark.jpeg" alt="">
-                    <div class="description">
-                    <h4>
-                        Blog sur mon séjour d'études au Danemark
-                    </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
-                        dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
-                        consequuntur earum illo commodi repellendus?
-                    </p>
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Mon séjour au Danemark
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
+                            dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
+                            consequuntur earum illo commodi repellendus?
+                        </p>
                     </div>
                 </div>
             </a>
