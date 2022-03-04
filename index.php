@@ -228,6 +228,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
                             consequuntur earum illo commodi repellendus?
                         </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
                     </div>
                 </div>
             </a>
@@ -246,11 +254,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
                             consequuntur earum illo commodi repellendus?
                         </p>
-                        <div class="card-footer">
-                            <i class="fa-brands fa-github"></i><a href="https://github.com/HugoDELCROIX/SiteHuitres">
-                                <h6>Lien vers le dépot Github</h6>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
                             </a>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </a>
@@ -260,7 +271,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Mon séjour au Danemark
+                                Erasmus au Danemark
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -269,6 +280,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
                             consequuntur earum illo commodi repellendus?
                         </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
                     </div>
                 </div>
             </a>
@@ -309,8 +328,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <header>
         <div class="langue">
             <a href="en.php"> English</a>
-            <a id='langue_bot' href="#top"><i class="bi bi-translate"></i></a>
-            <a href="index.php"> French</a>
+            <a id='langue_top' href="#langue_bot"><i class="fa-solid fa-language"></i></a>
+            <a href="index.php"> Français</a>
         </div>
     </header>
 

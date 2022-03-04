@@ -27,7 +27,9 @@ header i {
 }
 
 .langue{
+    display: flex;
     text-shadow: none;
+    align-items: center;
     justify-content: center;
 }
 
@@ -187,9 +189,14 @@ section p {
     border: solid #0F172A 7px;
     border-radius: 15px;
     width: wrap;
-    height: 200px;
+    height: auto;
     gap: 25px;
     box-shadow: #0F172A 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 100ms transform ease-in;
+}
+
+.container-card:hover{
+    transform: scale(1.05);
 }
 
 .container-card img{
@@ -200,6 +207,20 @@ section p {
     border-radius: 7px;
 }
 
+.container-card button{
+    background-color: #0F172A;
+    border: none;
+    width: wrap;
+    padding-right: 10px;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: #1E293B 1.95px 1.95px 2.6px;
+    transition: 100ms transform ease-in;
+}
+
+.container-card button:hover{
+    background-color: black;
+}
 
 .card-description{
     text-overflow: none;
@@ -225,6 +246,9 @@ section p {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #fff;
+    font-size: 20px;
+    height: 30px;
 }
 
 .card-footer a{
