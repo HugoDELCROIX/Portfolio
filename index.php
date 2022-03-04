@@ -219,14 +219,32 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Le Pendule Oscillatoire
+                                Le Pendule Oscillatoire · <span> 2020</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
+                        <h4>Création d'un pendule oscillatoire lors de mon cycle préparatoire</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
-                            dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
-                            consequuntur earum illo commodi repellendus?
+                            Le projet consiste à
+                            créer un pendule oscillatoire et d'y apporter un questionnement scientifique sur son
+                            fonctionnement et ce que l'on peut en tirer.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="projets/huitre/index.html" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/huitre1.jpg" alt="">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Les Huîtres · <span> 2021</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <h4>Création d'un site internet lors de mon cycle ingénieur</h4>
+                        <p>
+                            Le projet consiste à développer un  site internet entierement et seulement grâce la technologie HTML/CSS.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
@@ -241,18 +259,43 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             </a>
             <a href="projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/huitre1.jpg" alt="">
+                    <img src="images/dev_web_miniature.jpg" alt="">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Les Huîtres
+                                Portfolio · <span> Actif </span>
                             </h3>
+                            <div class=" card-header-icon"><?=$perso?></div>
+                        </div>
+                        <h4>Création de ce site internet</h4>
+                        <p>
+                            Portfolio qui répertorie mes formations,compétences,moyens de contacts et mes créations.
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="projets/huitre/index.html" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/jeu_societe.jpg" alt="">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Citadelle · <span> 2021</span>
+                            </h3>
+                            
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
+                        <h4>Création d'un jeu de société en cyle ingénieur</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
-                            dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
-                            consequuntur earum illo commodi repellendus?
+                            Le projet consiste à créer le jeu de societe "Citadelle" grâce au langage Java.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
@@ -271,14 +314,13 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Erasmus au Danemark
+                                Erasmus au Danemark · <span> Actif</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
+                        <h4>Création d'un blog lors de mon séjour Erasmus</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae. Deleniti ipsa
-                            dolores, sed ipsum velit iure accusamus ex quas sit, obcaecati quae, omnis illum
-                            consequuntur earum illo commodi repellendus?
+                             Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos activités et découvertes au Danemark.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
