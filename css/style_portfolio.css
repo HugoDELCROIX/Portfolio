@@ -36,42 +36,42 @@ header i {
     color: #fff;
 }
 
-#langue_top,
-#langue_bot {
+#langue-top,
+#langue-bot {
     color: #fff;
     text-shadow: none;
     transition: 1s color ease-out;
 }
 
-#langue_top:hover,
-#langue_bot:hover {
+#langue-top:hover,
+#langue-bot:hover {
     color: tomato;
 }
 
-#deco_linkedin {
+#deco-linkedin {
     color: #fff;
     transition: 1s color ease-out;
 }
 
-#deco_linkedin:hover {
+#deco-linkedin:hover {
     color: #225883;
 }
 
-#deco_github {
+#deco-github {
     color: #fff;
     transition: 1s color ease-out;
 }
 
-#deco_github:hover {
+#deco-github:hover {
     color: #303130;
 }
 
-#deco_insta {
+#deco-insta {
     color: #fff;
     transition: 1s color ease-out;
 }
 
-#deco_insta:hover {
+#deco-insta:hover {
     color: #c62e9c;
 }
 
@@ -118,54 +118,89 @@ section p {
     margin-bottom: 0;
 }
 
-.logo_list{
+.logo-list{
     display: flex;
     gap: 20px;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo_list img{
+.logo-list img{
     width: 80px;
     height: auto;
 }
 
-#container_skills{
+#container-skills{
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
 
-#list_right{
+#list-right{
     width: 50%;
     list-style: none;
     text-align: right;
 }
 
-#list_left{
+#list-left{
     width: 50%;
     list-style: none;
     text-align: left;
 }
 
-.container-formation{
+.container-list{
     align-items: stretch;
     gap: 50px;
 }
 
-.container-formation img{
+.container-list img{
     width: 150px;
     height: 100%;
     border-radius: 7px;
 }
 
-.container-formation a{
+.container-list a{
     text-decoration: underline;
     color: #f7f1e3;
 }
 
-.list_formation{
+.list-formation{
     display: flex;
     flex-direction: column;
 }
+
+#container-projects{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-projects a{
+    text-decoration: none;
+}
+
+.container-card{
+    align-items: stretch;
+    background-color: #fefefa;
+    padding: 20px;
+    border: solid #0F172A 7px;
+    border-radius: 15px;
+    width: wrap;
+    height: 150px;
+    gap: 25px;
+}
+
+.container-card img{
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.description{
+    color: #0F172A;
+    text-overflow: none;
+    white-space: wrap;
+}
+
