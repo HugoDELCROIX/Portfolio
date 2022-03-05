@@ -1,16 +1,16 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #0F172A;
-    font-family: 'Encode Sans',sans-serif ;
+    font-family: 'Encode Sans', sans-serif;
     color: #fff;
 }
 
-header{
+header {
     text-align: center;
     text-shadow: 4px 4px black;
     margin-top: 100px;
@@ -26,7 +26,7 @@ header i {
     font-size: 30px;
 }
 
-.langue{
+.langue {
     display: flex;
     text-shadow: none;
     align-items: center;
@@ -77,7 +77,7 @@ header i {
     color: #c62e9c;
 }
 
-section{
+section {
     width: 50%;
     height: auto;
     background-color: #1E293B;
@@ -102,7 +102,7 @@ section p {
     text-align: justify;
 }
 
-.container-img-text{
+.container-img-text {
     display: flex;
     margin: 20px;
 }
@@ -120,69 +120,69 @@ section p {
     margin-bottom: 0;
 }
 
-.logo-list{
+.logo-list {
     display: flex;
     gap: 20px;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo-list img{
+.logo-list img {
     width: 80px;
     height: auto;
 }
 
-#container-skills{
+#container-skills {
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
 
-#list-right{
+#list-right {
     width: 50%;
     list-style: none;
     text-align: right;
 }
 
-#list-left{
+#list-left {
     width: 50%;
     list-style: none;
     text-align: left;
 }
 
-.container-list{
+.container-list {
     align-items: stretch;
     gap: 50px;
 }
 
-.container-list img{
+.container-list img {
     width: 150px;
     height: 100%;
     border-radius: 7px;
 }
 
-.container-list a{
+.container-list a {
     text-decoration: underline;
     color: #f7f1e3;
 }
 
-.list-formation{
+.list-formation {
     display: flex;
     flex-direction: column;
 }
 
-#container-projects{
+#container-projects {
     display: flex;
     flex-direction: column;
 }
 
-#container-projects a{
+#container-projects a {
     color: #0F172A;
     text-decoration: none;
 }
 
-.container-card{
+.container-card {
     align-items: stretch;
     background-color: #fefefa;
     padding: 20px;
@@ -195,11 +195,11 @@ section p {
     transition: 100ms transform ease-in;
 }
 
-.container-card:hover{
+.container-card:hover {
     transform: scale(1.05);
 }
 
-.container-card img{
+.container-card img {
     object-fit: cover;
     object-position: center;
     width: 200px;
@@ -207,7 +207,7 @@ section p {
     border-radius: 7px;
 }
 
-.container-card button{
+.container-card button {
     background-color: #0F172A;
     border: none;
     width: wrap;
@@ -218,17 +218,17 @@ section p {
     transition: 100ms transform ease-in;
 }
 
-.container-card button:hover{
+.container-card button:hover {
     background-color: black;
 }
 
-.card-description{
+.card-description {
     width: 100%;
     text-overflow: none;
     white-space: wrap;
 }
 
-.card-description h4{
+.card-description h4 {
     margin-top: 0;
 }
 
@@ -236,26 +236,26 @@ section p {
     margin-top: 0;
 }
 
-.card-header{
+.card-header {
     display: flex;
     justify-content: space-between;
 }
 
-.card-header h3 span{
+.card-header h3 span {
     font-weight: normal;
 }
 
-.card-header h5{
+.card-header h5 {
     font-style: italic;
 }
 
-.card-header-icon{
+.card-header-icon {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -264,7 +264,37 @@ section p {
     height: 30px;
 }
 
-.card-footer a{
+.card-footer a {
     text-decoration: none;
 }
 
+footer {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#version a {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 5px 0;
+    width: fit-content;
+    border-radius: 10px;
+    border: solid #fff 3px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#version a:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#version p,
+#version i {
+    margin: 0;
+    color: #090d0c;
+}

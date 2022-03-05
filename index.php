@@ -30,7 +30,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <header>
         <div class="langue">
             <a href="en.php"> English</a>
-            <a id='langue_top' href="#langue_bot"><i class="fa-solid fa-language"></i></a>
+            <a id='langue-top' href="#langue-bot"><i class="fa-solid fa-language"></i></a>
             <a href="index.php"> Français</a>
         </div>
 
@@ -244,7 +244,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </div>
                         <h4>Création d'un site internet lors de mon cycle ingénieur</h4>
                         <p>
-                            Le projet consiste à développer un  site internet entierement et seulement grâce la technologie HTML/CSS.
+                            Le projet consiste à développer un site internet entierement et seulement grâce la
+                            technologie HTML/CSS.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
@@ -290,7 +291,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             <h3>
                                 Citadelle · <span> 2021</span>
                             </h3>
-                            
+
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
                         <h4>Création d'un jeu de société en cyle ingénieur</h4>
@@ -320,7 +321,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </div>
                         <h4>Création d'un blog lors de mon séjour Erasmus</h4>
                         <p>
-                             Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos activités et découvertes au Danemark.
+                            Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos
+                            activités et découvertes au Danemark.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
@@ -338,6 +340,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
 
     <section>
         <h1>Me contacter</h1>
+        <div id="contact">
         <?php
             if ( isset($_POST['submit']) ) {
                 $data = array(
@@ -352,30 +355,39 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             $response = curl_exec($ch);
             $responseData = json_decode($response);
             if($responseData->success) {
-                // proceed the form*
-                echo 'hugo.delcroix@hotmail.com';   
+                echo '
+                <h3>hugo.delcroix@hotmail.com</h3>';   
             } else {
                 echo 'Robot verification failed, please try again.';
             }
         }
         ?>
 
-        <form action="bloc" method="POST">
+        <form action="" method="POST">
             <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
             <input type="submit" name="submit" value="Submit" />
         </form>
         <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    </div>
     </section>
 
     <header>
         <div class="langue">
             <a href="en.php"> English</a>
-            <a id='langue_top' href="#langue_bot"><i class="fa-solid fa-language"></i></a>
+            <a id='langue-top' href="#langue-bot"><i class="fa-solid fa-language"></i></a>
             <a href="index.php"> Français</a>
         </div>
     </header>
 
-    <footer>v1.0.0</footer>
+    <footer>
+        <div id="version">
+            <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="_blank">
+                <i class="fa-solid fa-code-branch"></i>
+                <p>v1.0.0</p>
+            </a>
+        </div>
+
+    </footer>
 
 </body>
 
