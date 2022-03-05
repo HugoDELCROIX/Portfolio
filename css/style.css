@@ -77,6 +77,15 @@ header i {
     color: #c62e9c;
 }
 
+#deco-contact {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco-contact:hover {
+    color: #74b9ff;
+}
+
 section {
     width: 50%;
     height: auto;
@@ -120,6 +129,11 @@ section p {
     margin-bottom: 0;
 }
 
+.container-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .logo-list {
     display: flex;
     gap: 20px;
@@ -130,6 +144,38 @@ section p {
 .logo-list img {
     width: 80px;
     height: auto;
+}
+
+#container-cv{
+    width: 50%;
+    margin: 0 auto 0;
+    justify-content: center;
+}
+
+#container-cv button{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 5px 7px;
+    width: fit-content;
+    border-radius: 15px;
+    border: solid #fff 2px;
+    background-color: #0F172A;
+    transition: 100ms transform ease-in;
+}
+
+#container-cv button:hover{
+    transform: scale(1.07);
+    background-color: red;
+}
+
+.cv i,h6{
+    font-size: 20px;
+}
+
+#container-cv a{
+    text-decoration: none;
 }
 
 #container-skills {
@@ -192,11 +238,11 @@ section p {
     height: auto;
     gap: 25px;
     box-shadow: #0F172A 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    transition: 100ms transform ease-in;
+    transition: 50ms transform ease-in;
 }
 
 .container-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .container-card img {

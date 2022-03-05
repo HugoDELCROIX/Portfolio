@@ -1,0 +1,92 @@
+body {
+    background-color: #0F172A;
+    font-family: 'Encode Sans', sans-serif;
+    color: #fff;
+}
+
+section {
+    width: 50%;
+    height: auto;
+    background-color: #1E293B;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section h1 {
+    margin: 20px;
+    text-shadow: 2px 2px 2px #0F172A;
+}
+
+section p {
+    text-align: justify;
+}
+
+#contact{
+    text-align: center;
+}
+
+span{
+    font-weight: normal;
+}
+
+button{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 5px 0;
+    width: fit-content;
+    border-radius: 10px;
+    border: solid #fff 3px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: beige;
+}
+
+button a{
+    text-decoration: none;
+    color: #0F172A;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.h-captcha{
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: #fff;
+    border: solid #fff 5px;
+    text-align: center;
+    margin: 0 auto 0;
+    border-radius: 5Px;
+    color: #0F172A;
+    width: fit-content;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -18,7 +18,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <meta name="copyright" content="Hugo DELCROIX">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style_portfolio.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaq_iphone.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
     <link rel="stylesheet" href="css/css/all.min.css">
@@ -43,11 +43,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     class="fa-brands fa-github"></i></a>
             <a target="_blank" id='deco-insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="fa-brands fa-instagram"></i></a>
+            <a id='deco-contact' href="fr/contact.php"><i 
+                    class="fa-solid fa-paper-plane"></i></a>
         </div>
     </header>
 
     <section>
         <h1><i class="fa-solid fa-id-badge"></i> À propos de moi</h1>
+
         <div class="container-img-text container-aboutMe">
             <img src="images/pdp_lunette.jpg" alt="photo de profil">
             <p>Je m’appelle Hugo, j’ai
@@ -79,25 +82,38 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 apprendre
                 dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
         </div>
-        <h1><i class="fa-solid fa-bookmark"></i> Mes Centres d’intérêt : </h1>
-        <div class="logo-list">
-            <img src="images/logo/apple.png" alt="logo_apple">
-            <img src="images/logo/tesla.png" alt="logo_tesla">
-            <img src="images/logo/linux.png" alt="logo_linux">
-            <img src="images/logo/microsoft.png" alt="logo_micrososft">
-            <img src="images/logo/HTB.png" alt="logo_HackTheBox" style="border-radius: 10px;">
-            <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
-            <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup">
+        <div class="container-logo">
+            <h1><i class="fa-solid fa-bookmark"></i> Mes Centres d’intérêt : </h1>
+            <div class="logo-list">
+                <img src="images/logo/apple.png" alt="logo_apple">
+                <img src="images/logo/tesla.png" alt="logo_tesla">
+                <img src="images/logo/linux.png" alt="logo_linux">
+                <img src="images/logo/microsoft.png" alt="logo_micrososft">
+                <img src="images/logo/HTB.png" alt="logo_HackTheBox" style="border-radius: 10px;">
+                <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
+                <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup">
+            </div>
+
+            <h1><i class="fa-solid fa-screwdriver-wrench"></i> Mes Outils : </h1>
+            <div class="logo-list">
+
+                <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
+                <img src="images/logo/vscode_logo.png" alt="logo_vscode">
+                <img src="images/logo/office_logo.png" alt="logo_office">
+                <img src="images/logo/brave_logo.png" alt="logo_brave">
+                <img src="images/logo/androidstudio_logo.png" alt="logo_androidstudio">
+
+            </div>
         </div>
-        <h1><i class="fa-solid fa-screwdriver-wrench"></i> Mes Outils : </h1>
-        <div class="logo-list">
-
-            <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
-            <img src="images/logo/vscode_logo.png" alt="logo_vscode">
-            <img src="images/logo/office_logo.png" alt="logo_office">
-            <img src="images/logo/brave_logo.png" alt="logo_brave">
-            <img src="images/logo/androidstudio_logo.png" alt="logo_androidstudio">
-
+        <div id="container-cv">
+            <button>
+                <a href="fr/cv.pdf" target="_blank">
+                    <div class="cv card-footer">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <h6>Voir mon CV</h6>
+                    </div>
+                </a>
+            </button>
         </div>
     </section>
 
@@ -336,39 +352,6 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 </div>
             </a>
         </div>
-    </section>
-
-    <section>
-        <h1>Me contacter</h1>
-        <div id="contact">
-        <?php
-            if ( isset($_POST['submit']) ) {
-                $data = array(
-            'secret' => "0x1D21f5357Fd0d050370492ac0ECE7DA48B7e1d78",
-            'response' => $_POST['h-captcha-response']
-            );
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, "https://hcaptcha.com/siteverify");
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            $response = curl_exec($ch);
-            $responseData = json_decode($response);
-            if($responseData->success) {
-                echo '
-                <h3>hugo.delcroix@hotmail.com</h3>';   
-            } else {
-                echo 'Robot verification failed, please try again.';
-            }
-        }
-        ?>
-
-        <form action="" method="POST">
-            <div class="h-captcha" data-sitekey="53b15ea6-027e-438c-a1ca-3f7aea8569e3"></div>
-            <input type="submit" name="submit" value="Submit" />
-        </form>
-        <script src="https://hcaptcha.com/1/api.js" async defer></script>
-    </div>
     </section>
 
     <header>
