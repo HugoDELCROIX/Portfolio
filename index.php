@@ -229,9 +229,9 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <section>
         <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div id="container-projects">
-            <a href="projets/huitre/index.html" target="blank">
+            <a href="#container-projects" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/miniature_pendule.png" alt="">
+                    <img src="images/miniature_pendule.png" alt="pendule">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -274,9 +274,9 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="projets/huitre/index.html" target="blank">
+            <a href="index.php" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/dev_web_miniature.jpg" alt="">
+                    <img src="images/dev_web_miniature.jpg" alt="code">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -289,7 +289,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             Portfolio qui répertorie mes formations,compétences,moyens de contacts et mes créations.
                         </p>
                         <button>
-                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                            <a href="https://github.com/HugoDELCROIX/Portfolio" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
@@ -299,7 +299,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="projets/huitre/index.html" target="blank">
+            <a href="#container-projects" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/jeu_societe.jpg" alt="">
                     <div class="card-description">
@@ -315,7 +315,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             Le projet consiste à créer le jeu de societe "Citadelle" grâce au langage Java.
                         </p>
                         <button>
-                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                            <a href="https://github.com/HugoDELCROIX/Citadelle" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
@@ -325,7 +325,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="projets/huitre/index.html" target="blank">
+            <a href="http://horsensei.online" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/drapeau_danemark.jpeg" alt="">
                     <div class="card-description">
@@ -341,7 +341,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             activités et découvertes au Danemark.
                         </p>
                         <button>
-                            <a href="https://github.com/HugoDELCROIX/SiteHuitres" target="_blank">
+                            <a href="https://github.com/Rhylionn/denmark-blog" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
