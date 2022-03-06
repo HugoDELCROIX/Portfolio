@@ -4,6 +4,20 @@ $aujourdhui = date("Y-m-d");
 $diff = date_diff(date_create($dateNaissance), date_create($aujourdhui)); 
 $perso = "<i class='fa-solid fa-house-laptop'></i><h5>Projet personnel</h5>";
 $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
+
+$url = 'https://api.github.com/repos/HugoDELCROIX/Portfolio/releases';
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
+$html = curl_exec($ch);
+
+$data = json_decode($html,true);
+
+curl_close($ch);
+
+$response = $data[0]["tag_name"];
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +33,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaq_iphone.css">
+    <link rel="stylesheet" href="css/mediaqueries/iphone12.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
     <link rel="stylesheet" href="css/css/all.min.css">
 
@@ -195,9 +209,9 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             <img src="images/logo/gouv_logo.png" alt="logo_gouv">
             <p>
                 <b> 2019 :</b> Obtention d'un bac scientifique mention Bien au sein du <b>Lycée Lasalle
-                    Saint-Charles</b>. <br>
+                    Saint-Charles</b>. <br> <br>
                 <b> 2017 & 2018 :</b> Voyage scolaire en Afrique du Sud avec obtention d'une <b>certification de
-                    niveau d'anglais B1 </b>. <br>
+                    niveau d'anglais B1 </b>. <br> <br>
                 <b> 2015 :</b> Voyage scolaire en Australie. <br>
             </p>
 
@@ -211,7 +225,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
             <div class="container-img-text container-list">
                 <img src="images/kdr.png" alt="logo_KDR">
-                <div class="list">
+                <div class="list-formation">
                     <h4><b>Stage : </b> </h4>
                     <p>
                         <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
@@ -286,7 +300,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </div>
                         <h4>Création de ce site internet</h4>
                         <p>
-                            Portfolio qui répertorie mes formations,compétences,moyens de contacts et mes créations.
+                            Portfolio qui répertorie mes formations, compétences, moyens de contacts et mes créations.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Portfolio" target="_blank">
@@ -366,7 +380,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
         <div id="version">
             <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="_blank">
                 <i class="fa-solid fa-code-branch"></i>
-                <p>v2.1.0</p>
+                <p><?=$response;?></p>
             </a>
         </div>
 
