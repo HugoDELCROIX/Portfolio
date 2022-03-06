@@ -229,7 +229,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <section>
         <h1><i class="fas fa-project-diagram"></i> Mes projets</h1>
         <div id="container-projects">
-            <a href="#container-projects" target="blank">
+            <a href="fr/projets/pendule/Projet_Science_3.pdf" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/miniature_pendule.png" alt="pendule">
                     <div class="card-description">
@@ -248,7 +248,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="projets/huitre/index.html" target="blank">
+            <a href="fr/projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/huitre1.jpg" alt="">
                     <div class="card-description">
