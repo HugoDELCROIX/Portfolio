@@ -167,7 +167,7 @@ section p {
 
 #container-cv button:hover{
     transform: scale(1.07);
-    background-color: red;
+    background-color: #d63031;
 }
 
 .cv i,h6{
@@ -220,7 +220,7 @@ section p {
 
 #container-projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 #container-projects a {
@@ -329,8 +329,9 @@ footer {
     gap: 7px;
     padding: 0 5px 0;
     width: fit-content;
+    height: 27px;
     border-radius: 10px;
-    border: solid #fff 3px;
+    
     background-color: #fff;
     text-decoration: none;
 }
