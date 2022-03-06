@@ -366,7 +366,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
         <div id="version">
             <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="_blank">
                 <i class="fa-solid fa-code-branch"></i>
-                <p>v2.0.1</p>
+                <p>v2.1.0</p>
             </a>
         </div>
 
