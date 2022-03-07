@@ -213,7 +213,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
         <div id="exp_pro">
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
             <div class="container-img-text container-list">
-                <img src="images/kdr.png" alt="logo_KDR">
+                <img src="images/france.png" alt="france_flag">
                 <div class="list-formation">
                     <h4><b>Stage : </b> </h4>
                     <p>
