@@ -4,20 +4,6 @@ $aujourdhui = date("Y-m-d");
 $diff = date_diff(date_create($dateNaissance), date_create($aujourdhui)); 
 $perso = "<i class='fa-solid fa-house-laptop'></i><h5>Projet personnel</h5>";
 $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
-
-$url = 'https://api.github.com/repos/HugoDELCROIX/Portfolio/releases';
-
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($ch,CURLOPT_USERAGENT,'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13');
-$html = curl_exec($ch);
-
-$data = json_decode($html,true);
-
-curl_close($ch);
-
-$response = $data[0]["tag_name"];
 ?>
 
 <!DOCTYPE html>
@@ -35,6 +21,9 @@ $response = $data[0]["tag_name"];
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries/iphone12.css">
     <link rel="icon" href="images/logo/pc_logo.ico">
+
+    <script src="script.js" defer></script>
+
     <link rel="stylesheet" href="css/css/all.min.css">
 
     <title>Hugo Delcroix</title>
@@ -380,12 +369,11 @@ $response = $data[0]["tag_name"];
         <div id="version">
             <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="_blank">
                 <i class="fa-solid fa-code-branch"></i>
-                <p><?=$response;?></p>
+                <p id="versionNumber"></p>
             </a>
         </div>
 
     </footer>
-
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 390px) and (min-width: 375px) {
+@media (max-width: 1000px) and (min-width: 300px) {
 
     .langue a:nth-child(1),
     .langue a:nth-child(3) {
