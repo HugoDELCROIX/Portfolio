@@ -46,8 +46,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     class="fa-brands fa-github"></i></a>
             <a target="_blank" id='deco-insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="fa-brands fa-instagram"></i></a>
-            <a id='deco-contact' href="fr/contact.php"><i 
-                    class="fa-solid fa-paper-plane"></i></a>
+            <a id='deco-contact' href="fr/contact.php"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
     </header>
 
@@ -346,6 +345,32 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/Rhylionn/denmark-blog" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="#container_projects" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/android_project.jpg" alt="">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Cours Android Studio · <span> Actif</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <h4>Documentation et Exercices</h4>
+                        <p>
+                            Ce projet contient toute la documentation et les exercices de mon apprentissage du
+                            développement d'application mobile.
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/AndroidStudio" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
