@@ -58,12 +58,12 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 <?=$diff->format('%y');?>
                 ans.
                 Je suis actuellement <b>étudiant en systèmes et réseau à l’Esaip, école
-                    d’ingénieur du numérique.</b>
+                    d’ingénieur du numérique</b>.
                 <br>
                 <br>
                 J’ai vécu pendant 18 ans à <b>l’île de la Réunion</b> où j’ai eu mon bac mention Bien au <b>lycée
                     Lasalle
-                    Saint-Charles</b>. Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b> .
+                    Saint-Charles</b>. Pendant mon enfance, je me suis pris d’une passion pour <b>l’informatique</b>.
                 Il m’est déjà arrivé
                 de rester des journées entières sur mon ordinateur alors que mes amis me proposaient de profiter du
                 soleil
@@ -74,14 +74,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 <br>
                 J’ai choisi de m’installer en <b>Métropole</b> pour faire mes études supérieures mais aussi <b>me
                     rapprocher de la
-                    modernité, de la technologie</b> . J'ai ce <b>souhait</b> de <b>rester à proximité des milieux qui
+                    modernité, de la technologie</b>. J'ai ce <b>souhait</b> de <b>rester à proximité des milieux qui
                     innovent</b> et évoluent au
                 sein du numérique.
                 <br>
                 <br>
                 Je compte me spécialiser dans la majeure <b>Cybersécurité</b> durant mon cycle ingénieur et continuer à
                 apprendre
-                dans le développement Web que ce soit <b>frontend ou backend</b> .</p>
+                dans le développement Web que ce soit <b>frontend ou backend</b>.</p>
         </div>
         <div class="container-logo">
             <h1><i class="fa-solid fa-bookmark"></i> Mes Centres d’intérêt : </h1>
@@ -161,7 +161,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <li>Conception Web réactive</li>
                     <li>Processus d'ingénierie Web</li>
                     <li>Management de projets en Ingénierie Informatique</li>
-                    <li>Création d'un blog sur le séjour d'études <a href="#container-projects"> (En savoir plus)</a></li>
+                    <li>Création d'un blog sur le séjour d'études <a href=#dan_project> (En savoir plus)</a></li>
                 </ul>
             </div>
 
@@ -328,7 +328,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 </div>
             </a>
             <a href="http://horsensei.online" target="blank">
-                <div class="container-img-text container-card">
+                <div id="dan_project" class="container-img-text container-card">
                     <img src="images/drapeau_danemark.jpeg" alt="">
                     <div class="card-description">
                         <div class="card-header">
