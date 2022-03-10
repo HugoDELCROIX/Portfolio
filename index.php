@@ -45,6 +45,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     class="fa-brands fa-github"></i></a>
             <a target="_blank" id='deco-insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" id='deco-stack' href="https://stackoverflow.com/users/18420554/hugod"><i
+                    class="fa-brands fa-stack-overflow"></i></a>
             <a id='deco-contact' href="fr/contact.php"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
     </header>

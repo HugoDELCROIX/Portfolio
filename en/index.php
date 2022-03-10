@@ -45,6 +45,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     class="fa-brands fa-github"></i></a>
             <a target="_blank" id='deco-insta' href="https://www.instagram.com/hugo.delcroix_pro/"><i
                     class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" id='deco-stack' href="https://stackoverflow.com/users/18420554/hugod"><i
+                    class="fa-brands fa-stack-overflow"></i></a>
             <a id='deco-contact' href="contact.php"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
     </header>
@@ -285,7 +287,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                         </div>
                         <h4>Creation of this website</h4>
                         <p>
-                            Portfolio that lists my training, skills, contacts and creations. 
+                            Portfolio that lists my training, skills, contacts and creations.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Portfolio" target="_blank">
@@ -311,7 +313,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                         </div>
                         <h4>Creation of a board game in the engineering cycle</h4>
                         <p>
-                        The project consists in creating the board game "Citadelle" using the Java language.
+                            The project consists in creating the board game "Citadelle" using the Java language.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Citadelle" target="_blank">
@@ -330,13 +332,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                            Erasmus in Denmark · <span> Active</span>
+                                Erasmus in Denmark · <span> Active</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
                         <h4>Creating a blog during my Erasmus stay</h4>
                         <p>
-                        The project consists of creating a website, in the form of a blog, which lists our activities and discoveries in Denmark.
+                            The project consists of creating a website, in the form of a blog, which lists our
+                            activities and discoveries in Denmark.
                         </p>
                         <button>
                             <a href="https://github.com/Rhylionn/denmark-blog" target="_blank">
@@ -355,13 +358,14 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                            Android Studio course · <span> Active</span>
+                                Android Studio course · <span> Active</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
                         <h4>Documentation and Exercises</h4>
                         <p>
-                        This project contains all the documentation and exercises for my learning of mobile application development.
+                            This project contains all the documentation and exercises for my learning of mobile
+                            application development.
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/AndroidStudio" target="_blank">

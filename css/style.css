@@ -78,6 +78,15 @@ header i {
     color: #c62e9c;
 }
 
+#deco-stack {
+    color: #fff;
+    transition: 1s color ease-out;
+}
+
+#deco-stack:hover{
+    color: orange;
+}
+
 #deco-contact {
     color: #fff;
     transition: 1s color ease-out;
