@@ -20,7 +20,6 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries/iphone12.css">
-    <link rel="icon" href="images/logo/pc_logo.ico">
 
     <script src="script.js" defer></script>
 
@@ -32,7 +31,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
 <body>
     <header>
         <div class="langue">
-            <a href="en.php"> English</a>
+            <a href="en/index.php"> English</a>
             <a id='langue-top' href="#langue-bot"><i class="fa-solid fa-language"></i></a>
             <a href="index.php"> Français</a>
         </div>
@@ -162,7 +161,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <li>Conception Web réactive</li>
                     <li>Processus d'ingénierie Web</li>
                     <li>Management de projets en Ingénierie Informatique</li>
-                    <li>Création d'un blog sur le séjour d'études <a href="#mes_projets"> (En savoir plus)</a></li>
+                    <li>Création d'un blog sur le séjour d'études <a href="#container-projects"> (En savoir plus)</a></li>
                 </ul>
             </div>
 
@@ -385,7 +384,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
 
     <header>
         <div class="langue">
-            <a href="en.php"> English</a>
+            <a href="en/index.php"> English</a>
             <a id='langue-bot' href="#langue-top"><i class="fa-solid fa-language"></i></a>
             <a href="index.php"> Français</a>
         </div>

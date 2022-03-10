@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    min-height: 100vh;
     background-color: #0F172A;
     font-family: 'Encode Sans', sans-serif;
     color: #fff;
