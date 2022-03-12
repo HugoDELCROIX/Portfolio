@@ -141,6 +141,7 @@ section p {
 
 .container-logo{
     margin-top: 50px;
+    flex-wrap: nowrap;
     margin-bottom: 50px;
 }
 
@@ -152,7 +153,7 @@ section p {
 }
 
 .logo-list img {
-    width: 80px;
+    width: 60px;
     height: auto;
 }
 
