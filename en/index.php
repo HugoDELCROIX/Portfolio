@@ -233,7 +233,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
     <section>
         <h1><i class="fas fa-project-diagram"></i> My Projects</h1>
         <div id="container-projects">
-            <a href="fr/projets/pendule/Projet_Science_3.pdf" target="blank">
+            <a href="en/projects/pendule/Projet_Science_3.pdf" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/miniature_pendule.png" alt="pendule">
                     <div class="card-description">
@@ -251,9 +251,9 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="fr/projets/huitre/index.html" target="blank">
+            <a href="en/projects/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="../images/huitre1.jpg" alt="">
+                    <img src="../images/huitre1.jpg" alt="oyster">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -276,7 +276,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="index.php" target="blank">
+            <a href="en/index.php" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/dev_web_miniature.jpg" alt="code">
                     <div class="card-description">
@@ -303,7 +303,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
             </a>
             <a href="#container-projects" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="../images/jeu_societe.jpg" alt="">
+                    <img src="../images/jeu_societe.jpg" alt="citadelle">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -329,7 +329,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
             </a>
             <a href="http://horsensei.online" target="blank">
                 <div id="dan_project" class="container-img-text container-card">
-                    <img src="../images/drapeau_danemark.jpeg" alt="">
+                    <img src="../images/drapeau_danemark.jpeg" alt="denmark_flag">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -355,7 +355,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
             </a>
             <a href="#container_projects" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="../images/android_project.jpg" alt="">
+                    <img src="../images/android_project.jpg" alt="android studio">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -370,6 +370,31 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/AndroidStudio" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>GitHub Repository</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="../en/projects/Les-Fromages-Francais/index.html" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="../images/reblochon.jpeg" alt="reblochon">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Les Fromages Français · <span> Active</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <h4>Creation of a website during my engineering studies</h4>
+                        <p>
+                            The project consists in developing a website entirely and only through HTML/CSS. (Made at Via University College)
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/Les-Fromages-Francais" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>GitHub Repository</h6>

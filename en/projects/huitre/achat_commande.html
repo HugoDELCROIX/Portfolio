@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_huitre.css">
+    <link rel="stylesheet" href="payement.css">
+    <title>Payement</title>
+</head>
+
+<body>
+    <!--Formulaire pour compléter les données bancaires-->
+    <div id="payement">
+        <h1>Veuillez renseigner vos informations de payement :</h1>
+        <form action="validation_paiement.html">
+            <label for="num_carte">Numéros de la carte</label>
+            <input type="text" id="num_carte" name="num_carte" placeholder='XXXX XXXX XXXX XXXX'>
+            <div id='mois_annee'>
+                <label for="date_mois">Mois d'expiration :
+                    <select>
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                </label>
+                <label for="date_mois">Année d'expiration :
+                    <select>
+                        <option></option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                    </select>
+                </label>
+                <div class="cvv">
+                    <label for="cvv">CVV :</label>
+                    <input type="password" id="cvv" name="cvv" placeholder='XXX'>
+                </div>
+            </div>
+
+            <label for="identite">Nom et Prénom du propriétaire de la carte de payement :</label>
+            <input type="text" id="identite" name="identite" placeholder="DELCROIX Hugo">
+            <input type="submit" value="Valider mes informations">
+        </form>
+
+</body>
+
+</html>

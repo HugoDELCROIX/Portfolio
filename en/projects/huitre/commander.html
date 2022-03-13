@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_huitre.css">
+  <link rel="stylesheet" href="menu_deroulant_index.css">
+  <link rel="stylesheet" href="formulaire.css">
+  <title>Commander ?</title>
+</head>
+
+<body>
+
+  <!--Bandeau décoratif sur toutes les pages-->
+  <header>
+    <h1>Les Huîtres</h1>
+    <h2>Le site n°1 des férues d'huîtres</h2>
+  </header>
+
+  <!--Menu déroulant sur toutes les pages-->
+  <div class="menu_deroul">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="inscription.html">Mon compte</a></li>
+      <li><a href="actu.html">Actualités</a></li>
+      <li class="deroulant">
+        <a href="page_deroul.html" class="deroul_">Informations</a>
+        <div class="contenu_deroulant">
+          <a href="histoire.html">Un peu d'histoire ?</a>
+          <a href="galerie_photo.html">Galerie photos</a>
+        </div>
+      </li>
+      <li><a href="liste_commandes.html">Commander ?</a></li>
+    </ul>
+  </div>
+
+  <!--Formulaire pour compléter les informations-->
+  <div class="formulaire">
+    <h1>Veuillez renseigner vos informations</h1>
+    <form action="achat_commande.html">
+      <label for="pname">Prénom :</label>
+      <input type="text" id="pname" name="pname" placeholder='Hugo'>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" placeholder='DELCROIX'>
+      <label for="name">Date de naissance :</label>
+      <input type="date" id="date_birth" name="date_birth" placeholder='DELCROIX'>
+      <label for="date_birth">Adresse postale :</label>
+      <input type="text" id="adresse" name="n_rue" placeholder='Numéro et Rue'>
+      <input type="text" id="adresse" name="compl" placeholder="Complément d'adresse">
+      <div id="ville_codepost">
+        <input type="text" id="adresse" name="ville" placeholder='Ville'>
+        <input type="number" id="adresse" name="code_post" placeholder='Code Postal'>
+      </div>
+      <label for="num_tel">Numéro de téléphone :</label>
+      <input type="tel" id="num_tel" name="num_tel" placeholder="XX XX XX XX XX">
+      <label for="mail">Adresse E-mail :</label>
+      <input type="email" id="mail" name="mail" placeholder="hugo.delcroix@exemple.xxx">
+      <input type="submit" value="Valider mes informations">
+    </form>
+
+  </div>
+
+</body>
+
+</html>

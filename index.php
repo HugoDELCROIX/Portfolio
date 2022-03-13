@@ -255,7 +255,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             </a>
             <a href="fr/projets/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/huitre1.jpg" alt="">
+                    <img src="images/huitre1.jpg" alt="huitre">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -265,7 +265,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </div>
                         <h4>Création d'un site internet lors de mon cycle ingénieur</h4>
                         <p>
-                            Le projet consiste à développer un site internet entierement et seulement grâce la
+                            Le projet consiste à développer un site internet entierement et seulement grâce à la
                             technologie HTML/CSS.
                         </p>
                         <button>
@@ -306,7 +306,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             </a>
             <a href="#container-projects" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/jeu_societe.jpg" alt="">
+                    <img src="images/jeu_societe.jpg" alt="citadelle">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -332,7 +332,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             </a>
             <a href="http://horsensei.online" target="blank">
                 <div id="dan_project" class="container-img-text container-card">
-                    <img src="images/drapeau_danemark.jpeg" alt="">
+                    <img src="images/drapeau_danemark.jpeg" alt="drapeau danemark">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -358,7 +358,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             </a>
             <a href="#container_projects" target="blank">
                 <div class="container-img-text container-card">
-                    <img src="images/android_project.jpg" alt="">
+                    <img src="images/android_project.jpg" alt="android studio">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
@@ -373,6 +373,32 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/AndroidStudio" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="fr/projets/Les-Fromages-Francais/index.html" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/reblochon.jpeg" alt="reblochon">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Les Fromages Français · <span> Actif</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <h4>Création d'un site internet lors de mon cycle ingénieur</h4>
+                        <p>
+                        Le projet consiste à développer un site internet entierement et seulement grâce à la
+                            technologie HTML/CSS. (Fait à Via University College)
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/Les-Fromages-Francais" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* style pour toutes les pages */
+html {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, transparent, #2c3e50), url('images/fond2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+header {
+    background: url('images/bretagne1.jpeg');
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    margin-bottom: 30px;
+}
+
+/* style pour la page des actualités*/
+
+#lien_actu {
+    color: yellow;
+}
+
+.nom_rubrique {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+#actu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news {
+    width: 500px;
+    margin: 20px;
+    padding: 0px;
+    border: solid black 0px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    word-wrap: break-word;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+
+}
+
+.news-1 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre1.jpg');
+    background-size: cover;
+}
+
+.news-2 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre2.jpg');
+    background-size: cover;
+}
+
+.news-3 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre3.jpg');
+    background-size: cover;
+}
+
+.news-4 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre4.jpeg');
+    background-size: cover;
+}
+
+.news-5 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre5.jpeg');
+    background-size: cover;
+}
+
+.news-6 {
+    background: linear-gradient(to bottom, transparent, #090d0c), url('images/huitre6.jpeg');
+    background-size: cover;
+}
+
+.misctext {
+    padding: 10px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#bottom_actu {
+    text-align: center;
+    font-style: italic;
+    color: #bdc3c7;
+    font-size: small;
+}
+
+/* style pour la partie histoire */
+.p_histoire {
+    color: aliceblue;
+    font-size: large;
+    margin: 20px;
+
+}
+
+.p_histoire h3 {
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.p_histoire h4 {
+    font-style: italic;
+    margin: 10px;
+}
+
+.p_histoire h6 {
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+.p_histoire p {
+    margin: 0px;
+    color: #bdc3c7;
+}
+
+.p_histoire img {
+    border-radius: 20px 0 20px 0;
+    transition-property: width height;
+    transition-duration: 1s;
+    width: 500px;
+    height: auto;
+}
+
+.p_histoire img:hover {
+    width: 1000px;
+    height: auto;
+    margin: 50px;
+}
+
+.img_histoire1 {
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.img_histoire2 {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+/* style pour les boutons*/
+
+#buttons_index {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.button {
+    border-radius: 10px;
+    border: solid;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(to left, #2c3e50, transparent);
+    transition: 200ms transform ease-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #3498db;
+    transform: scale(1.2);
+}
+
+/* Les MediaQueries */
+/* MediaQueries pour smartphone actuel*/
+@media (max-width: 720px) and (min-width: 376px){
+    header{
+        background: linear-gradient(to bottom, transparent, #2c3e50), url('images/bretagne1.jpeg');
+    }
+    header h1{
+        font-size: 70px;
+    }
+    .button{
+        font-size: 30px;
+        padding: 5px 16px;
+    }
+    .p_histoire img{
+        width: 200px;
+    }
+    .p_histoire img:hover {
+        width: 280px;
+        height: auto;
+        margin: 50px;
+    }
+    .p_histoire h3{
+        font-size: 20px;
+    }
+ }
+/* MediaQueries pour petit smartphone */
+ @media (max-width: 375px) and (min-width: 280px){
+    header{
+        background: linear-gradient(to bottom, transparent, #2c3e50), url('images/bretagne1.jpeg');
+    }
+    header h1{
+        font-size: 60px;
+    }
+    .button{
+        font-size: 30px;
+        padding: 5px 16px;
+    }
+    .p_histoire img{
+        width: 150px;
+    }
+    .p_histoire img:hover {
+        width: 200px;
+        height: auto;
+        margin: 50px;
+    }
+    .p_histoire h3{
+        font-size: 17px;
+    }
+ }
+ /* MediaQueries pour tablette */
+ @media (max-width: 1366px) and (min-width: 1024px){
+    header a{
+        font-size: 30px;  
+        margin-left: 10px;      
+        margin-right: 10px;   
+    }
+    h1,h2,h3,h4{
+        font-size: 30px
+    }
+    .p_histoire img{
+        width: 500px;
+    }
+    .p_histoire img:hover {
+        width: 870px;
+        height: auto;
+        margin: 50px;
+    }
+    
+ }
+
+ @media (max-width: 1023px) and (min-width: 768px){
+    header a{
+        font-size: 30px;  
+        margin-left: 10px;      
+        margin-right: 10px;   
+    }
+    h1,h2,h3,h4{
+        font-size: 30px
+    }
+    .p_histoire img{
+        width: 500px;
+    }
+    .p_histoire img:hover {
+        width: 600px;
+        height: auto;
+        margin: 50px;
+    }
+    
+ }
+
+ 
