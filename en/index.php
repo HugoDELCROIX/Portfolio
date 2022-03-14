@@ -389,7 +389,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
-                        <h4>Creation of a website during my engineering studies</h4>
+                        <h4>Creation of a website during my engineering studies(No Responsive)</h4>
                         <p>
                             The project consists in developing a website entirely and only through HTML/CSS. (Made at Via University College)
                         </p>

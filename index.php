@@ -392,7 +392,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
-                        <h4>Création d'un site internet lors de mon cycle ingénieur</h4>
+                        <h4>Création d'un site internet lors de mon cycle ingénieur (Non Responsif)</h4>
                         <p>
                         Le projet consiste à développer un site internet entierement et seulement grâce à la
                             technologie HTML/CSS. (Fait à Via University College)
