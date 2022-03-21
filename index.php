@@ -37,7 +37,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             <a href="index.php"> Français</a>
         </div>
 
-        <h1>Hugo Delcroix</h1>
+        <h1>Hugo Delcroixd</h1>
         <h2>Étudiant en Informatique et Réseaux</h2>
         <div class="logo">
             <a target="_blank" id='deco-linkedin' href="https://www.linkedin.com/in/hugo-delcroix/"><i
