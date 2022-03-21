@@ -1,0 +1,125 @@
+main{
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  height: 100px;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 1.4em;
+  margin: 40px 0;
+}
+
+#presentation{
+  background: url("../images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%; height: calc(100vh - 100px);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 200px;
+  align-items: center;
+}
+
+#presentation > div:first-child{
+  filter: brightness(100%) !important;
+  color: #FFFFFF;
+}
+
+#presentation h1{
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#presentation hr{
+  margin: 10px 0;
+}
+
+#presentation h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#presentation a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  height: 2em;
+  background-color: #F8F7FF;
+  padding: 3px 20px;
+  border-radius: 2px;
+  color: #000000;
+}
+
+#panel, .cheese-panel{
+  width: 100%;
+}
+
+#panel{
+  margin: 50px 0;
+}
+
+.cheese-panel{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.cheese-card{
+  width: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cheese-card:nth-child(2n+1){
+  margin-top: 50px;
+}
+
+.cheese-card:nth-child(2n){
+  margin-bottom: 50px;
+}
+
+.cheese-card-bg{
+  height: 100%;
+}
+
+.cheese-card-bg img{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  width: 300px;
+  height: 100%;
+}
+
+.cheese-card-description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(315deg, #d09d1f 0%, #c6920d 74%);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  height: 1.8rem;
+  color: #FFFFFF;
+  font-size: 0.9em;
+}
+
+#suppliers{
+  width: 100%;
+  margin: 50px 0;
+}
+
+
+#suppliers iframe{
+  width: 560px;
+  height: 315px;
+}
+
+#suppliers > div{
+  display: flex;
+  justify-content: center;
+}

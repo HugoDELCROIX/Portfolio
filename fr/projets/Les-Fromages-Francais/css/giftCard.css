@@ -1,0 +1,63 @@
+.panel {
+	margin: auto;
+	margin-top: 30px;
+	width: 50%;
+	height: 500px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.giftCard {
+	width: 150px;
+	height: 300px;
+	border-radius: 15px;
+	padding: 10px;
+	display: grid;
+	place-items: center;
+	transition: 1s;
+}
+
+.giftCard:nth-child(even) {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background:linear-gradient(125deg, #BF953F, #fff587, #B38728, #AA771C);
+	transform: scale(1.2);
+}
+
+.giftCard:first-child {
+	background:linear-gradient(125deg, #534529, rgb(143, 125, 92), #957e4f, #504127);
+}
+
+.giftCard:last-child {
+	background:linear-gradient(125deg, #a3a3a3, #fffcdf, #959595, #909090);
+}
+
+.giftCard:nth-child(odd) {
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.giftCard > h1 {
+	color: rgb(209, 209, 209);
+	-webkit-text-stroke: 1px rgb(139, 139, 139);
+}
+
+.giftCard > h3 {
+	color: rgb(71, 71, 71);
+}
+
+.giftCard:hover {
+	transform: scale(1.5);
+	z-index: 2;
+	animation-name: reflects;
+	animation-duration: 1s;
+}
+
+.content {
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
