@@ -20,6 +20,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaqueries/iphone12.css">
+    <link rel="stylesheet" href="../css/carousel.css">
 
     <script src="../script.js" defer></script>
 
@@ -391,7 +392,8 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                         </div>
                         <h4>Creation of a website during my engineering studies(No Responsive)</h4>
                         <p>
-                            The project consists in developing a website entirely and only through HTML/CSS. (Made at Via University College)
+                            The project consists in developing a website entirely and only through HTML/CSS. (Made at
+                            Via University College)
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Les-Fromages-Francais" target="_blank">
@@ -404,6 +406,49 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
+        </div>
+    </section>
+
+    <section>
+        <h1><i class="fa-solid fa-laptop-code"></i> My Fedora's theme (Gnome)</h1>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="carousel-item">
+                    <img src="../images/screenshots/Capture d’écran de 2022-03-21 20-11-23.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="../images/screenshots/Capture d’écran de 2022-03-21 20-11-30.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="../images/screenshots/Capture d’écran de 2022-03-21 20-12-34.png">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div id="carousel-footer">
+            <p><i class="fa-solid fa-object-group"></i> Graphite-dark</p>
+            <p><i class="fa-solid fa-arrow-pointer"></i> Mocu-White-Right</p>
+            <p><i class="fa-solid fa-icons"></i> Reversal-balck-dark</p>
         </div>
     </section>
 
