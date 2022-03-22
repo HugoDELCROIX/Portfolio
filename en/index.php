@@ -234,7 +234,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
     <section>
         <h1><i class="fas fa-project-diagram"></i> My Projects</h1>
         <div id="container-projects">
-            <a href="en/projects/pendule/Projet_Science_3.pdf" target="blank">
+            <a href="../en/projects/pendule/Projet_Science_3.pdf" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/miniature_pendule.png" alt="pendule">
                     <div class="card-description">
@@ -252,7 +252,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="en/projects/huitre/index.html" target="blank">
+            <a href="../en/projects/huitre/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/huitre1.jpg" alt="oyster">
                     <div class="card-description">
@@ -277,7 +277,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="en/index.php" target="blank">
+            <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/dev_web_miniature.jpg" alt="code">
                     <div class="card-description">
@@ -302,7 +302,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="#container-projects" target="blank">
+            <a href="https://github.com/HugoDELCROIX/Citadelle/blob/main/README.md" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/jeu_societe.jpg" alt="citadelle">
                     <div class="card-description">
@@ -354,7 +354,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="#container_projects" target="blank">
+            <a href="https://github.com/HugoDELCROIX/AndroidStudio/blob/main/README.md" target="blank">
                 <div class="container-img-text container-card">
                     <img src="../images/android_project.jpg" alt="android studio">
                     <div class="card-description">
@@ -397,6 +397,33 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Les-Fromages-Francais" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>GitHub Repository</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/HugoDELCROIX/Hangman/blob/main/README.md" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="../images/hangman.jpg" style="border: dotted black;" alt="reblochon">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Hangman · <span> Actif</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$perso?></div>
+                        </div>
+                        <h4>Creation of an Hangman game with Java</h4>
+                        <p>
+                            Hangman is a paper and pencil guessing game for two or more players. One player thinks of a
+                            word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a
+                            certain number of guesses.
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/Hangman" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>GitHub Repository</h6>
