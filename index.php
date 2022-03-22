@@ -280,7 +280,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="index.php" target="blank">
+            <a href="https://github.com/HugoDELCROIX/Portfolio/releases" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/dev_web_miniature.jpg" alt="code">
                     <div class="card-description">
@@ -305,7 +305,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="#container-projects" target="blank">
+            <a href="https://github.com/HugoDELCROIX/Citadelle/blob/main/README.md" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/jeu_societe.jpg" alt="citadelle">
                     <div class="card-description">
@@ -357,7 +357,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="#container_projects" target="blank">
+            <a href="https://github.com/HugoDELCROIX/AndroidStudio/blob/main/README.md" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/android_project.jpg" alt="android studio">
                     <div class="card-description">
@@ -400,6 +400,33 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Les-Fromages-Francais" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/HugoDELCROIX/Hangman/blob/main/README.md" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/hangman.jpg" style="border: dotted black;" alt="reblochon">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Pendu · <span> Actif</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$perso?></div>
+                        </div>
+                        <h4>Création du jeu du Pendu avec Java</h4>
+                        <p>
+                            Le pendu est un jeu consistant à trouver un mot en devinant quelles sont les lettres qui le
+                            composent. Le jeu se joue traditionnellement à deux, avec un papier et un crayon, selon un
+                            déroulement bien particulier.
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/Hangman" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
