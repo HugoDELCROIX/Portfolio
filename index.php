@@ -102,6 +102,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
             <div class="logo-list">
 
                 <img src="images/logo/Fedora-logo.png" alt="logo_fedora">
+                <img src="images/logo/bash.png" alt="logo_bash">
                 <img src="images/logo/vscode_logo.png" alt="logo_vscode">
                 <img src="images/logo/github_logo.png" alt="logo_github">
                 <img src="images/logo/stack_logo.png" alt="logo_stackOverflow">
