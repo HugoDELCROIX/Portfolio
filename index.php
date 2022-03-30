@@ -384,7 +384,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="fr/projets/Les-Fromages-Francais/index.html" target="blank">
+            <a href="fr/projets/les-fromages-francais.php" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/reblochon.jpeg" alt="reblochon">
                     <div class="card-description">

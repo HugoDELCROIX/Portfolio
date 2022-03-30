@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <button><a href="../index.php">Go Back Home</a></button>
+    <button><a href="../en/index.php">Go Back Home</a></button>
 </body>
 
 </html>

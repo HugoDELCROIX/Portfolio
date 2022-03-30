@@ -239,7 +239,7 @@ section p {
     text-decoration: none;
 }
 
-.container-card {
+.container-card,.container-card-no-hover {
     align-items: stretch;
     background-color: #fefefa;
     padding: 20px;
@@ -256,7 +256,7 @@ section p {
     transform: scale(1.03);
 }
 
-.container-card img {
+.container-card img,.container-card-no-hover img {
     object-fit: cover;
     object-position: center;
     width: 200px;
@@ -264,7 +264,7 @@ section p {
     border-radius: 7px;
 }
 
-.container-card button {
+.container-card button,.container-card-no-hover button {
     background-color: #0F172A;
     border: none;
     width: wrap;
@@ -275,7 +275,7 @@ section p {
     transition: 100ms transform ease-in;
 }
 
-.container-card button:hover {
+.container-card button:hover,.container-card-no-hover button:hover {
     background-color: black;
 }
 
@@ -323,6 +323,41 @@ section p {
 
 .card-footer a {
     text-decoration: none;
+}
+
+.comparaison-projects{
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.comparaison-projects a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-description{
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-description img{
+    box-shadow: #1E293B 1.95px 1.95px 2.6px;
+}
+
+.img-description h6{
+    border-radius: 5px;
+    border: 5px solid #0F172A;
+    padding: 10px;
+    background-color: #0F172A;
+}
+
+.img-description h6:hover{
+    color: black;
+    background-color: #fff;
 }
 
 footer {
