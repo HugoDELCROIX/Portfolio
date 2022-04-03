@@ -21,7 +21,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaqueries/iphone12.css">
     <link rel="stylesheet" href="css/carousel.css">
-
+    <link rel="icon" href="images/logo/circle-h-solid.svg">
     <script src="script.js" defer></script>
 
     <link rel="stylesheet" href="css/css/all.min.css">
