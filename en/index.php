@@ -18,6 +18,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
     <meta name="copyright" content="Hugo DELCROIX">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../images/logo/circle-h-solid.svg">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaqueries/iphone12.css">
     <link rel="stylesheet" href="../css/carousel.css">
@@ -381,7 +382,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     </div>
                 </div>
             </a>
-            <a href="../en/projects/les-fromages-francais.php" target="blank">
+            <a href="../en/projects/les-fromages-francais.php">
                 <div class="container-img-text container-card">
                     <img src="../images/reblochon.jpeg" alt="reblochon">
                     <div class="card-description">

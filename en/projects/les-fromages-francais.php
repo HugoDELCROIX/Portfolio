@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/mediaqueries/iphone12.css">
     <link rel="stylesheet" href="../../css/style_contact.css">
+    <link rel="icon" href="../../images/logo/circle-h-solid.svg">
     <title>Les Fromages Français</title>
 </head>
 
