@@ -92,7 +92,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 <img src="images/logo/apple.png" alt="logo_apple">
                 <img src="images/logo/tesla.png" alt="logo_tesla">
                 <img src="images/logo/linux.png" alt="logo_linux">
-                <img src="images/logo/microsoft.png" alt="logo_micrososft">
+                <img src="images/logo/microsoft.png" alt="logo_micrososft" style="border-radius: 10px;">
                 <img src="images/logo/HTB.png" alt="logo_HackTheBox" style="border-radius: 10px;">
                 <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
                 <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup">
