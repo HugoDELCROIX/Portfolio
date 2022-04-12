@@ -30,10 +30,10 @@
             $response = curl_exec($ch);
             $responseData = json_decode($response);
             if($responseData->success) {
-                echo "<h3>Mon adresse mail : <span>hugo.delcroix@hotmail.com</span></h3>
+                echo "<h3>Mon adresse mail : <span>contact@hugodelcroix.fr</span></h3>
                 <h3>Mon téléphone : <span>07 66 33 20 47</span></h3>
                 <button>
-                    <a href='mailto:hugo.delcroix@hotmail.com' target='_blank'>M'envoyer un mail</a>
+                    <a href='mailto:contact@hugodelcroix.fr' target='_blank'>M'envoyer un mail</a>
                 </button>";   
             } else {
                 echo 'Robot verification failed, please try again.';
