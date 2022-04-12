@@ -53,7 +53,8 @@
     }
 
     .logo-list img{
-        width: 50px;
+        width: auto;
+        height: 40px;
     }
     
     .cv i,h6{
