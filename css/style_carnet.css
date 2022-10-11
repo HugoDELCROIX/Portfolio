@@ -1,0 +1,21 @@
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border: solid 5px;
+    border-radius: 30px;
+    width: 150px;
+    color: black;
+}
+
+.icon-text p{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#container-valeur{
+    display: flex;
+    justify-content: space-around;
+}
