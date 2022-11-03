@@ -235,20 +235,6 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
         <div id="exp_pro">
             <h1><i class="fas fa-hard-hat"></i> Expérience professionnelle</h1>
             <div class="container-img-text container-list">
-                <img src="/images/france.png" alt="france_flag">
-                <div class="list-formation">
-                    <h4><b>Stage : </b> </h4>
-                    <p>
-                        <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
-                    </p>
-                    <ul>
-                        <li>Vendre et informer le client</li>
-                        <li>Gestion du stock</li>
-                        <li>Arranger et soigner les rayons</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container-img-text container-list">
                 <img src="/images/pologne.jpg" alt="poland_flag">
                 <div class="list-formation">
                     <h4><b>Stage : </b> </h4>
@@ -264,6 +250,21 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </ul>
                 </div>
             </div>
+            <div class="container-img-text container-list">
+                <img src="/images/france.png" alt="france_flag">
+                <div class="list-formation">
+                    <h4><b>Stage : </b> </h4>
+                    <p>
+                        <b>Avril 2020</b> - <b>K.D.R Électricité : </b> Magasin de matériel électrique et de chantier
+                    </p>
+                    <ul>
+                        <li>Vendre et informer le client</li>
+                        <li>Gestion du stock</li>
+                        <li>Arranger et soigner les rayons</li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
     </section>
 </body>
