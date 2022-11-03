@@ -337,7 +337,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Erasmus in Denmark · <span> Active</span>
+                                Erasmus in Denmark · <span> February to June 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -363,7 +363,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Android Studio course · <span> Active</span>
+                                Android Studio course · <span> 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -389,7 +389,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>School project</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Les Fromages Français · <span> Active</span>
+                                Les Fromages Français · <span> 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>

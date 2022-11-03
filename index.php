@@ -96,7 +96,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                 <img src="images/logo/HTB.png" alt="logo_HackTheBox" style="border-radius: 10px;">
                 <img src="../images/logo/logo-Land-Rover.png" alt="logo_land-rover">
                 <img src="images/logo/RolandGarros logo.png" alt="logo_Roland-Garros">
-                <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup">
+                <!-- <img src="images/logo/worldcup_logo.png" alt="logo_WorldCup"> -->
             </div>
 
             <h1><i class="fa-solid fa-screwdriver-wrench"></i> Mes Outils : </h1>
@@ -339,7 +339,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Erasmus au Danemark · <span> Actif</span>
+                                Erasmus au Danemark · <span> Février à Juin 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -365,7 +365,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Cours Android Studio · <span> Actif</span>
+                                Cours Android Studio · <span> 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -391,7 +391,7 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Les Fromages Français · <span> Actif</span>
+                                Les Fromages Français · <span> 2022</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
@@ -429,6 +429,31 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                         </p>
                         <button>
                             <a href="https://github.com/HugoDELCROIX/Hangman" target="_blank">
+                                <div class="card-footer">
+                                    <i class="fa-brands fa-github"></i>
+                                    <h6>Lien vers le dépot GitHub</h6>
+                                </div>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </a>
+            <a href="/fr/projets/Carnet_De_Competences/Mon_Carnet_De_Competence.php" target="blank">
+                <div class="container-img-text container-card">
+                    <img src="images/competences.jpg" style="border: dotted black;" alt="reblochon">
+                    <div class="card-description">
+                        <div class="card-header">
+                            <h3>
+                                Carnet de Compétences  · <span> Actif</span>
+                            </h3>
+                            <div class=" card-header-icon"><?=$school?></div>
+                        </div>
+                        <h4>Création d'un Carnet de Compétences</h4>
+                        <p>
+                            Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.
+                        </p>
+                        <button>
+                            <a href="https://github.com/HugoDELCROIX/Portfolio/tree/main/fr/projets/Carnet_De_Competences" target="_blank">
                                 <div class="card-footer">
                                     <i class="fa-brands fa-github"></i>
                                     <h6>Lien vers le dépot GitHub</h6>
