@@ -1,10 +1,7 @@
 <template>
   <section class="w-1/2 h-auto m-auto rounded-md bg-section p-10">
-    <div class="flex gap-2 items-center text-titreSection font-bold">
-      <font-awesome-icon
-        icon="fa-regular fa-user"
-        class="bg-white text-background p-1.5 rounded-md"
-      />
+    <div class="titre-icon">
+      <font-awesome-icon icon="fa-regular fa-user" class="icon" />
       <h1>À propos de moi</h1>
     </div>
     <div class="flex justify-between items-start mt-6">
@@ -44,15 +41,68 @@
         ce soit <b>frontend ou backend</b>.
       </p>
     </div>
-    <div class="flex gap-2 items-center text-titreSection font-bold mt-10">
-      <font-awesome-icon
-        icon="fa-solid fa-chevron-right"
-        class="bg-white text-background p-1.5 rounded-md"
-      />
-      <h1>Mes Centres d’intérêt</h1>
-      <!-- do a v-for with an array of every logos -->
+    <div>
+      <div class="titre-icon mt-10">
+        <font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" />
+        <h1>Mes Centres d’intérêt</h1>
+      </div>
+      <div class="flex mt-5 h-16 justify-around">
+        <img v-for="image in HobbyURL" :src="image" :alt="image" />
+      </div>
+      <div class="titre-icon mt-10">
+        <font-awesome-icon icon="fa-solid fa-screwdriver-wrench" class="icon" />
+        <h1>Mes Outils</h1>
+      </div>
+      <div class="flex mt-5 h-16 justify-around">
+        <img v-for="image in ToolURL" :src="image" :alt="image" />
+      </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script>
+import { ref } from "vue";
+
+export default {
+  data() {
+    const hobbiesList = [
+      "apple.png",
+      "tesla.png",
+      "linux.png",
+      "microsoft.png",
+      "HTB.png",
+      "LandRover.png",
+      "RollandGarros.png",
+    ];
+    const HobbyURL = ref([]);
+
+    const toolsList = [
+      "fedora.png",
+      "terminal.png",
+      "vscode.png",
+      "github.png",
+      "stackOverflow.png",
+      "office.png",
+      "brave.png",
+    ];
+    const ToolURL = ref([]);
+
+    hobbiesList.forEach((image) => {
+      HobbyURL.value.push(
+        new URL(`../assets/images/hobbies/${image}`, import.meta.url).href
+      );
+    });
+
+    toolsList.forEach((image) => {
+      ToolURL.value.push(
+        new URL(`../assets/images/tools/${image}`, import.meta.url).href
+      );
+    });
+
+    return {
+      HobbyURL,
+      ToolURL,
+    };
+  },
+};
+</script>

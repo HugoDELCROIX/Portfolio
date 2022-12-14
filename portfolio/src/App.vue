@@ -2,14 +2,14 @@
   <div>
     <ChooseLanguage />
     <HeaderInformations />
-    <ImageSection />
+    <AboutMe />
   </div>
 </template>
 
 <script setup>
 import ChooseLanguage from "./components/ChooseLanguage.vue";
 import HeaderInformations from "./components/HeaderInformations.vue";
-import ImageSection from "./components/ImageSection.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <style lang="postcss">

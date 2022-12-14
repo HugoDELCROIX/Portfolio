@@ -11,6 +11,7 @@ import {
   faEarthAmericas,
   faEnvelopeSquare,
   faChevronRight,
+  faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -28,7 +29,8 @@ library.add(
   faStackOverflow,
   faEnvelopeSquare,
   faUser,
-  faChevronRight
+  faChevronRight,
+  faScrewdriverWrench
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
