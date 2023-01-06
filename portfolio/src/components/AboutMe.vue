@@ -1,6 +1,6 @@
 <template>
-  <section class="w-1/2 h-auto m-auto rounded-md bg-section p-10">
-    <div class="titre-icon">
+  <section>
+    <div class="titre-icon shadowed">
       <font-awesome-icon icon="fa-regular fa-user" class="icon" />
       <h1>À propos de moi</h1>
     </div>

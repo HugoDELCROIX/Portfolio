@@ -3,6 +3,7 @@
     <ChooseLanguage />
     <HeaderInformations />
     <AboutMe />
+    <MySkills />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import ChooseLanguage from "./components/ChooseLanguage.vue";
 import HeaderInformations from "./components/HeaderInformations.vue";
 import AboutMe from "./components/AboutMe.vue";
+import MySkills from "./components/MySkills.vue";
 </script>
 
 <style lang="postcss">
