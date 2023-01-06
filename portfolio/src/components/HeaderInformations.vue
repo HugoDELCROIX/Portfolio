@@ -14,7 +14,27 @@
       /></a>
       <a href=""><font-awesome-icon icon="fa-solid fa-square-envelope" /></a>
     </div>
+    <a
+      :href="getResume"
+      target="_blank"
+      class="mt-10 bg-section p-2 rounded-md border-white border-2 hover:bg-background"
+      >Voir mon CV</a
+    >
   </div>
 </template>
 
-<script setup></script>
+<script>
+import { computed } from "vue";
+
+export default {
+  data() {
+    const getResume = computed(() => {
+      return new URL("../assets/cv.pdf", import.meta.url).href;
+    });
+
+    return {
+      getResume,
+    };
+  },
+};
+</script>
