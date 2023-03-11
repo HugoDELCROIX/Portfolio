@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-krona;
+}
+
+body {
+  @apply bg-dark_blue;
+}
+
+.social-link {
+  @apply rounded px-2 py-1 hover:bg-white hover:text-black;
+}
