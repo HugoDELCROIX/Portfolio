@@ -2,14 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
 html {
-  @apply font-krona;
+  @apply font-krona scroll-smooth;
 }
 
 body {
   @apply bg-dark_blue;
 }
 
+.section {
+  @apply text-white flex justify-center items-center h-screen;
+}
 .social-link {
   @apply rounded px-2 py-1 hover:bg-white hover:text-black;
+}
+
+#chevron {
+  @apply transition ease-out duration-500;
+}
+
+.chevron-hidden {
+  @apply opacity-0;
 }

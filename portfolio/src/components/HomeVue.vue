@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white flex justify-center items-center h-screen">
+  <div class="section">
     <div class="text-4xl flex flex-col gap-4 items-start">
       <p class="text-lg font-hack text-green">Bonjour ! Je suis</p>
       <p class="font-black text-gray-200">Hugo DELCROIX</p>
@@ -33,6 +33,18 @@
       </div>
     </div>
   </div>
+  <div id="chevron" class="text-white -mt-20 mb-10 text-center">
+    <a href="#about-me"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
+  </div>
 </template>
 
-<script setup></script>
+<script>
+window.addEventListener('scroll', function () {
+  var div = document.getElementById('chevron')
+  if (window.scrollY > 800) {
+    div.classList.add('chevron-hidden')
+  } else {
+    div.classList.remove('chevron-hidden')
+  }
+})
+</script>
