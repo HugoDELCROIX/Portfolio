@@ -21,7 +21,7 @@
         <a href="https://t.me/Hugo_DELCROIX" target="_blank" class="social-link"
           ><font-awesome-icon icon="fa-brands fa-telegram"
         /></a>
-        <a href="mailtomailto:hugo.delcroix@proton.me" target="_blank" class="social-link">
+        <a href="mailto:hugo.delcroix@proton.me" target="_blank" class="social-link">
           <div class="flex items-center gap-3">
             <font-awesome-icon icon="fa-solid fa-inbox" />
             <p class="text-xs">
