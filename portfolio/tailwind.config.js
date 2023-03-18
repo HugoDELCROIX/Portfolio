@@ -3,7 +3,8 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     listStyleType: {
-      ordered: 'decimal-leading-zero'
+      ordered: 'decimal-leading-zero',
+      disc: 'disc'
     },
     extend: {
       colors: {

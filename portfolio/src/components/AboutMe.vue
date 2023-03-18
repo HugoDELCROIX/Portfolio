@@ -5,7 +5,7 @@
         <p class="w-1/4 pl-5">À propos de moi</p>
         <hr class="w-3/4 border-gray-400 rounded" />
       </div>
-      <div class="flex gap-5 items-start text-xs">
+      <div class="flex gap-5 items-start text-base">
         <img src="../assets/images/pp.jpg" alt="Profile picture" class="w-60 rounded-lg" />
         <p class="font-extralight">
           Je m’appelle Hugo, 21 ans. Je suis actuellement
@@ -30,18 +30,9 @@
       </div>
     </div>
   </div>
-  <div id="chevron" class="text-white -mt-20 mb-10 text-center">
+  <div id="chevron" class="text-white text-center">
     <a href="#education"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
   </div>
 </template>
 
-<script>
-window.addEventListener('scroll', function () {
-  var div = document.getElementById('chevron')
-  if (window.scrollY > 800) {
-    div.classList.add('chevron-hidden')
-  } else {
-    div.classList.remove('chevron-hidden')
-  }
-})
-</script>
+<script></script>

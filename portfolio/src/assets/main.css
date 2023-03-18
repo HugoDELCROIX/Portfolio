@@ -29,6 +29,10 @@ body {
   @apply bg-dark_blue;
 }
 
+#app {
+  @apply min-h-full;
+}
+
 .section {
   @apply text-white flex justify-center items-center h-screen;
 }
@@ -36,10 +40,6 @@ body {
   @apply rounded px-2 py-1 hover:bg-white hover:text-black;
 }
 
-#chevron {
-  @apply transition ease-out duration-500;
-}
-
-.chevron-hidden {
-  @apply opacity-0;
+.education-card {
+  @apply flex gap-10;
 }
