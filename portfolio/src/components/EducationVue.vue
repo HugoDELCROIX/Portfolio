@@ -65,7 +65,7 @@
             <b> 2017 & 2018 :</b> Voyage scolaire en Afrique du Sud avec obtention d'une
             <b>certification de niveau d'anglais B1 </b>. <br />
             <br />
-            <b> 2015 :</b> Voyage scolaire en Australie. <br />
+            <b> 2015 :</b> Voyage scolaire en Australie.
           </p>
         </div>
       </div>
