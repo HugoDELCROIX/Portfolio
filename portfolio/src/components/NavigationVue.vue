@@ -1,8 +1,9 @@
 <template>
-  <div class="flex justify-between mt-7">
+  <div class="flex justify-between pt-7 pb-3 fixed w-full bg-dark_blue">
+    //a améliorer avec menu vertical
     <div class="invisible" />
     <ol
-      class="list-ordered text-white marker:text-green text-xs font-hack flex justify-around w-2/6"
+      class="list-ordered text-white marker:text-green text-xs font-hack flex justify-around w-1/2"
     >
       <a href="#about-me" class="hover:text-green"><li>À propos de moi</li></a>
       <a href="#education" class="hover:text-green"><li>Parcours</li></a>
