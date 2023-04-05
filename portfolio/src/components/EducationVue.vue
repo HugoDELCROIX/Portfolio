@@ -1,12 +1,12 @@
 <template>
-  <div class="page">
-    <div id="education" class="section w-1/2 m-auto">
+  <div id="education" class="page">
+    <div class="section w-1/2 m-auto">
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
           <p class="w-1/4 pl-5">Parcours scolaire</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>
-        <div class="education-card mb-10">
+        <div class="card mb-10">
           <img
             src="../assets/images/via.png"
             alt="logo_via"
@@ -26,7 +26,7 @@
             </ul>
           </div>
         </div>
-        <div class="education-card mb-10">
+        <div class="card mb-10">
           <img
             src="../assets/images/esaip.png"
             alt="logo_esaip"
@@ -52,7 +52,7 @@
             </ul>
           </div>
         </div>
-        <div class="education-card mb-10">
+        <div class="card mb-10">
           <img
             src="../assets/images/gouv.png"
             alt="logo_gouv"

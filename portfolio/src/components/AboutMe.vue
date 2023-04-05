@@ -1,6 +1,6 @@
 <template>
-  <div class="page">
-    <div id="about-me" class="section w-1/2 m-auto">
+  <div id="about-me" class="page">
+    <div class="section w-1/2 m-auto">
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
           <p class="w-1/4 pl-5">À propos de moi</p>

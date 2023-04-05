@@ -40,10 +40,11 @@ body {
 .section {
   @apply text-white flex justify-center items-center;
 }
+
 .social-link {
   @apply rounded px-2 py-1 hover:bg-white hover:text-black;
 }
 
-.education-card {
+.card {
   @apply flex gap-10;
 }
