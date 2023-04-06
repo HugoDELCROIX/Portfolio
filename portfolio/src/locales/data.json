@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "skill_booklet": {
+      "title": "Carnet de Compétences",
+      "date": "2023",
+      "type": "Projet Scolaire",
+      "subtitle": "Création d'un Carnet de Compétences",
+      "description": "Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.",
+      "img": "src/assets/images/competences.jpg"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "date": "Actif",
+      "type": "Projet Personnel",
+      "subtitle": "Création de ce site internet",
+      "description": "Portfolio qui répertorie mes formations, compétences, moyens de contacts et mes créations.",
+      "img": "src/assets/images/competences.jpg"
+    }
+  }
+}

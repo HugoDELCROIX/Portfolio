@@ -9,7 +9,7 @@
       <a href="#about-me" class="hover:text-green"><li>À propos de moi</li></a>
       <a href="#education" class="hover:text-green"><li>Parcours</li></a>
       <a href="#exp-pro" class="hover:text-green"><li>Expériences professionnelles</li></a>
-      <a href="" class="hover:text-green"><li>Projets</li></a>
+      <a href="#projects" class="hover:text-green"><li>Projets</li></a>
     </ol>
   </div>
 </template>
