@@ -1,4 +1,40 @@
 {
+  "navigation": {
+    "exp_pro": "Expérience professionnelle",
+    "projects": "Mes projets"
+  },
+  "exp_pro": {
+    "projects": {
+      "title": "Projets",
+      "project": {
+        "activEsaip": {
+          "title": "Activ'Esaip",
+          "date": "Février à Mai 2023",
+          "subtitle": "Mise en place d'une topologie et d'un scénario d'attaque avec la solution CyberRange by Airbus",
+          "descriptionList": [],
+          "img": "src/assets/images/esaip.png",
+          "alt": "logo esaip"
+        }
+      }
+    },
+    "interships": {
+      "title": "Stages",
+      "intership": {
+        "kdrElectricite": {
+          "title": "K.D.R Électricité",
+          "date": "Avril 2020",
+          "subtitle": "Magasin de matériel électrique et de chantier",
+          "descriptionList": [
+            "Vendre et informer le client",
+            "Gestion du stock",
+            "Arranger et soigner les rayons"
+          ],
+          "img": "src/assets/images/france.png",
+          "alt": "france flag"
+        }
+      }
+    }
+  },
   "projects": {
     "skill_booklet": {
       "title": "Carnet de Compétences",
@@ -6,7 +42,7 @@
       "type": "Projet Scolaire",
       "subtitle": "Création d'un Carnet de Compétences",
       "description": "Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.",
-      "img": "src/assets/images/competences.jpg"
+      "img": "src/assets/images/projects/competences.jpg"
     },
     "portfolio": {
       "title": "Portfolio",
@@ -14,7 +50,23 @@
       "type": "Projet Personnel",
       "subtitle": "Création de ce site internet",
       "description": "Portfolio qui répertorie mes formations, compétences, moyens de contacts et mes créations.",
-      "img": "src/assets/images/competences.jpg"
+      "img": "src/assets/images/projects/portfolio.jpg"
+    },
+    "blog": {
+      "title": "Erasmus au Danemark",
+      "date": "Février à Juin 2022",
+      "type": "Projet Scolaire",
+      "subtitle": "Création d'un blog lors de mon séjour Erasmus",
+      "description": "Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos activités et découvertes au Danemark.",
+      "img": "src/assets/images/projects/blog.jpeg"
+    },
+    "pendulum": {
+      "title": "Le Pendule Oscillatoire",
+      "date": "2020",
+      "type": "Projet Scolaire",
+      "subtitle": "Création d'un pendule oscillatoire lors de mon cycle préparatoire",
+      "description": "Le projet consiste à créer un pendule oscillatoire et d'y apporter un questionnement scientifique sur son fonctionnement et ce que l'on peut en tirer.",
+      "img": "src/assets/images/projects/pendulum.png"
     }
   }
 }

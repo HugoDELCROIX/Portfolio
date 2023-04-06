@@ -34,7 +34,7 @@ body {
 }
 
 .page {
-  @apply flex flex-col justify-center min-h-screen;
+  @apply flex flex-col justify-center min-h-screen text-lg;
 }
 
 .section {

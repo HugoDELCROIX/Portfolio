@@ -1,5 +1,5 @@
 <template>
-  <div id="menu" class="flex justify-between pt-7 pb-3 fixed w-full bg-dark_blue">
+  <div id="menu" class="flex justify-between pt-7 pb-3 w-full bg-dark_blue">
     <!-- a améliorer avec menu vertical -->
 
     <div class="invisible" />

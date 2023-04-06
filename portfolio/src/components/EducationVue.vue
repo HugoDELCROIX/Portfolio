@@ -3,7 +3,7 @@
     <div class="section w-1/2 m-auto">
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
-          <p class="w-1/4 pl-5">Parcours scolaire</p>
+          <p class="w-1/4 text-center">Parcours scolaire</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>
         <div class="card mb-10">
@@ -73,7 +73,7 @@
       </div>
     </div>
     <div id="chevron" class="text-white text-center">
-      <a href="#pro"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
+      <a href="#exp-pro"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
     </div>
   </div>
 </template>
