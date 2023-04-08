@@ -36,13 +36,15 @@
     }
   },
   "projects": {
-    "skill_booklet": {
-      "title": "Carnet de Compétences",
-      "date": "2023",
+    "pendulum": {
+      "title": "Le Pendule Oscillatoire",
+      "date": "2020",
       "type": "Projet Scolaire",
-      "subtitle": "Création d'un Carnet de Compétences",
-      "description": "Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.",
-      "img": "src/assets/images/projects/competences.jpg"
+      "subtitle": "Création d'un pendule oscillatoire lors de mon cycle préparatoire",
+      "description": "Le projet consiste à créer un pendule oscillatoire et d'y apporter un questionnement scientifique sur son fonctionnement et ce que l'on peut en tirer.",
+      "repo": {
+        "exist": false
+      }
     },
     "portfolio": {
       "title": "Portfolio",
@@ -50,7 +52,21 @@
       "type": "Projet Personnel",
       "subtitle": "Création de ce site internet",
       "description": "Portfolio qui répertorie mes formations, compétences, moyens de contacts et mes créations.",
-      "img": "src/assets/images/projects/portfolio.jpg"
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/Portfolio"
+      }
+    },
+    "citadelle": {
+      "title": "Citadelles",
+      "date": "2021",
+      "type": "Projet Scolaire",
+      "subtitle": "Création d'un jeu de société en cycle ingénieur",
+      "description": "Le projet consiste à créer le jeu de societe \"Citadelle\" grâce au langage Java.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/Citadelle"
+      }
     },
     "blog": {
       "title": "Erasmus au Danemark",
@@ -58,15 +74,27 @@
       "type": "Projet Scolaire",
       "subtitle": "Création d'un blog lors de mon séjour Erasmus",
       "description": "Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos activités et découvertes au Danemark.",
-      "img": "src/assets/images/projects/blog.jpeg"
+      "repo": {
+        "exist": false
+      }
     },
-    "pendulum": {
-      "title": "Le Pendule Oscillatoire",
-      "date": "2020",
+    "skill_booklet": {
+      "title": "Carnet de Compétences",
+      "date": "2023",
       "type": "Projet Scolaire",
-      "subtitle": "Création d'un pendule oscillatoire lors de mon cycle préparatoire",
-      "description": "Le projet consiste à créer un pendule oscillatoire et d'y apporter un questionnement scientifique sur son fonctionnement et ce que l'on peut en tirer.",
-      "img": "src/assets/images/projects/pendulum.png"
+      "subtitle": "Création d'un Carnet de Compétences",
+      "description": "Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.",
+      "repo": {
+        "exist": false
+      }
+    },
+    "portscan": {
+      "title": "Port Scanner",
+      "date": "2023",
+      "type": "Projet Scolaire",
+      "subtitle": "Création d'un scanner de ports en Python",
+      "description": "Création de trois scripts Python. Le premier permet de scanner les 1024 premiers ports. Le deuxième permet de scanner des ports spécifiques et de renvoyer le service utilisé. Le troisième permet d'identifier les services vulnérables sur ces ports.",
+      "repo": { "exist": true, "link": "https://github.com/HugoDELCROIX/portscan" }
     }
   }
 }

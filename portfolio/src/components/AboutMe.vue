@@ -3,6 +3,7 @@
     <div class="section w-1/2 m-auto">
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
+          <font-awesome-icon icon="fa-solid fa-comment" />
           <p class="w-1/4 text-center">À propos de moi</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>

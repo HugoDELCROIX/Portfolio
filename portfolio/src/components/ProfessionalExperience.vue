@@ -3,6 +3,7 @@
     <div class="section w-1/2 m-auto">
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
+          <font-awesome-icon icon="fa-solid fa-thumb-tack" />
           <p class="w-2/4 text-center">{{ data.navigation.exp_pro }}</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>
