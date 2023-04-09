@@ -11,24 +11,20 @@
           <div
             v-for="item in data.projects"
             :key="item.id"
-            class="bg-white text-black rounded-lg mb-5 text-xs"
+            class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs"
           >
-            <div class="flex flex-col gap-5 border-2 rounded-md border-white p-5">
+            <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3">
               <div class="flex justify-between">
                 <p>
-                  <b>{{ item.title }}</b> · {{ item.date }}
+                  <b>{{ item.title }}</b> {{ item.date }}
                 </p>
                 <div class="flex gap-2 items-center">
                   <font-awesome-icon
                     class="text-lg"
-                    v-if="item.type == 'Projet Scolaire'"
+                    v-if="item.iconType == 1"
                     icon="fa-solid fa-graduation-cap"
                   />
-                  <font-awesome-icon
-                    v-if="item.type == 'Projet Personnel'"
-                    class="text-lg"
-                    icon="fa-solid fa-house-laptop"
-                  />
+                  <font-awesome-icon v-else class="text-lg" icon="fa-solid fa-house-laptop" />
                   <p>
                     <b>{{ item.type }}</b>
                   </p>

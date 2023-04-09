@@ -4,7 +4,7 @@
       <div>
         <div class="flex flex-row items-center justify-between w-full mb-5">
           <font-awesome-icon icon="fa-solid fa-comment" />
-          <p class="w-1/4 text-center">À propos de moi</p>
+          <p class="w-1/4 text-center">{{ data.navigation.aboutMe }}</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>
         <div class="flex gap-5 items-start text-base">
@@ -39,4 +39,11 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import data from '../locales/data.json'
+export default {
+  data() {
+    return { data: data }
+  }
+}
+</script>

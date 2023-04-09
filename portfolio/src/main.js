@@ -5,7 +5,13 @@ import './assets/main.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faGithub, faLinkedinIn, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
+import {
+  faGithub,
+  faLinkedinIn,
+  faInstagram,
+  faTelegram,
+  faVuejs
+} from '@fortawesome/free-brands-svg-icons'
 import {
   faChevronDown,
   faInbox,
@@ -14,7 +20,8 @@ import {
   faDiagramProject,
   faThumbTack,
   faChalkboardTeacher,
-  faComment
+  faComment,
+  faCube
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -29,7 +36,9 @@ library.add(
   faDiagramProject,
   faThumbTack,
   faChalkboardTeacher,
-  faComment
+  faComment,
+  faCube,
+  faVuejs
 )
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

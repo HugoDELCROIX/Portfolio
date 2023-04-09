@@ -5,13 +5,15 @@
   <EducationVue></EducationVue>
   <ProfessionalExperience></ProfessionalExperience>
   <ProjectsVue></ProjectsVue>
+  <FooterVue></FooterVue>
 </template>
 
 <script setup>
-import AboutMe from './components/AboutMe.vue'
-import HomeVue from './components/HomeVue.vue'
+import AboutMe from './views/AboutMe.vue'
+import HomeVue from './views/HomeVue.vue'
 import NavigationVue from './components/NavigationVue.vue'
-import EducationVue from './components/EducationVue.vue'
-import ProfessionalExperience from './components/ProfessionalExperience.vue'
-import ProjectsVue from './components/ProjectsVue.vue'
+import EducationVue from './views/EducationVue.vue'
+import ProfessionalExperience from './views/ProfessionalExperience.vue'
+import ProjectsVue from './views/ProjectsVue.vue'
+import FooterVue from './components/FooterVue.vue'
 </script>
