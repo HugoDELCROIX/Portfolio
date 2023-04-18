@@ -1,7 +1,7 @@
 <template>
   <NavigationVue></NavigationVue>
   <HomeVue></HomeVue>
-  <AboutMe></AboutMe>
+  <!-- <AboutMe></AboutMe> -->
   <EducationVue></EducationVue>
   <ProfessionalExperience></ProfessionalExperience>
   <ProjectsVue></ProjectsVue>

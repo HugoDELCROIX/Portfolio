@@ -72,7 +72,12 @@
           "title": "Activ'Esaip",
           "date": "Février à Mai 2023",
           "subtitle": "Mise en place d'une topologie et d'un scénario d'attaque avec la solution CyberRange by Airbus",
-          "descriptionList": [],
+          "descriptionList": [
+            "Maitriser la solution CyberRange by Airbus",
+            "Avoir une connaissance des méthodes et schémas de cyberattaques au sein des entreprises",
+            "Configuration d'une topologie",
+            "Création de chemins d'attaques (vulnérabilités, fautes professionelles)"
+          ],
           "img": "src/assets/images/esaip.png",
           "alt": "logo esaip"
         }

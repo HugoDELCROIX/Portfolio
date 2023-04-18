@@ -22,7 +22,7 @@
 }
 
 html {
-  @apply font-krona scroll-smooth;
+  @apply font-kanit scroll-smooth;
 }
 
 body {
@@ -34,7 +34,11 @@ body {
 }
 
 .page {
-  @apply flex flex-col justify-center min-h-screen text-lg;
+  @apply flex flex-col justify-center min-h-screen;
+}
+
+.title {
+  @apply flex flex-row items-center justify-between w-full mb-5 font-krona text-xl;
 }
 
 .section {

@@ -4,11 +4,11 @@
 
     <div class="invisible" />
     <ol
-      class="list-ordered text-white marker:text-green text-xs font-hack flex justify-around w-1/2"
+      class="list-ordered text-white marker:text-green font-hack flex justify-around w-1/2 text-base"
     >
-      <a href="#about-me" class="hover:text-green"
+      <!-- <a href="#about-me" class="hover:text-green"
         ><li>{{ data.navigation.aboutMe }}</li></a
-      >
+      > -->
       <a href="#education" class="hover:text-green"
         ><li>{{ data.navigation.education }}</li></a
       >

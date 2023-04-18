@@ -15,7 +15,8 @@ module.exports = {
     },
     fontFamily: {
       hack: 'Hack',
-      krona: ['Krona One', 'sans-serif']
+      krona: ['Krona One', 'sans-serif'],
+      kanit: ['Kanit', 'sans-serif']
     }
   },
   variants: {
