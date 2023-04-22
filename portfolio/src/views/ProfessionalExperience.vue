@@ -1,5 +1,5 @@
 <template>
-  <div id="exp-pro" class="page">
+  <div id="exp-pro" class="page pt-10">
     <div class="section w-1/2 m-auto">
       <div>
         <div class="title">

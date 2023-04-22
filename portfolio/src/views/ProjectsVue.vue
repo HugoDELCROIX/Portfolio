@@ -1,8 +1,8 @@
 <template>
-  <div id="projects" class="page">
+  <div id="projects" class="page pt-10">
     <div class="section flex-col m-auto w-1/2">
       <div>
-        <div class="flex flex-row items-center justify-between w-full mb-5">
+        <div class="title">
           <font-awesome-icon icon="fa-solid fa-diagram-project" />
           <p class="w-1/4 text-center">{{ data.navigation.projects }}</p>
           <hr class="w-3/4 border-gray-400 rounded" />
@@ -13,7 +13,7 @@
             :key="item.id"
             class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs"
           >
-            <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3">
+            <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3 text-lg">
               <div class="flex justify-between">
                 <p>
                   <b>{{ item.title }}</b> {{ item.date }}
