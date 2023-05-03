@@ -438,28 +438,20 @@ $school = "<i class='fa-solid fa-school'></i><h5>Projet scolaire</h5>";
                     </div>
                 </div>
             </a>
-            <a href="/fr/projets/Carnet_De_Competences/Mon_Carnet_De_Competence.php" target="blank">
+            <a href="/fr/ppp/index.html" target="blank">
                 <div class="container-img-text container-card">
                     <img src="images/competences.jpg" style="border: dotted black;" alt="reblochon">
                     <div class="card-description">
                         <div class="card-header">
                             <h3>
-                                Carnet de Compétences  · <span> Actif</span>
+                                LEP  · <span> Actif</span>
                             </h3>
                             <div class=" card-header-icon"><?=$school?></div>
                         </div>
-                        <h4>Création d'un Carnet de Compétences</h4>
+                        <h4>Création d'un blog expliquant mon LEP</h4>
                         <p>
-                            Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.
+                            Création d'un blog dans lequel j'explique mes action de bénévolat.
                         </p>
-                        <button>
-                            <a href="https://github.com/HugoDELCROIX/Portfolio/tree/main/fr/projets/Carnet_De_Competences" target="_blank">
-                                <div class="card-footer">
-                                    <i class="fa-brands fa-github"></i>
-                                    <h6>Lien vers le dépot GitHub</h6>
-                                </div>
-                            </a>
-                        </button>
                     </div>
                 </div>
             </a>
