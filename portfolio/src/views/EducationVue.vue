@@ -4,7 +4,7 @@
       <div>
         <div class="title">
           <font-awesome-icon icon="fa-solid fa-chalkboard-teacher" />
-          <p class="w-2/6 text-center">{{ data.navigation.education }}</p>
+          <p class="w-3/6 text-center">{{ data.navigation.education }}</p>
           <hr class="w-3/4 border-gray-400 rounded" />
         </div>
         <div v-for="item in data['education ']" :key="item.id" class="card mb-10">

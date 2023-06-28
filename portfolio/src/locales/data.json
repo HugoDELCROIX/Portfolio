@@ -3,7 +3,8 @@
     "aboutMe": "À propos de moi",
     "education": "Parcours scolaire",
     "exp_pro": "Expérience professionnelle",
-    "projects": "Mes projets"
+    "projects": "Mes projets",
+    "close": "Fermer"
   },
   "home": {
     "hello": "Bonjour ! Je suis",
@@ -86,17 +87,13 @@
     "interships": {
       "title": "Stages",
       "intership": {
-        "kdrElectricite": {
-          "title": "K.D.R Électricité",
-          "date": "Avril 2020",
-          "subtitle": "Magasin de matériel électrique et de chantier",
-          "descriptionList": [
-            "Vendre et informer le client",
-            "Gestion du stock",
-            "Arranger et soigner les rayons"
-          ],
-          "img": "src/assets/images/france.png",
-          "alt": "france flag"
+        "wessSoft": {
+          "title": "Wess Soft",
+          "date": "Juin à Août 2023",
+          "subtitle": "Agence Web & Mobile",
+          "descriptionList": ["R&D sur de la récupération de données publique via API"],
+          "img": "src/assets/images/wessSoft.jpeg",
+          "alt": "logo wess soft"
         }
       }
     }

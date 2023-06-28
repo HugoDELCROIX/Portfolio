@@ -4,8 +4,8 @@
       <div>
         <div class="title">
           <font-awesome-icon icon="fa-solid fa-thumb-tack" />
-          <p class="w-4/6 text-center">{{ data.navigation.exp_pro }}</p>
-          <hr class="w-3/4 border-gray-400 rounded" />
+          <p class="w-5/6 text-center">{{ data.navigation.exp_pro }}</p>
+          <hr class="w-2/4 border-gray-400 rounded" />
         </div>
         <p class="mb-5 text-3xl">{{ data.exp_pro.projects.title }} :</p>
         <div v-for="item in data.exp_pro.projects.project" :key="item.id" class="card mb-10">
