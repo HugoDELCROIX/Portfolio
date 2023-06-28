@@ -38,11 +38,11 @@ body {
 }
 
 .title {
-  @apply flex flex-row items-center justify-between w-full mb-5 font-krona text-xl;
+  @apply flex flex-col md:flex-row gap-1 items-center justify-center md:justify-between mb-5 font-krona text-xl;
 }
 
 .section {
-  @apply text-white flex justify-center items-center;
+  @apply text-white flex justify-center items-center m-auto  xl:w-1/2 w-5/6;
 }
 
 .social-link {
@@ -50,5 +50,9 @@ body {
 }
 
 .card {
-  @apply flex gap-10;
+  @apply flex gap-10 flex-col md:flex-row items-center md:items-start;
+}
+
+.btn-nav {
+  @apply border-2 border-green p-2 m-2 rounded;
 }

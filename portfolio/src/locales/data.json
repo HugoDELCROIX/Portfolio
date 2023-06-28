@@ -41,7 +41,7 @@
       "cycle": {
         "ing": {
           "title": "Cycle Ingénieur du numérique",
-          "date": "2021 - Aujourd'hui",
+          "date": "2021 - 2024",
           "descriptionList": [
             "Analyse mathématiques et Algèbre",
             "Dévelopement Web frontend : HTML/CSS",
@@ -145,17 +145,6 @@
         "exist": false
       }
     },
-    "skill_booklet": {
-      "title": "Carnet de Compétences",
-      "date": "2023",
-      "type": "Projet Scolaire",
-      "iconType": 1,
-      "subtitle": "Création d'un Carnet de Compétences",
-      "description": "Création d'un Carnet de Compétences dans le cadre d'un projet scolaire.",
-      "repo": {
-        "exist": false
-      }
-    },
     "portscan": {
       "title": "Port Scanner",
       "date": "2023",
@@ -170,7 +159,6 @@
     }
   },
   "footer": {
-    "vue": "Fait avec",
-    "disclaimer": "Ce site est inspiré de celui de Brittany Chiang."
+    "vue": "Fait avec"
   }
 }

@@ -4,7 +4,6 @@
       <p>{{ data.footer.vue }}</p>
       <font-awesome-icon class="text-2xl" icon="fa-brands fa-vuejs" />
     </div>
-    <a href="https://brittanychiang.com/" target="_blank">{{ data.footer.disclaimer }}</a>
     <p>{{ version }}</p>
   </div>
 </template>

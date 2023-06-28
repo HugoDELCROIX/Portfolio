@@ -1,11 +1,14 @@
 <template>
   <div id="projects" class="page pt-10">
-    <div class="section flex-col m-auto w-1/2">
+    <div class="section flex-col w-1/2">
       <div>
         <div class="title">
-          <font-awesome-icon icon="fa-solid fa-diagram-project" />
-          <p class="w-1/4 text-center">{{ data.navigation.projects }}</p>
-          <hr class="w-3/4 border-gray-400 rounded" />
+          <font-awesome-icon
+            class="md:flex-shrink-0 hidden md:block"
+            icon="fa-solid fa-thumb-tack"
+          />
+          <p class="flex-grow md:w-5/6 text-center">{{ data.navigation.projects }}</p>
+          <hr class="w-full md:w-5/6 border-gray-400 rounded" />
         </div>
         <div class="flex flex-col-reverse">
           <div

@@ -1,12 +1,16 @@
 <template>
   <div id="exp-pro" class="page pt-10">
-    <div class="section w-1/2 m-auto">
+    <div class="section w-1/2">
       <div>
         <div class="title">
-          <font-awesome-icon icon="fa-solid fa-thumb-tack" />
-          <p class="w-5/6 text-center">{{ data.navigation.exp_pro }}</p>
-          <hr class="w-2/4 border-gray-400 rounded" />
+          <font-awesome-icon
+            class="md:flex-shrink-0 hidden md:block"
+            icon="fa-solid fa-thumb-tack"
+          />
+          <p class="flex-grow md:w-5/6 text-center">{{ data.navigation.exp_pro }}</p>
+          <hr class="w-full md:w-2/4 border-gray-400 rounded" />
         </div>
+
         <p class="mb-5 text-3xl">{{ data.exp_pro.projects.title }} :</p>
         <div v-for="item in data.exp_pro.projects.project" :key="item.id" class="card mb-10">
           <img
@@ -24,6 +28,7 @@
             </ul>
           </div>
         </div>
+
         <p class="mb-5 text-3xl">{{ data.exp_pro.interships.title }} :</p>
         <div v-for="item in data.exp_pro.interships.intership" :key="item.id" class="card mb-10">
           <img
