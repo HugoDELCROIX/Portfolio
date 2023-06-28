@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+html {
+  @apply font-kanit scroll-smooth;
+}
+
+body {
+  @apply bg-dark_blue;
+}
+
+#app {
+  @apply min-h-full;
+}
+
+.page {
+  @apply flex flex-col justify-center min-h-screen;
+}
+
+.title {
+  @apply flex flex-col md:flex-row gap-1 items-center justify-center md:justify-between mb-5 font-krona text-xl;
+}
+
+.section {
+  @apply text-white flex justify-center items-center m-auto  xl:w-1/2 w-5/6;
+}
+
+.social-link {
+  @apply rounded px-2 py-1 hover:bg-white hover:text-black;
+}
+
+.card {
+  @apply flex gap-10 flex-col md:flex-row items-center md:items-start;
+}
+
+.btn-nav {
+  @apply border-2 border-green p-2 m-2 rounded;
+}
