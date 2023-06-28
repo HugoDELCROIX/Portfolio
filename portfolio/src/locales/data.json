@@ -33,7 +33,7 @@
           ]
         }
       },
-      "img": "src/assets/images/via.png",
+      "img": "/images/via.png",
       "alt": "logo via"
     },
     "esaip": {
@@ -61,7 +61,7 @@
           ]
         }
       },
-      "img": "src/assets/images/esaip.png",
+      "img": "/images/esaip.png",
       "alt": "logo esaip"
     }
   },
@@ -79,7 +79,7 @@
             "Configuration d'une topologie",
             "Création de chemins d'attaques (vulnérabilités, fautes professionelles)"
           ],
-          "img": "src/assets/images/esaip.png",
+          "img": "/images/esaip.png",
           "alt": "logo esaip"
         }
       }
@@ -92,7 +92,7 @@
           "date": "Juin à Août 2023",
           "subtitle": "Agence Web & Mobile",
           "descriptionList": ["R&D sur de la récupération de données publique via API"],
-          "img": "src/assets/images/wessSoft.jpeg",
+          "img": "/images/wessSoft.jpeg",
           "alt": "logo wess soft"
         }
       }
