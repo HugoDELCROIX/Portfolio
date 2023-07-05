@@ -4,6 +4,9 @@
       <!-- <a href="#about-me" class="hover:text-green"
         ><li>{{ data.navigation.aboutMe }}</li></a
       > -->
+      <a href="../#tools" class="hover:text-green"
+        ><li class="btn-nav">{{ data.navigation.tools }}</li></a
+      >
       <a href="../#education" class="hover:text-green"
         ><li class="btn-nav">{{ data.navigation.education }}</li></a
       >
