@@ -12,38 +12,42 @@
         </div>
 
         <p class="mb-5 text-3xl">{{ data.exp_pro.projects.title }} :</p>
-        <div v-for="item in data.exp_pro.projects.project" :key="item.id" class="card mb-10">
-          <img
-            :src="item.img"
-            :alt="item.alt"
-            class="w-32 object-center object-cover h-full rounded"
-          />
-          <div class="flex flex-col gap-4 text-3xl">
-            <p>
-              <b>{{ item.title }} :</b> {{ item.subtitle }}
-            </p>
-            <p class="text-2xl">{{ item.date }}</p>
-            <ul class="list-disc text-white marker:text-green text-base">
-              <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
-            </ul>
+        <div class="flex flex-col-reverse">
+          <div v-for="item in data.exp_pro.projects.project" :key="item.id" class="card mb-10">
+            <img
+              :src="item.img"
+              :alt="item.alt"
+              class="w-32 object-center object-cover h-full rounded"
+            />
+            <div class="flex flex-col gap-4 text-3xl">
+              <p>
+                <b>{{ item.title }} :</b> {{ item.subtitle }}
+              </p>
+              <p class="text-2xl">{{ item.date }}</p>
+              <ul class="list-disc text-white marker:text-green text-base">
+                <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
+              </ul>
+            </div>
           </div>
         </div>
 
         <p class="mb-5 text-3xl">{{ data.exp_pro.interships.title }} :</p>
-        <div v-for="item in data.exp_pro.interships.intership" :key="item.id" class="card mb-10">
-          <img
-            :src="item.img"
-            :alt="item.alt"
-            class="w-32 object-center object-cover h-full rounded"
-          />
-          <div class="flex flex-col gap-4 text-3xl">
-            <p>
-              <b>{{ item.title }} :</b> {{ item.subtitle }}
-            </p>
-            <p class="text-2xl">{{ item.date }}</p>
-            <ul class="list-disc text-white marker:text-green text-base">
-              <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
-            </ul>
+        <div class="flex flex-col-reverse">
+          <div v-for="item in data.exp_pro.interships.intership" :key="item.id" class="card mb-10">
+            <img
+              :src="item.img"
+              :alt="item.alt"
+              class="w-32 object-center object-cover h-full rounded"
+            />
+            <div class="flex flex-col gap-4 text-3xl">
+              <p>
+                <b>{{ item.title }} :</b> {{ item.subtitle }}
+              </p>
+              <p class="text-2xl">{{ item.date }}</p>
+              <ul class="list-disc text-white marker:text-green text-base">
+                <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

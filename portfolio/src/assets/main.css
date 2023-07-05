@@ -42,11 +42,19 @@ body {
 }
 
 .section {
-  @apply text-white flex justify-center items-center m-auto  xl:w-1/2 w-5/6;
+  @apply text-white  m-auto  xl:w-1/2 w-5/6;
 }
 
 .social-link {
   @apply rounded px-2 py-1 hover:bg-white hover:text-black;
+}
+
+.tools-grid {
+  @apply grid grid-cols-2 sm:grid-cols-4;
+}
+
+.tool {
+  @apply flex gap-2 items-center text-2xl;
 }
 
 .card {

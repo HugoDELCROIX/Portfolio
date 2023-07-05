@@ -1,6 +1,7 @@
 {
   "navigation": {
     "aboutMe": "À propos de moi",
+    "tools": "Mes Outils",
     "education": "Parcours scolaire",
     "exp_pro": "Expérience professionnelle",
     "projects": "Mes projets",
@@ -16,26 +17,6 @@
     "description": "IEplIG3igJlhcHBlbGxlIEh1Z28sIDIxIGFucy4gSmUgc3VpcyBhY3R1ZWxsZW1lbnQKICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtZ3JlZW4iPsOpdHVkaWFudCBlbiBjeWNsZSBpbmfDqW5pZXVyIGR1IG51bcOpcmlxdWUgw6AgbOKAmUVzYWlwPC9zcGFuPi4KICAgICAgICAgICAgSidhaW1lIGwnaW5mb3JtYXRpcXVlIGRlcHVpcyBwZXRpdCBldCBqJ2FpIHRvdWpvdXJzIGV1IGxlIHNvdWhhaXQgZGUgdHJhdmFpbGxlciBkYW5zIGNlCiAgICAgICAgICAgIGRvbWFpbmUuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgSidhaSBjaG9pc2kgZGUgbSdvcmllbnRlciB2ZXJzIDxzcGFuIGNsYXNzPSJ0ZXh0LWdyZWVuIj5sYSBjeWJlcnPDqWN1cml0w6k8L3NwYW4+IHBhcmNlCiAgICAgICAgICAgIHF1ZSBjJ2VzdCB1biBzZWN0ZXVyIHF1aSDDqXZvbHVlIGNvbnN0YW1tZW50LiBEZXMgbWlsbGllcnMgZCdlbnRyZXByaXNlcyBzb250IHZpY3RpbWVzIGRlCiAgICAgICAgICAgIGN5YmVyYXR0YXF1ZXMgdG91cyBsZXMgYW5zIGV0IG5lIHBldXZlbnQgcGFzIHNlIGTDqWZlbmRyZS4KICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBNb24gYW1iaXRpb24gZXN0IGRlCiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LWdyZWVuIj5zw6ljdXJpc2VyIGxlcyBzeXN0w6htZXMgZCdpbmZvcm1hdGlvbnM8L3NwYW4+IGRlIHZvdHJlCiAgICAgICAgICAgIGVudHJlcHJpc2UgZXQgZm9ybWVyIHZvcyBjb2xsYWJvcmF0ZXVycyBhdXggYm9ubmVzIHByYXRpcXVlcyBlbiB0ZXJtZSBkZSBDeWJlcnPDqWN1cml0w6kuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgRW4gZGVob3JzIGRlIGNldHRlIHBhc3Npb24sIGonYWltZSBiZWF1Y291cCBsZSBzcG9ydC4gSidhaSBsb25ndGVtcHMgcHJhdGlxdcOpIGR1IHRlbm5pcwogICAgICAgICAgICBldCBqJ2FwcHLDqWNpZSByZWdhcmRlciBkZXMgbWF0Y2hzIGRlIGZvb3RiYWxsIGVudHJlIGFtaXMuIEonYWltZSBhdXNzaSBqb3VlciBhdXggamV1eAogICAgICAgICAgICB2aWTDqW9zIGV0IHBhcnRpY3VsacOocmVtZW50IGxlcyBqZXV4IGRlIGNvbXDDqXRpb25zIGVuIGNvbGxlY3RpZi4="
   },
   "education ": {
-    "via": {
-      "title": "VIA University College",
-      "cycle": {
-        "winter": {
-          "title": "Ingénierie Logicielle",
-          "date": "Février à Juin 2022",
-          "descriptionList": [
-            "Développement Android",
-            "Informatique Décisionnelle",
-            "Bases de données non SQL et relationnelles",
-            "Conception Web réactive",
-            "Processus d'ingénierie Web",
-            "Management de projets en Ingénierie Informatique",
-            "Création d'un blog sur le séjour d'études"
-          ]
-        }
-      },
-      "img": "/images/via.png",
-      "alt": "logo via"
-    },
     "esaip": {
       "title": "ESAIP, école d'ingénieurs du numérique et de la prévention des risques",
       "cycle": {
@@ -63,12 +44,43 @@
       },
       "img": "/images/esaip.png",
       "alt": "logo esaip"
+    },
+    "via": {
+      "title": "VIA University College",
+      "cycle": {
+        "winter": {
+          "title": "Ingénierie Logicielle",
+          "date": "Février à Juin 2022",
+          "descriptionList": [
+            "Développement Android",
+            "Informatique Décisionnelle",
+            "Bases de données non SQL et relationnelles",
+            "Conception Web réactive",
+            "Processus d'ingénierie Web",
+            "Management de projets en Ingénierie Informatique",
+            "Création d'un blog sur le séjour d'études"
+          ]
+        }
+      },
+      "img": "/images/via.png",
+      "alt": "logo via"
     }
   },
   "exp_pro": {
     "projects": {
       "title": "Projets",
       "project": {
+        "design4green": {
+          "title": "Design4Green",
+          "date": "Novembre 2022",
+          "subtitle": "2e place de notre équipe \"Les Arti'chaud\"",
+          "descriptionList": [
+            "Challenge de 48h non-stop d'écoconception numérique.",
+            "Respecter les normes d'écologie et d'accessibilité"
+          ],
+          "img": "/images/d4g.jpeg",
+          "alt": "logo Design4Green"
+        },
         "activEsaip": {
           "title": "Activ'Esaip",
           "date": "Février à Mai 2023",
@@ -91,7 +103,7 @@
           "title": "Wess Soft",
           "date": "Juin à Août 2023",
           "subtitle": "Agence Web & Mobile",
-          "descriptionList": ["R&D sur de la récupération de données publique via API"],
+          "descriptionList": ["R&D sur de la récupération de données publiques via API"],
           "img": "/images/wessSoft.jpeg",
           "alt": "logo wess soft"
         }
@@ -128,7 +140,7 @@
       "type": "Projet Scolaire",
       "iconType": 1,
       "subtitle": "Création d'un jeu de société en cycle ingénieur",
-      "description": "Le projet consiste à créer le jeu de societe \"Citadelle\" grâce au langage Java.",
+      "description": "Le projet consiste à créer le jeu de société \"Citadelles\" grâce au langage Java.",
       "repo": {
         "exist": true,
         "link": "https://github.com/HugoDELCROIX/Citadelle"
@@ -140,9 +152,21 @@
       "type": "Projet Scolaire",
       "iconType": 1,
       "subtitle": "Création d'un blog lors de mon séjour Erasmus",
-      "description": "Le projet consiste à créer un site internet, sous forme de blog, qui repertorie nos activités et découvertes au Danemark.",
+      "description": "Le projet consiste à créer un site internet, sous forme de blog, qui répertorie nos activités et découvertes au Danemark.",
       "repo": {
         "exist": false
+      }
+    },
+    "design4gree": {
+      "title": "Design4Green",
+      "date": "2022",
+      "type": "Projet Scolaire",
+      "iconType": 1,
+      "subtitle": "Création d'un site accessible et écoresponsable dans le cadre du Design4Green",
+      "description": "Écoconception d'un site accessible en VueJS. Le site présente des formations avec une navigation par recherche ou par localisation via une carte interactive. Les formations peuvent être placées dans un panier et exportées sous forme de pdf.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/design4green"
       }
     },
     "portscan": {

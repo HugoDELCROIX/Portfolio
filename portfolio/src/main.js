@@ -10,7 +10,18 @@ import {
   faLinkedinIn,
   faInstagram,
   faTelegram,
-  faVuejs
+  faVuejs,
+  faLinux,
+  faApple,
+  faWindows,
+  faFedora,
+  faPython,
+  faPhp,
+  faSymfony,
+  faJs,
+  faJava,
+  faTrello,
+  faFigma
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faChevronDown,
@@ -42,7 +53,18 @@ library.add(
   faCube,
   faVuejs,
   faBars,
-  faXmark
+  faXmark,
+  faLinux,
+  faApple,
+  faWindows,
+  faFedora,
+  faPython,
+  faPhp,
+  faSymfony,
+  faJs,
+  faJava,
+  faTrello,
+  faFigma
 )
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')
