@@ -103,7 +103,11 @@
           "title": "Wess Soft",
           "date": "Juin à Août 2023",
           "subtitle": "Agence Web & Mobile",
-          "descriptionList": ["R&D sur de la récupération de données publiques via API"],
+          "descriptionList": [
+            "R&D sur de la récupération de données publiques via API",
+            "Pentesting d'application Web",
+            "Apprentissage de différents outils (Symfony, NodeJS)"
+          ],
           "img": "/images/wessSoft.jpeg",
           "alt": "logo wess soft"
         }
