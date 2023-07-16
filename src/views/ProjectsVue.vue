@@ -14,7 +14,7 @@
           <div
             v-for="item in data.projects"
             :key="item.id"
-            class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs"
+            class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs project"
           >
             <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3 text-lg">
               <div class="flex justify-center flex-wrap flex-col md:justify-between md:flex-row">
