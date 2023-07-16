@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around text-white text-sm mb-3">
+  <div class="flex justify-around text-dark_blue dark:text-white text-sm mb-3">
     <div class="flex items-center gap-2">
       <p>{{ data.footer.vue }}</p>
       <font-awesome-icon class="text-2xl" icon="fa-brands fa-vuejs" />

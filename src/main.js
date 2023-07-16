@@ -34,7 +34,11 @@ import {
   faComment,
   faCube,
   faBars,
-  faXmark
+  faXmark,
+  faToggleOff,
+  faToggleOn,
+  faSun,
+  faMoon
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -64,7 +68,11 @@ library.add(
   faJs,
   faJava,
   faTrello,
-  faFigma
+  faFigma,
+  faToggleOff,
+  faToggleOn,
+  faSun,
+  faMoon
 )
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')

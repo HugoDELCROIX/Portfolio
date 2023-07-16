@@ -25,10 +25,6 @@ html {
   @apply font-kanit scroll-smooth;
 }
 
-body {
-  @apply bg-dark_blue;
-}
-
 #app {
   @apply min-h-full;
 }
@@ -38,7 +34,7 @@ body {
 }
 
 .title {
-  @apply flex flex-col md:flex-row gap-1 items-center justify-center md:justify-between mb-5 font-krona text-xl;
+  @apply flex flex-col md:flex-row gap-1 items-center justify-center md:justify-between mb-5 font-krona text-xl  dark:text-white text-dark_blue;
 }
 
 .section {
@@ -46,7 +42,7 @@ body {
 }
 
 .social-link {
-  @apply rounded px-2 py-1 hover:bg-white hover:text-black;
+  @apply rounded px-2 py-1 dark:hover:bg-white hover:bg-light_green dark:hover:text-black hover:text-white;
 }
 
 .tools-grid {
@@ -54,7 +50,7 @@ body {
 }
 
 .tool {
-  @apply flex gap-2 items-center text-2xl;
+  @apply flex gap-2 items-center text-2xl text-dark_blue dark:text-white;
 }
 
 .card {
@@ -62,5 +58,9 @@ body {
 }
 
 .btn-nav {
-  @apply border-2 border-green p-2 m-2 rounded;
+  @apply border-2 border-light_green dark:border-dark_green p-2 m-2 rounded;
+}
+
+.project {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
