@@ -17,8 +17,8 @@
             class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs"
           >
             <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3 text-lg">
-              <div class="flex justify-between">
-                <p>
+              <div class="flex justify-center flex-wrap flex-col md:justify-between md:flex-row">
+                <p class="flex flex-col items-center gap-2 md:flex-none md:items-start md:flex-row">
                   <b>{{ item.title }}</b> {{ item.date }}
                 </p>
                 <div class="flex gap-2 items-center">
