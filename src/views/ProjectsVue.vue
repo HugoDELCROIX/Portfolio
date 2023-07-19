@@ -21,7 +21,7 @@
                 <p class="flex flex-col items-center gap-2 md:flex-none md:items-start md:flex-row">
                   <b>{{ item.title }}</b> {{ item.date }}
                 </p>
-                <div class="flex gap-2 items-center">
+                <div class="flex gap-2 items-center justify-center">
                   <font-awesome-icon
                     class="text-lg"
                     v-if="item.iconType == 1"
