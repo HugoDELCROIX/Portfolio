@@ -2,6 +2,7 @@
   <button
     v-on:click="toggleDark()"
     class="flex justify-between items-center absolute right-1/2 top-10 text-3xl pt-2 pb-2 pl-3 pr-3 h-14 dark:border-white border-2 rounded-md border-dark_blue"
+    style="margin-right: -74px"
   >
     <font-awesome-icon
       class="w-10 text-dark_blue text-2xl dark:text-white"
