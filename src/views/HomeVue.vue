@@ -1,7 +1,7 @@
 <template>
   <div class="page font-krona">
     <div class="text-white flex justify-center items-center m-auto w-5/6">
-      <div class="text-4xl flex flex-col gap-4 items-start m-auto">
+      <div class="text-xl sm:text-4xl flex flex-col gap-4 items-start m-auto">
         <p
           class="text-lg font-hack text-light_green dark:text-dark_green font-bold dark:font-normal"
         >

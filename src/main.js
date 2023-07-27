@@ -21,7 +21,10 @@ import {
   faJs,
   faJava,
   faTrello,
-  faFigma
+  faFigma,
+  faCreativeCommonsBy,
+  faCreativeCommonsNcEu,
+  faCreativeCommons
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faChevronDown,
@@ -40,7 +43,6 @@ import {
   faSun,
   faMoon
 } from '@fortawesome/free-solid-svg-icons'
-
 library.add(
   faGithub,
   faLinkedinIn,
@@ -72,7 +74,10 @@ library.add(
   faToggleOff,
   faToggleOn,
   faSun,
-  faMoon
+  faMoon,
+  faCreativeCommonsBy,
+  faCreativeCommonsNcEu,
+  faCreativeCommons
 )
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')
