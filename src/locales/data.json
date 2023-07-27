@@ -187,6 +187,7 @@
     }
   },
   "footer": {
-    "vue": "Fait avec"
+    "vue": "Fait avec",
+    "rights": "Pas d’Utilisation Commerciale (CC BY-NC 4.0)"
   }
 }
