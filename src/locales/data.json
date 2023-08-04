@@ -173,16 +173,16 @@
         "link": "https://github.com/HugoDELCROIX/design4green"
       }
     },
-    "portscan": {
-      "title": "Port Scanner",
-      "date": "2023",
-      "type": "Projet Scolaire",
-      "iconType": 1,
-      "subtitle": "Création d'un scanner de ports en Python",
-      "description": "Création de trois scripts Python. Le premier permet de scanner les 1024 premiers ports. Le deuxième permet de scanner des ports spécifiques et de renvoyer le service utilisé. Le troisième permet d'identifier les services vulnérables sur ces ports.",
+    "sploitableTools": {
+      "title": "SploitableTools",
+      "date": "Actif",
+      "type": "Projet Personnel",
+      "isPersonal": true,
+      "subtitle": "Création d'un Framework d'outils de Pentesting",
+      "description": "Création d'un Framework composé de scripts python servant à faire du Pentesting. Le but est d'introduire la Cybersécurité à des étudiants en IT avec des scripts simple à comprendre.",
       "repo": {
         "exist": true,
-        "link": "https://github.com/HugoDELCROIX/portscan"
+        "link": "https://github.com/HugoDELCROIX/SploitableTools"
       }
     }
   },
