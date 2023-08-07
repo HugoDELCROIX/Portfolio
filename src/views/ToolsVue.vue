@@ -7,7 +7,7 @@
             class="md:flex-shrink-0 hidden md:block"
             icon="fa-solid fa-thumb-tack"
           />
-          <p class="flex-grow md:w-5/6 text-center">{{ data.navigation.tools }}</p>
+          <p class="flex-grow md:w-5/6 text-center">{{ $t('navigation.tools') }}</p>
           <hr class="w-full md:w-3/4 border-gray-600 dark:border-gray-400 rounded" />
         </div>
         <div class="flex flex-col justify-center gap-5">
@@ -47,7 +47,7 @@
 
 <script>
 import ToolComponent from '../components/ToolComponent.vue'
-import data from '../locales/data.json'
+import data from '../locales/fr.json'
 export default {
   data() {
     return { data: data }

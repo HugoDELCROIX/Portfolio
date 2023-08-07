@@ -2,15 +2,13 @@
   <div class="page font-krona">
     <div class="text-white flex justify-center items-center m-auto w-5/6">
       <div class="text-xl sm:text-4xl flex flex-col gap-4 items-start m-auto">
-        <p
-          class="text-lg font-hack text-light_green dark:text-dark_green font-bold dark:font-normal"
-        >
-          {{ data.home.hello }}
+        <p class="text-lg font-hack text-light_green dark:text-dark_green dark:font-dark">
+          {{ $t('home.hello') }}
         </p>
         <p class="font-black text-gray-800 dark:text-gray-200">Hugo DELCROIX</p>
-        <p class="text-gray-600 dark:text-gray-400">{{ data.home.job }}</p>
-        <p class="text-base text-black dark:text-white">
-          {{ data.home.description }}
+        <p class="text-gray-600 dark:text-gray-400">{{ $t('home.job') }}</p>
+        <p class="text-base text-black dark:text-white xl:w-[1000px]">
+          {{ $t('home.description') }}
         </p>
         <div
           class="flex mt-3 justify-between text-3xl flex-wrap items-center text-dark_blue dark:text-white"
@@ -39,7 +37,7 @@
             >
               <font-awesome-icon icon="fa-solid fa-inbox" />
               <p class="text-xs w-3/4">
-                {{ data.home.mail }}
+                {{ $t('home.mail') }}
               </p>
             </div>
           </a>
@@ -54,7 +52,7 @@
 </template>
 
 <script>
-import data from '../locales/data.json'
+import data from '../locales/fr.json'
 export default {
   data() {
     return { data: data }

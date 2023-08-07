@@ -7,13 +7,17 @@
             class="md:flex-shrink-0 hidden md:block"
             icon="fa-solid fa-thumb-tack"
           />
-          <p class="flex-grow md:w-5/6 text-center">{{ data.navigation.exp_pro }}</p>
+          <p class="flex-grow md:w-5/6 text-center">{{ $t('navigation.exp_pro') }}</p>
           <hr class="w-full md:w-2/4 border-gray-400 rounded" />
         </div>
 
-        <p class="mb-5 text-3xl">{{ data.exp_pro.projects.title }} :</p>
+        <p class="mb-5 text-3xl">{{ $t('exp_pro.projects.title') }} :</p>
         <div class="flex flex-col-reverse">
-          <div v-for="item in data.exp_pro.projects.project" :key="item.id" class="card mb-10">
+          <div
+            v-for="(item, project) in data.exp_pro.projects.project"
+            :key="project"
+            class="card mb-10"
+          >
             <img
               :src="item.img"
               :alt="item.alt"
@@ -21,19 +25,26 @@
             />
             <div class="flex flex-col gap-4 text-3xl">
               <p>
-                <b>{{ item.title }} :</b> {{ item.subtitle }}
+                <b>{{ $t(`exp_pro.projects.project.${project}.title`) }} :</b>
+                {{ $t(`exp_pro.projects.project.${project}.subtitle`) }}
               </p>
-              <p class="text-2xl">{{ item.date }}</p>
+              <p class="text-2xl">{{ $t(`exp_pro.projects.project.${project}.date`) }}</p>
               <ul class="list-disc marker:text-light_green dark:marker:text-dark_green text-base">
-                <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
+                <li v-for="(list, dot) in item.descriptionList" :key="dot">
+                  {{ $t(`exp_pro.projects.project.${project}.descriptionList.${dot}`) }}
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <p class="mb-5 text-3xl">{{ data.exp_pro.interships.title }} :</p>
+        <p class="mb-5 text-3xl">{{ $t('exp_pro.interships.title') }} :</p>
         <div class="flex flex-col-reverse text-dark_blue dark:text-white">
-          <div v-for="item in data.exp_pro.interships.intership" :key="item.id" class="card mb-10">
+          <div
+            v-for="(item, company) in data.exp_pro.interships.intership"
+            :key="company"
+            class="card mb-10"
+          >
             <img
               :src="item.img"
               :alt="item.alt"
@@ -41,11 +52,14 @@
             />
             <div class="flex flex-col gap-4 text-3xl">
               <p>
-                <b>{{ item.title }} :</b> {{ item.subtitle }}
+                <b>{{ $t(`exp_pro.interships.intership.${company}.title`) }} :</b>
+                {{ $t(`exp_pro.interships.intership.${company}.subtitle`) }}
               </p>
-              <p class="text-2xl">{{ item.date }}</p>
+              <p class="text-2xl">{{ $t(`exp_pro.interships.intership.${company}.date`) }}</p>
               <ul class="list-disc marker:text-light_green dark:marker:text-dark_green text-base">
-                <li v-for="list in item.descriptionList" :key="list.id">{{ list }}</li>
+                <li v-for="(list, dot) in item.descriptionList" :key="dot">
+                  {{ $t(`exp_pro.interships.intership.${company}.descriptionList.${dot}`) }}
+                </li>
               </ul>
             </div>
           </div>
@@ -59,7 +73,7 @@
 </template>
 
 <script>
-import data from '../locales/data.json'
+import data from '../locales/fr.json'
 export default {
   data() {
     return { data: data }

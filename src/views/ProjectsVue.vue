@@ -7,36 +7,36 @@
             class="md:flex-shrink-0 hidden md:block"
             icon="fa-solid fa-thumb-tack"
           />
-          <p class="flex-grow md:w-5/6 text-center">{{ data.navigation.projects }}</p>
+          <p class="flex-grow md:w-5/6 text-center">{{ $t('navigation.projects') }}</p>
           <hr class="w-full md:w-5/6 border-gray-400 rounded" />
         </div>
         <div class="flex flex-col-reverse">
           <div
-            v-for="item in data.projects"
-            :key="item.id"
+            v-for="(item, name) in data.projects"
+            :key="name"
             class="bg-white text-black border-8 border-white rounded-lg mb-5 text-xs project"
           >
             <div class="flex flex-col gap-5 border-2 rounded-md border-white p-3 text-lg">
               <div class="flex justify-center flex-wrap flex-col md:justify-between md:flex-row">
                 <p class="flex flex-col items-center gap-2 md:flex-none md:items-start md:flex-row">
-                  <b>{{ item.title }}</b> {{ item.date }}
+                  <b>{{ $t(`projects.${name}.title`) }}</b> {{ $t(`projects.${name}.date`) }}
                 </p>
                 <div class="flex gap-2 items-center justify-center">
                   <font-awesome-icon
                     class="text-lg"
-                    v-if="item.iconType == 1"
+                    v-if="item.isPersonal == false"
                     icon="fa-solid fa-graduation-cap"
                   />
                   <font-awesome-icon v-else class="text-lg" icon="fa-solid fa-house-laptop" />
                   <p>
-                    <b>{{ item.type }}</b>
+                    <b>{{ $t(`projects.${name}.type`) }}</b>
                   </p>
                 </div>
               </div>
               <p>
-                <b>{{ item.subtitle }}</b>
+                <b>{{ $t(`projects.${name}.subtitle`) }}</b>
               </p>
-              <p>{{ item.description }}</p>
+              <p>{{ $t(`projects.${name}.description`) }}</p>
             </div>
             <a target="_blank" :href="item.repo.link">
               <div
@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import data from '../locales/data.json'
+import data from '../locales/fr.json'
 export default {
   data() {
     return { data: data }
