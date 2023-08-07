@@ -13,10 +13,7 @@
     "description": "Nous vivons dans un monde constamment sous la menace informatique et j'aime à penser que nous pouvons changer les choses.",
     "mail": "Contactez moi par mail"
   },
-  "aboutMe": {
-    "description": "IEplIG3igJlhcHBlbGxlIEh1Z28sIDIxIGFucy4gSmUgc3VpcyBhY3R1ZWxsZW1lbnQKICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRleHQtZ3JlZW4iPsOpdHVkaWFudCBlbiBjeWNsZSBpbmfDqW5pZXVyIGR1IG51bcOpcmlxdWUgw6AgbOKAmUVzYWlwPC9zcGFuPi4KICAgICAgICAgICAgSidhaW1lIGwnaW5mb3JtYXRpcXVlIGRlcHVpcyBwZXRpdCBldCBqJ2FpIHRvdWpvdXJzIGV1IGxlIHNvdWhhaXQgZGUgdHJhdmFpbGxlciBkYW5zIGNlCiAgICAgICAgICAgIGRvbWFpbmUuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgSidhaSBjaG9pc2kgZGUgbSdvcmllbnRlciB2ZXJzIDxzcGFuIGNsYXNzPSJ0ZXh0LWdyZWVuIj5sYSBjeWJlcnPDqWN1cml0w6k8L3NwYW4+IHBhcmNlCiAgICAgICAgICAgIHF1ZSBjJ2VzdCB1biBzZWN0ZXVyIHF1aSDDqXZvbHVlIGNvbnN0YW1tZW50LiBEZXMgbWlsbGllcnMgZCdlbnRyZXByaXNlcyBzb250IHZpY3RpbWVzIGRlCiAgICAgICAgICAgIGN5YmVyYXR0YXF1ZXMgdG91cyBsZXMgYW5zIGV0IG5lIHBldXZlbnQgcGFzIHNlIGTDqWZlbmRyZS4KICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBNb24gYW1iaXRpb24gZXN0IGRlCiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0ZXh0LWdyZWVuIj5zw6ljdXJpc2VyIGxlcyBzeXN0w6htZXMgZCdpbmZvcm1hdGlvbnM8L3NwYW4+IGRlIHZvdHJlCiAgICAgICAgICAgIGVudHJlcHJpc2UgZXQgZm9ybWVyIHZvcyBjb2xsYWJvcmF0ZXVycyBhdXggYm9ubmVzIHByYXRpcXVlcyBlbiB0ZXJtZSBkZSBDeWJlcnPDqWN1cml0w6kuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgRW4gZGVob3JzIGRlIGNldHRlIHBhc3Npb24sIGonYWltZSBiZWF1Y291cCBsZSBzcG9ydC4gSidhaSBsb25ndGVtcHMgcHJhdGlxdcOpIGR1IHRlbm5pcwogICAgICAgICAgICBldCBqJ2FwcHLDqWNpZSByZWdhcmRlciBkZXMgbWF0Y2hzIGRlIGZvb3RiYWxsIGVudHJlIGFtaXMuIEonYWltZSBhdXNzaSBqb3VlciBhdXggamV1eAogICAgICAgICAgICB2aWTDqW9zIGV0IHBhcnRpY3VsacOocmVtZW50IGxlcyBqZXV4IGRlIGNvbXDDqXRpb25zIGVuIGNvbGxlY3RpZi4="
-  },
-  "education ": {
+  "education": {
     "esaip": {
       "title": "ESAIP, école d'ingénieurs du numérique et de la prévention des risques",
       "cycle": {
@@ -119,7 +116,7 @@
       "title": "Le Pendule Oscillatoire",
       "date": "2020",
       "type": "Projet Scolaire",
-      "iconType": 1,
+      "isPersonal": false,
       "subtitle": "Création d'un pendule oscillatoire lors de mon cycle préparatoire",
       "description": "Le projet consiste à créer un pendule oscillatoire et d'y apporter un questionnement scientifique sur son fonctionnement et ce que l'on peut en tirer.",
       "repo": {
@@ -130,7 +127,7 @@
       "title": "Portfolio",
       "date": "Actif",
       "type": "Projet Personnel",
-      "iconType": 0,
+      "isPersonal": true,
       "subtitle": "Création de ce site internet",
       "description": "Portfolio qui répertorie mes formations, compétences, moyens de contacts et mes créations.",
       "repo": {
@@ -142,7 +139,7 @@
       "title": "Citadelles",
       "date": "2021",
       "type": "Projet Scolaire",
-      "iconType": 1,
+      "isPersonal": false,
       "subtitle": "Création d'un jeu de société en cycle ingénieur",
       "description": "Le projet consiste à créer le jeu de société \"Citadelles\" grâce au langage Java.",
       "repo": {
@@ -154,7 +151,7 @@
       "title": "Erasmus au Danemark",
       "date": "Février à Juin 2022",
       "type": "Projet Scolaire",
-      "iconType": 1,
+      "isPersonal": false,
       "subtitle": "Création d'un blog lors de mon séjour Erasmus",
       "description": "Le projet consiste à créer un site internet, sous forme de blog, qui répertorie nos activités et découvertes au Danemark.",
       "repo": {
@@ -165,7 +162,7 @@
       "title": "Design4Green",
       "date": "2022",
       "type": "Projet Scolaire",
-      "iconType": 1,
+      "isPersonal": false,
       "subtitle": "Création d'un site accessible et écoresponsable dans le cadre du Design4Green",
       "description": "Écoconception d'un site accessible en VueJS. Le site présente des formations avec une navigation par recherche ou par localisation via une carte interactive. Les formations peuvent être placées dans un panier et exportées sous forme de pdf.",
       "repo": {
@@ -173,16 +170,16 @@
         "link": "https://github.com/HugoDELCROIX/design4green"
       }
     },
-    "portscan": {
-      "title": "Port Scanner",
-      "date": "2023",
-      "type": "Projet Scolaire",
-      "iconType": 1,
-      "subtitle": "Création d'un scanner de ports en Python",
-      "description": "Création de trois scripts Python. Le premier permet de scanner les 1024 premiers ports. Le deuxième permet de scanner des ports spécifiques et de renvoyer le service utilisé. Le troisième permet d'identifier les services vulnérables sur ces ports.",
+    "sploitableTools": {
+      "title": "SploitableTools",
+      "date": "Actif",
+      "type": "Projet Personnel",
+      "isPersonal": true,
+      "subtitle": "Création d'un Framework d'outils de Pentesting",
+      "description": "Création d'un Framework composé de scripts python servant à faire du Pentesting. Le but est d'introduire la Cybersécurité à des étudiants en IT avec des scripts simple à comprendre.",
       "repo": {
         "exist": true,
-        "link": "https://github.com/HugoDELCROIX/portscan"
+        "link": "https://github.com/HugoDELCROIX/SploitableTools"
       }
     }
   },

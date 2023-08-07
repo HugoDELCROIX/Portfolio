@@ -1,0 +1,190 @@
+{
+  "navigation": {
+    "aboutMe": "About Me",
+    "tools": "My Tools",
+    "education": "Education",
+    "exp_pro": "Professional Experience",
+    "projects": "My Projects",
+    "close": "Close"
+  },
+  "home": {
+    "hello": "Hello! I am",
+    "job": "Student Engineer in Cybersecurity",
+    "description": "We live in a world constantly under cyber threat, and I like to think that we can make a difference.",
+    "mail": "Contact me via email"
+  },
+  "education": {
+    "esaip": {
+      "title": "ESAIP, School of Digital Engineering and Risk Prevention",
+      "cycle": {
+        "ing": {
+          "title": "Digital Engineering Program",
+          "date": "2021 - 2024",
+          "descriptionList": [
+            "Mathematical Analysis and Algebra",
+            "Frontend Web Development: HTML/CSS",
+            "Object-Oriented Programming: JAVA",
+            "Database Management: SQL"
+          ]
+        },
+        "prepa": {
+          "title": "Preparatory Class",
+          "date": "2019 - 2021",
+          "descriptionList": [
+            "Mathematical Analysis and Algebra",
+            "Mechanics of Motions",
+            "Introduction to Project Management",
+            "Business Science and Professional Ethics",
+            "1-month Company Internship"
+          ]
+        }
+      },
+      "img": "/images/esaip.png",
+      "alt": "esaip logo"
+    },
+    "via": {
+      "title": "VIA University College",
+      "cycle": {
+        "winter": {
+          "title": "Software Engineering",
+          "date": "February to June 2022",
+          "descriptionList": [
+            "Android Development",
+            "Decision Support Systems",
+            "Non-SQL and Relational Databases",
+            "Responsive Web Design",
+            "Web Engineering Process",
+            "Project Management in Software Engineering",
+            "Creating a Study Abroad Blog"
+          ]
+        }
+      },
+      "img": "/images/via.png",
+      "alt": "via logo"
+    }
+  },
+  "exp_pro": {
+    "projects": {
+      "title": "Projects",
+      "project": {
+        "design4green": {
+          "title": "Design4Green",
+          "date": "November 2022",
+          "subtitle": "2nd place for our team \"Les Arti'chaud\"",
+          "descriptionList": [
+            "48-hour Eco-design Challenge.",
+            "Adhering to ecological and accessibility standards."
+          ],
+          "img": "/images/d4g.jpeg",
+          "alt": "Design4Green logo"
+        },
+        "activEsaip": {
+          "title": "Activ'Esaip",
+          "date": "February to May 2023",
+          "subtitle": "Setting up an attack topology and scenario using the CyberRange solution by Airbus",
+          "descriptionList": [
+            "Mastering the CyberRange solution by Airbus",
+            "Understanding methods and patterns of cyberattacks within companies",
+            "Topology Configuration",
+            "Creating attack paths (vulnerabilities, professional mistakes)"
+          ],
+          "img": "/images/esaip.png",
+          "alt": "esaip logo"
+        }
+      }
+    },
+    "interships": {
+      "title": "Internships",
+      "intership": {
+        "wessSoft": {
+          "title": "Wess Soft",
+          "date": "June to August 2023",
+          "subtitle": "Web & Mobile Agency",
+          "descriptionList": [
+            "R&D on retrieving public data via APIs",
+            "Web Application Pentesting",
+            "Learning various tools (Symfony, NodeJS)"
+          ],
+          "img": "/images/wessSoft.jpeg",
+          "alt": "wess soft logo"
+        }
+      }
+    }
+  },
+  "projects": {
+    "pendulum": {
+      "title": "The Oscillating Pendulum",
+      "date": "2020",
+      "type": "School Project",
+      "isPersonal": false,
+      "subtitle": "Creating an oscillating pendulum during my preparatory cycle",
+      "description": "The project involves creating an oscillating pendulum and exploring scientific questions about its functioning and potential applications.",
+      "repo": {
+        "exist": false
+      }
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "date": "Active",
+      "type": "Personal Project",
+      "isPersonal": true,
+      "subtitle": "Creation of this website",
+      "description": "A portfolio showcasing my education, skills, contact information, and creations.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/Portfolio"
+      }
+    },
+    "citadelle": {
+      "title": "Citadelles",
+      "date": "2021",
+      "type": "School Project",
+      "isPersonal": false,
+      "subtitle": "Creating a board game during the engineering program",
+      "description": "The project involves creating the board game \"Citadelles\" using the Java programming language.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/Citadelle"
+      }
+    },
+    "blog": {
+      "title": "Erasmus in Denmark",
+      "date": "February to June 2022",
+      "type": "School Project",
+      "isPersonal": false,
+      "subtitle": "Creating a blog during my Erasmus stay",
+      "description": "The project involves creating a website in the form of a blog, documenting our activities and discoveries in Denmark.",
+      "repo": {
+        "exist": false
+      }
+    },
+    "design4gree": {
+      "title": "Design4Green",
+      "date": "2022",
+      "type": "School Project",
+      "isPersonal": false,
+      "subtitle": "Creating an accessible and eco-friendly website for Design4Green",
+      "description": "Eco-design of an accessible website using VueJS. The site showcases courses with search-based navigation or location-based navigation using an interactive map. Courses can be added to a cart and exported as PDF.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/design4green"
+      }
+    },
+    "sploitableTools": {
+      "title": "SploitableTools",
+      "date": "Active",
+      "type": "Personal Project",
+      "isPersonal": true,
+      "subtitle": "Creating a Pentesting Tools Framework",
+      "description": "Creating a Framework composed of Python scripts for Pentesting. The goal is to introduce Cybersecurity to IT students with easy-to-understand scripts.",
+      "repo": {
+        "exist": true,
+        "link": "https://github.com/HugoDELCROIX/SploitableTools"
+      }
+    }
+  },
+  "footer": {
+    "vue": "Made with",
+    "rights": "Non-Commercial Use (CC BY-NC 4.0)"
+  }
+}

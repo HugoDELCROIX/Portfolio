@@ -2,8 +2,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import './assets/main.css'
-
+import { createI18n } from 'vue-i18n'
 import { library } from '@fortawesome/fontawesome-svg-core'
+
+import en from './locales/en.json'
+import fr from './locales/fr.json'
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
   faGithub,
@@ -41,8 +45,12 @@ import {
   faToggleOff,
   faToggleOn,
   faSun,
-  faMoon
+  faMoon,
+  faGlobe,
+  faLanguage,
+  faArrowRight
 } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
 library.add(
   faGithub,
   faLinkedinIn,
@@ -77,7 +85,24 @@ library.add(
   faMoon,
   faCreativeCommonsBy,
   faCreativeCommonsNcEu,
-  faCreativeCommons
+  faCreativeCommons,
+  faGlobe,
+  faLanguage,
+  faArrowRight
 )
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).use(router).mount('#app')
+const messages = {
+  en: en,
+  fr: fr
+}
+
+const i18n = createI18n({
+  locale: 'fr',
+  messages
+})
+
+const app = createApp(App)
+app.component('font-awesome-icon', FontAwesomeIcon)
+app.use(router)
+app.use(i18n)
+app.mount('#app')
