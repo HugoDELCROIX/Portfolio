@@ -1,6 +1,7 @@
 {
   "navigation": {
     "aboutMe": "About Me",
+    "certification": "Certifications",
     "tools": "My Tools",
     "education": "Education",
     "exp_pro": "Professional Experience",
@@ -12,6 +13,17 @@
     "job": "Student Engineer in Cybersecurity",
     "description": "We live in a world constantly under cyber threat, and I like to think that we can make a difference.",
     "mail": "Contact me via email"
+  },
+  "certifications": {
+    "ceh": {
+      "title": "CEH",
+      "description": "Certified Ethical Hacker by EC-Council",
+      "date": {
+        "date": "2023",
+        "description": "Date of acquisition"
+      },
+      "img": "/images/ceh.png"
+    }
   },
   "education": {
     "esaip": {
@@ -61,6 +73,23 @@
       },
       "img": "/images/via.png",
       "alt": "via logo"
+    },
+    "uva": {
+      "title": "Universidad de Valladolid",
+      "cycle": {
+        "winter": {
+          "title": "Information system security",
+          "date": "September 2023 to February 2024",
+          "descriptionList": [
+            "Network architecture and services",
+            "Information systems administration",
+            "Network and system security",
+            "Forensic"
+          ]
+        }
+      },
+      "img": "/images/uva.png",
+      "alt": "logo uva"
     }
   },
   "exp_pro": {

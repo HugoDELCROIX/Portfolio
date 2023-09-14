@@ -1,6 +1,7 @@
 {
   "navigation": {
     "aboutMe": "À propos de moi",
+    "certification": "Certifications",
     "tools": "Mes Outils",
     "education": "Parcours scolaire",
     "exp_pro": "Expérience professionnelle",
@@ -12,6 +13,17 @@
     "job": "Étudiant Ingénieur en Cybersécurité",
     "description": "Nous vivons dans un monde constamment sous la menace informatique et j'aime à penser que nous pouvons changer les choses.",
     "mail": "Contactez moi par mail"
+  },
+  "certifications": {
+    "ceh": {
+      "title": "CEH",
+      "description": "Certified Ethical Hacker de EC-Council",
+      "date": {
+        "date": "2023",
+        "description": "Date d'obtention"
+      },
+      "img": "/images/ceh.png"
+    }
   },
   "education": {
     "esaip": {
@@ -61,6 +73,23 @@
       },
       "img": "/images/via.png",
       "alt": "logo via"
+    },
+    "uva": {
+      "title": "Universidad de Valladolid",
+      "cycle": {
+        "winter": {
+          "title": "Sécurité des systèmes d'informations",
+          "date": "Septembre 2023 à Février 2024",
+          "descriptionList": [
+            "Architecture des réseaux et services",
+            "Administration des systèmes d'informations",
+            "Sécurité des réseaux et systèmes",
+            "Forensic"
+          ]
+        }
+      },
+      "img": "/images/uva.png",
+      "alt": "logo uva"
     }
   },
   "exp_pro": {
