@@ -6,6 +6,9 @@
       <!-- <a href="#about-me" class="dark:hover:text-dark_green"
         ><li>{{ data.navigation.aboutMe }}</li></a
       > -->
+      <a href="../#certification" class="hover:text-light_green dark:hover:text-dark_green"
+        ><li class="btn-nav">{{ $t('navigation.certification') }}</li></a
+      >
       <a href="../#tools" class="hover:text-light_green dark:hover:text-dark_green"
         ><li class="btn-nav">{{ $t('navigation.tools') }}</li></a
       >
