@@ -44,7 +44,7 @@
       </div>
     </div>
     <div id="chevron" class="text-dark_blue dark:text-white bottom-0 text-center">
-      <a href="#exp-pro"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
+      <a href="#tools"><font-awesome-icon icon="fa-solid fa-chevron-down" class="w-7 h-7" /></a>
     </div>
   </div>
 </template>
