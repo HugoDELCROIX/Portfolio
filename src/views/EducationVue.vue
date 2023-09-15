@@ -26,7 +26,7 @@
                 :key="level"
                 class="flex flex-col gap-3 text-2xl flex-wrap"
               >
-                <p class="flex gap-3 flex-col md:flex-row">
+                <p class="flex gap-3 flex-col xl:flex-row">
                   <b>{{ $t(`education.${cycle}.cycle.${level}.date`) }} </b>
                   <span class="hidden xl:block">•</span>
                   {{ $t(`education.${cycle}.cycle.${level}.title`) }}<br />
