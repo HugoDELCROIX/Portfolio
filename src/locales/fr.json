@@ -199,16 +199,16 @@
         "link": "https://github.com/HugoDELCROIX/design4green"
       }
     },
-    "sploitableTools": {
-      "title": "SploitableTools",
+    "botOfLegends": {
+      "title": "BotOfLegends",
       "date": "Actif",
       "type": "Projet Personnel",
       "isPersonal": true,
-      "subtitle": "Création d'un Framework d'outils de Pentesting",
-      "description": "Création d'un Framework composé de scripts python servant à faire du Pentesting. Le but est d'introduire la Cybersécurité à des étudiants en IT avec des scripts simple à comprendre.",
+      "subtitle": "Création d'un bot discord BotOfLegends",
+      "description": "BotOfLegends est un bot discord qui permet de retourner des informations sur le jeu League of Legends. Grâce à lui, vous pourrez demander le profil, le classement, ou encore des informations de la dernière partie d'un joueur.",
       "repo": {
-        "exist": true,
-        "link": "https://github.com/HugoDELCROIX/SploitableTools"
+        "exist": false,
+        "link": ""
       }
     }
   },

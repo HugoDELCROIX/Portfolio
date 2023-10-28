@@ -200,15 +200,15 @@
       }
     },
     "sploitableTools": {
-      "title": "SploitableTools",
+      "title": "BotOfLegends",
       "date": "Active",
       "type": "Personal Project",
       "isPersonal": true,
-      "subtitle": "Creating a Pentesting Tools Framework",
-      "description": "Creating a Framework composed of Python scripts for Pentesting. The goal is to introduce Cybersecurity to IT students with easy-to-understand scripts.",
+      "subtitle": "Creation of a bot discord: BotOfLegends",
+      "description": "BotOfLegends is a discord bot that returns information about the League of Legends game. Thanks to it, you'll be able to request a player's profile, ranking, or even information about their last game.",
       "repo": {
-        "exist": true,
-        "link": "https://github.com/HugoDELCROIX/SploitableTools"
+        "exist": false,
+        "link": ""
       }
     }
   },
