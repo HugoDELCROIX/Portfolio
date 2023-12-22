@@ -21,6 +21,9 @@
       <a href="../#projects" class="hover:text-light_green dark:hover:text-dark_green"
         ><li class="btn-nav">{{ $t('navigation.projects') }}</li></a
       >
+      <a href="../#BotOfLegends" class="hover:text-light_green dark:hover:text-dark_green"
+        ><li class="btn-nav">{{ $t('navigation.botOfLegends') }}</li></a
+      >
     </ol>
     <router-link
       class="dark:hover:text-dark_blue hover:text-white hover:bg-light_green dark:hover:bg-dark_green border border-light_green dark:border-dark_green rounded-lg p-2"

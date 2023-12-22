@@ -6,6 +6,7 @@
   <EducationVue></EducationVue>
   <ProfessionalExperience></ProfessionalExperience>
   <ProjectsVue></ProjectsVue>
+  <LegendsVue></LegendsVue>
   <FooterVue></FooterVue>
 </template>
 
@@ -18,4 +19,5 @@ import HomeVue from './HomeVue.vue'
 import ProfessionalExperience from './ProfessionalExperience.vue'
 import ProjectsVue from './ProjectsVue.vue'
 import CertificationVue from './CertificationVue.vue'
+import LegendsVue from './LegendsVue.vue'
 </script>
