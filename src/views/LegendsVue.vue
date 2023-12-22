@@ -50,7 +50,7 @@
               <span class="font-bold text-white">Bot de Legends</span>
             </div>
 
-            <img src="../../public/images/discord_bot.png" class="rounded-xl" />
+            <img src="/images/discord_bot.png" class="rounded-xl" />
           </div>
         </div>
         <div class="bottom-0 p-4">
