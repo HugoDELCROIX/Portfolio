@@ -13,11 +13,6 @@ const routes = [
     path: '/menu',
     name: 'menu',
     component: NavigationVue
-  },
-  {
-    path: '/BotOfLegends',
-    name: 'BotOfLegends',
-    component: LegendsVue
   }
 ]
 

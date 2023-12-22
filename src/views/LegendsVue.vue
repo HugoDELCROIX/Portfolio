@@ -1,5 +1,5 @@
 <template>
-  <div class="page font-krona">
+  <div id="BotOfLegends" class="page font-krona">
     <HeaderVue></HeaderVue>
     <div class="text-white flex justify-center items-center m-auto w-5/6">
       <div class="text-xl sm:text-4xl flex flex-col gap-4 items-start m-auto">
@@ -47,7 +47,12 @@
                 src="https://3.bp.blogspot.com/-tgcfFTOwlV8/WxGrCx_GmtI/AAAAAAABA1Q/CMFQdvzCOtkLhT56z7ZT1JQ_lOPRlSWTQCLcBGAs/s1600/7a102c939fd239aa.png"
                 class="w-10 rounded-full"
               />
-              <span class="font-bold text-white">Bot de Legends</span>
+              <p class="font-bold text-white">
+                Bot de Legends
+                <span class="font-extralight text-gray-400">{{
+                  $t('botOfLegends.discordSimulation.dateMessage')
+                }}</span>
+              </p>
             </div>
 
             <img src="/images/discord_bot.png" class="rounded-xl" />
