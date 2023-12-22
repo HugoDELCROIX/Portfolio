@@ -96,8 +96,10 @@ const messages = {
   fr: fr
 }
 
+const savedLocale = localStorage.getItem('locale') || 'fr'
+
 const i18n = createI18n({
-  locale: 'fr',
+  locale: savedLocale,
   messages
 })
 

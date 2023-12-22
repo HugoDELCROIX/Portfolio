@@ -215,5 +215,15 @@
   "footer": {
     "vue": "Made with",
     "rights": "Non-Commercial Use (CC BY-NC 4.0)"
+  },
+  "botOfLegends": {
+    "discover": "Hey! Discover...",
+    "botSecondTitle": "The Discord bot for League of Legends players",
+    "description": "Bot Of Legends allows you to display information about League of Legends players: Masteries, Current Game, Profile, and many more!",
+    "discordSimulation": {
+      "presentMessage": "Here's an example of how to use the bot:",
+      "dateMessage": "Today at 15:01",
+      "textMessage": "Send a message in #general"
+    }
   }
 }

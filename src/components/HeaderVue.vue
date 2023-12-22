@@ -1,7 +1,7 @@
 <template>
   <button
     class="absolute h-[74px] w-[74px] left-5 sm:left-10 top-5 sm:top-10 text-dark_blue dark:text-white pt-2 pb-2 pl-3 pr-3 transition duration-200 border-2 border-dark_blue dark:border-white rounded-md bg-light dark:bg-dark_blue hover:border-light_green hover:text-light_green dark:hover:border-dark_green dark:hover:text-dark_green"
-    v-on:click="$i18n.locale = $i18n.locale === 'fr' ? 'en' : 'fr'"
+    v-on:click="changeLanguage"
   >
     <div class="flex flex-col justify-center items-center">
       <font-awesome-icon class="w-10 text-3xl" icon="fa-solid fa-language" />
@@ -56,6 +56,13 @@ export default {
     }
 
     return { toggleMenu, isHidden, toggleDark, isDark }
+  },
+  methods: {
+    changeLanguage() {
+      const newLocale = this.$i18n.locale === 'fr' ? 'en' : 'fr'
+      this.$i18n.locale = newLocale
+      localStorage.setItem('locale', newLocale)
+    }
   }
 }
 </script>
